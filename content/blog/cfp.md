@@ -10,11 +10,12 @@ author: "OSA CON Team"
 
 ---
 
-OSA CON is back for 2023! Mark your calendar for December 12-14, 2023.
+## OSA CON is back for 2023! Mark your calendar for December 12-14, 2023.
 
 ### Focus of the 2023 edition
 We’re staying true to our roots in analytics and open source. Join us as we continue to explore the latest in open-source analytics, engaging in comprehensive discussions, and sharing ground-breaking ideas at OSA CON 2023. We are also introducing an AI track, focusing on how builders are integrating AI into their products, communities, and changing the data landscape. 
 
+Join us as a speaker, **deadline for submissions is October 12, 2023**.
 
-
+Visit our [call for presentations](http://sessionize.com/osa-con-2023) for more information.
 
