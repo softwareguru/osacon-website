@@ -1,4 +1,4 @@
-This is repository where the source of the OSA CON website lives
+Repository with source code for the website of OSA CON (https://osacon.io).
 
 The website is built with Hugo.
 
