@@ -1,0 +1,117 @@
+
+baseURL= "https://osacon.io"
+canonifyURLs = false
+title = "The Open Source Analytics Conference"
+description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
+enableRobotsTXT = true
+RemovePathAccents = true
+DefaultContentLanguage = "en"
+
+theme = "osacon"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+speaker = "speakers"
+
+
+############################## navigation ###############################
+[menu]
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 1
+
+[[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 7
+
+
+# Everything below this are Site Params
+
+[params]
+description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
+logo = "/images/logo-h.png"
+home = "Home"
+privacy_policy = "/privacy"
+
+# First one is picked as the Twitter card image if not set on page.
+images = ["/images/card.jpg"]
+start_date = "2023-12-12T09:00-05:00"
+end_date = "2023-12-14T17:00-05:00" 
+
+[params.hero]
+text = "December 12-14, 2023. Online event."
+
+[params.hero.cta1]
+text = "Become a speaker"
+link = "http://sessionize.com/osa-con-2023"
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "Register"
+link = "/register"
+
+
+[params.links]
+[[params.links.media]]
+    name = "Email us"
+    url = "mailto:hello@osacon.io"
+    icon = "fa fa-envelope"
+[[params.links.media]]
+    name = ""
+    url = "https://www.youtube.com/@communityovercode"
+    icon = "fab fa-youtube"
+
+[[params.links.footer]]
+    name = "Code of Conduct"
+    url = "/coc"
+[[params.links.footer]]
+    name = "Accessibility"
+    url = "/accessibility"
+[[params.links.footer]] 
+    name = "Privacy Policy"
+    url = "/privacy"
+[[params.links.footer]]
+    name = "Organizers"
+    url = "/team"
+
+
+[permalinks]
+tags = "/blog/tags/:slug/"
+posts = "/:year/:month/:title/"
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap.min.css"
+
+[[params.plugins.css]]
+link = "/plugins/bootstrap-table.min.css"
+
+[[params.plugins.css]]
+link = "/plugins/swiper-bundle.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link="/plugins/bootstrap.bundle.min.js"
+
+[[params.plugins.js]]
+link="/plugins/4a6d2efc2e.js"
+
+[[params.plugins.js]]
+link="/plugins/bootstrap-table.min.js"
+
+[[params.plugins.js]]
+link="/plugins/swiper-bundle.min.js"
+
+[[params.plugins.js]]
+link="/plugins/atc.min.js"
