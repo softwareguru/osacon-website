@@ -72,20 +72,17 @@ link = "/register"
     url = "/coc"
 [[params.links.footer_resources]]
     name = "Prospectus"
-    url = "/coc"
+    url = "/files/OSACON2023-Prospectus_v1.pdf"
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
-[[params.links.footer_resources]]
-    name = "Organizers"
-    url = "/team"
 
 [[params.links.footer_previous]]
     name = "OSA CON 2022"
     url = "https://altinity.com/osa-con2022/"
 [[params.links.footer_previous]]
     name = "OSA CON 2021"
-    url = "https://altinity.com/osa-con2021/"
+    url = "https://altinity.com/osa-con-2021/"
 
 
 [permalinks]
