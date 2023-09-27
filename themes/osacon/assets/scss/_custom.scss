@@ -18,19 +18,6 @@ section.swag p {
 	font-size: 1.2em;
 }
 
-.btn-slack {
-	background: $primary-color;
-	color: $white;
-	border-color: $primary-color;
-	padding: 16px 20px;
-
-	&:hover {
-		background: $black;
-		border-color: $black;
-		color: $white;
-	}
-}
-
 .speakers-list span:after {
 	content: " & ";
 }
@@ -127,11 +114,6 @@ section.swag p {
 	}
 }
 
-section.event-info {
-	border-top: solid 2px $cyan;
-	border-bottom: solid 2px $cyan;
-
-}
 
 .event-info .content {
 	display: grid;
@@ -145,9 +127,7 @@ section.event-info {
 }
 
 .event-info h2 {
-    font-weight: 400;
 	font-size: 40px;
-	color: white;
 }
 
 
@@ -174,7 +154,7 @@ section.event-info {
 	display: block;
 	height: 2px;
 	width: 64px;
-	background-color: $secondary-color;
+	background-color: $primary-color;
 	margin-top: 20px;
 }
 
@@ -183,7 +163,7 @@ section.event-info {
 }
 
 .event-info a {
-	color: $secondary-color;
+	color: $primary-color;
 	text-transform: uppercase;
 	&:hover {
 		color: $black-lighter;
@@ -245,6 +225,19 @@ article.swag {
 }
 .btn-primary:hover {
 	background-color: $secondary-color;
+}
+
+.btn-header {
+	background-color: white;
+	border: solid 2px #1074e6;
+	color: #1074e6;
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.btn-header:hover {
+    background-color: #1074e6;
+	color: white;
 }
 
 #at-a-glance {
@@ -437,4 +430,11 @@ article.swag {
 	font-style: italic;
 	font-size: 0.9em;
 	color: #808080;
+}
+
+hr.section-divider {
+    width: 80%;
+	border-top-width: 3px;
+	color: #c8c8c8;
+	margin: 2em auto 0px auto;
 }

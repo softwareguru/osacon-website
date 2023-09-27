@@ -56,33 +56,36 @@ link = "http://sessionize.com/osa-con-2023"
 
 # Navigation button
 [params.navigation_button]
-enable = false
+enable = true
 label = "Register"
 link = "/register"
 
 
 [params.links]
-[[params.links.media]]
+[[params.links.social]]
     name = "Email us"
     url = "mailto:hello@osacon.io"
     icon = "fa fa-envelope"
-[[params.links.media]]
-    name = ""
-    url = "https://www.youtube.com/@communityovercode"
-    icon = "fab fa-youtube"
 
-[[params.links.footer]]
+[[params.links.footer_resources]]
     name = "Code of Conduct"
     url = "/coc"
-[[params.links.footer]]
-    name = "Accessibility"
-    url = "/accessibility"
-[[params.links.footer]] 
+[[params.links.footer_resources]]
+    name = "Prospectus"
+    url = "/coc"
+[[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
-[[params.links.footer]]
+[[params.links.footer_resources]]
     name = "Organizers"
     url = "/team"
+
+[[params.links.footer_previous]]
+    name = "OSA CON 2022"
+    url = "https://altinity.com/osa-con2022/"
+[[params.links.footer_previous]]
+    name = "OSA CON 2021"
+    url = "https://altinity.com/osa-con2021/"
 
 
 [permalinks]

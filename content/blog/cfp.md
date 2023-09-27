@@ -1,10 +1,10 @@
 ---
-title: "Save the date for OSA CON 2023"
+title: "Call for proposals is open"
 date: 2023-08-20T10:00:00
 description: ""
 summary: ""
 # post thumb
-images: ["images/blog/save-date.jpg"]
+images: ["images/blog/cfp.jpg"]
 # author
 author: "OSA CON Team"
 

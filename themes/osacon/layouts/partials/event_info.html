@@ -1,12 +1,12 @@
 {{ $data := index .Site.Data }}
 
 {{ with $data.homepage.event_info }}
-<section class="section event-info">
+<section class="section event-info mt-4">
   <a id="event-info"></a>
   <div class="container">
     <div class="content">
       <div>
-        <h2 style="color: black;">{{ .title }}</h2>
+        <h2>{{ .title }}</h2>
         <p>{{ .description }}</p>
         <a href="{{ .cta_link }}">
             <span class="cta-label">{{ .cta_text }}</span> <i class="fas fa-arrow-circle-right"></i>
@@ -23,6 +23,7 @@
         {{ end }}  
       </div>
     </div>    
+    <hr class="section-divider">
   </div>
 </section>
 {{ end }}

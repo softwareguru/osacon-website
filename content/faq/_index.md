@@ -14,7 +14,7 @@ OSA CON 2023 is an online event on December 12-14.
 Yes! OSA CON 2023 is free.
 
 ### How can I register for the event?
-Visit our website, register and follow the instructions that we will send to you
+Registration is already open, fill the [registration form here](/register).
 
 ### How can I be a speaker?
 We have an open call for presentations. Please [review it here](https://sessionize.com/osa-con-2023).

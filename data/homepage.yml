@@ -1,19 +1,19 @@
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "Get ready for Airflow Summit 2023!"
-  description : "After the success of our online editions, we are getting ready to meet in person for 2023. We will meet from September 19th to 21st, 2023 in beautiful Toronto, Canada."
-  cta_text: "Tickets available now!"
-  cta_link: "/tickets"
+  title : "What is OSA CON?"
+  description : "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics. Learn, share, connect, and explore the latest in data ingestion, orchestration, databases, infrastructure, governance, visualization, and AI. Join the doers of the modern data stack."
+  cta_text: "Become a speaker!"
+  cta_link: "https://sessionize.com/osa-con-2023"
   features: 
     - number : "3"
       label : "Days"
       
-    - number : "30+"
+    - number : "20+"
       label : "Sessions"
 
-    - number : "In person"
-      label : "It's time to finally meet!"
-
-    - number : "500"
+    - number : "2,500+"
       label : "participants"
+
+    - number : "Free!"
+      label : "Free and online event"
