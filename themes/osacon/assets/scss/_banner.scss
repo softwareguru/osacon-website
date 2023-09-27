@@ -3,7 +3,7 @@ section.hero {
   height: 100vh;
   background: rgb(20,245,151);
 //  background: linear-gradient(60deg, rgba(20,245,151,1) 0%, rgba(24,157,207,1) 100%);
-  background: linear-gradient(180deg, rgba(20,245,151,1) 0%, rgba(16,116,230,1) 85%);
+  background: linear-gradient(180deg, rgba(24,157,207,1) 0%, rgba(16,116,230,1) 80%);
   display: grid;
 
   grid-template-columns: 1fr 38% 1fr;
@@ -55,5 +55,6 @@ section.hero {
 }
 
 #button-hero1 { 
-    background-color: $secondary-color;
+    background-color: white;
+    color: $primary-color;
 }
