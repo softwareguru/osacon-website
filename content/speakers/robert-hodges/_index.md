@@ -2,7 +2,7 @@
 title: "Robert Hodges"
 designation: "CEO at Altinity"
 images:
- - /images/speakers/robert-hodges.jpg
+ - images/speakers/robert-hodges.jpg
 twitter: 
 linkedin: https://www.linkedin.com/in/berkeleybob2105/
 events:

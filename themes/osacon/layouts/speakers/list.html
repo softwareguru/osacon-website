@@ -12,7 +12,9 @@
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="{{.Permalink}}">
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded shadow">
+                {{ $img := resources.Get (index .Params.images 0) }}
+                {{ $imgp := $img.Resize "400x webp" }}
+                <img src="{{$imgp.Permalink }}" class="img-fluid rounded">
             </a>
           </div>
           <div class="speaker-info text-center">

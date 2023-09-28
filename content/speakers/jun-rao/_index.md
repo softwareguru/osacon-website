@@ -2,7 +2,7 @@
 title: Jun Rao
 designation: Co-founder at Confluent
 images: 
- - /images/speakers/jun-rao.jpg
+ - images/speakers/jun-rao.jpg
 events:
  - 2023
 twitter: 
