@@ -10,11 +10,11 @@
           <div class="blog-item card border-0 mb-5 mb-lg-0">
             <img
               src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}"
-              alt="{{ .Title }}"
+              alt=""
               class="img-fluid"
             />
             <div class="blog-caption">
-              <h4 class="mt-2 mb-3">{{ .Title | markdownify }}</h4>
+              <h3 class="mt-2 mb-3">{{ .Title | markdownify }}</h3>
             </div>
           </div>
         </a>

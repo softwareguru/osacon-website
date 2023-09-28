@@ -38,7 +38,7 @@ speaker = "speakers"
 
 [params]
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
-logo = "/images/logo-h.png"
+logo = "/images/logo-h.svg"
 home = "Home"
 privacy_policy = "/privacy"
 
