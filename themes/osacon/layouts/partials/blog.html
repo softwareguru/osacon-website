@@ -8,11 +8,9 @@
       <div class="col-lg-4 col-md-6">
         <a href="{{ .Permalink | relURL}}">
           <div class="blog-item card border-0 mb-5 mb-lg-0">
-            <img
-              src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}"
-              alt=""
-              class="img-fluid"
-            />
+            {{ $img := resources.Get (index .Params.images 0) }}
+            {{ $imgp := $img.Resize "300x webp" }}
+            <img src="{{$imgp.Permalink }}" alt="" class="img-fluid">
             <div class="blog-caption">
               <h3 class="mt-2 mb-3">{{ .Title | markdownify }}</h3>
             </div>
