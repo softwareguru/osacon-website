@@ -1,17 +1,14 @@
 ---
-title: "Hello World ComCodeEU"
+title: "Reinventing Kafka in the Data Streaming Era"
 speakers:
  - Jun Rao
- - Maxime Beauchemin
 time_start: 2023-09-20T15:00:00-04:00
 time_end: 2023-09-20T15:25:00-04:00
 room: TBD
 track: TBD
 day: 
 timeslot: 
-
+draft: true
 ---
 
-This is a nice little abstract.
-
-And this is a new paragraph within the abstract.
+Pending abstract.
