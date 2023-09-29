@@ -41,13 +41,13 @@
                   <div class="text-box">
                       {{ with .Params.designation }}<h3>{{.}}</h3>{{ end }}
                       <p>{{ .Content }}</p>
-                      <!--
-                      <h4>Sessions by {{ .Title }}</h4>
-                      -->
 
                       <!-- Sessions speaker -->
                       <ul>
-                      {{ range (.Data.Pages.ByParam "time_start").Reverse }}
+                      {{ range $index, $value := (.Data.Pages.ByParam "time_start").Reverse }}
+                        {{ if eq $index 0 }}                        
+                        <h4>Sessions by {{ .Title }}</h4>
+                        {{ end }}  
                         <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.time_start | time }} ({{ .Format "2006" }}){{ end }}</li>
                       {{ end }}
                       </ul>
