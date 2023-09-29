@@ -1,6 +1,6 @@
 ---
 title: Kyle Cunningham
-designation: Sr. Software Engineer
+designation: Sr. Software Engineer at Grafana Labs
 images: 
  - images/speakers/kyle-cunningham.jpg
 events:
