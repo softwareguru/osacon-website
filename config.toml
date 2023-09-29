@@ -72,7 +72,7 @@ link = "/register"
     url = "/coc"
 [[params.links.footer_resources]]
     name = "Prospectus"
-    url = "/files/OSACON2023-Prospectus_v1.pdf"
+    url = "/files/OSACON2023-Prospectus_v1_1.pdf"
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
