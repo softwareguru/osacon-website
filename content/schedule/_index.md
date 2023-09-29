@@ -175,8 +175,8 @@ days:
         type: workshops
 
 
-summary: "Welcome to the session program for Airflow Summit."
-description: "Welcome to the session program for Airflow Summit."
+summary: "Welcome to the session program for OSA CON."
+description: "Welcome to the session program for OSA CON."
 ---
 
-<h4 class="mb-4">Welcome to the session program for Airflow Summit 2023. </h4>
+<h4 class="mb-4">Welcome to the session program for OSA CON 2023. </h4>
