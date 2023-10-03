@@ -139,3 +139,16 @@
   }
 }
 
+.btn-header {
+	background-color: white;
+	border: $primary-color 2px solid;
+	color: $primary-color;
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.btn-header:hover {
+  background-color: $primary-color;
+	color: white;
+}
+

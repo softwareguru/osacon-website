@@ -219,27 +219,6 @@ article.swag {
 	width: 300px;
 }
 
-.btn-primary {
-	background-color: $primary-color;
-	border-color: #a0a0a0;
-}
-.btn-primary:hover {
-	background-color: $secondary-color;
-}
-
-.btn-header {
-	background-color: white;
-	border: solid 2px #1074e6;
-	color: #1074e6;
-	font-weight: 500;
-	font-size: 1.1em;
-}
-
-.btn-header:hover {
-    background-color: #1074e6;
-	color: white;
-}
-
 #at-a-glance {
 	margin: 40px 0;
 	background-color: #e6e6e6;
@@ -432,9 +411,21 @@ article.swag {
 	color: #808080;
 }
 
-hr.section-divider {
+hr.section-divider-old {
     width: 80%;
 	border-top-width: 3px;
 	color: #c8c8c8;
 	margin: 2em auto 0px auto;
+}
+
+hr.section-divider {
+    display:none;
+}
+
+section.featured-speakers {
+background-color: #e9ecf0;
+}
+
+section.blog {
+	padding-bottom: 75px;
 }

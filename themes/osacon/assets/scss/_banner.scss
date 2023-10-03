@@ -54,7 +54,84 @@ section.hero {
   font-weight: 500;
 }
 
-#button-hero1 { 
+.hero #button-hero1 { 
     background-color: white;
     color: $primary-color;
+}
+
+
+section.hero-alt {
+
+  position: relative;
+
+  width: 100%;
+  height: 80vh;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width:768px) {
+    height: 100vh;
+  }
+
+}
+
+.bg-video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-content .event-logo {
+  min-width: 300px;
+}
+
+.hero-content .event-info {
+  text-align: left;
+  color: white;
+  padding-left: 3em;
+  font-size: 18px;
+
+  @media (max-width:768px) {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+  #button-hero1 { 
+    background-color: white;
+    color: $primary-color;
+    border: solid $primary-color 2px;
+  } 
+  #button-hero1:hover {
+    background-color: $primary-color;
+    color: white;
+  }
 }
