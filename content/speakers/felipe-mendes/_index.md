@@ -1,6 +1,6 @@
 ---
 title: Felipe Mendes
-designation: ScyllaDB Solution Architect
+designation: Solutions Architect at ScyllaDB
 images: 
  - images/speakers/felipe-mendes.jpg
 events:

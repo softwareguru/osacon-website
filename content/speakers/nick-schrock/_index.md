@@ -1,6 +1,6 @@
 ---
 title: Nick Schrock
-designation: Founder, Dagster Labs
+designation: Founder at Dagster Labs
 images: 
  - images/speakers/nick-schrock.jpg
 events:
