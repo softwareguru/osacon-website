@@ -105,7 +105,7 @@ section.hero-alt {
   min-width: 300px;
 }
 
-.hero-content .event-info {
+.hero-content .event-meta {
   text-align: left;
   color: white;
   padding-left: 3em;
@@ -132,6 +132,9 @@ section.hero-alt {
   } 
   #button-hero1:hover {
     background-color: $primary-color;
+    color: white;
+  }
+  #button-hero1 a:hover {
     color: white;
   }
 }
