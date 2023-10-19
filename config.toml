@@ -57,7 +57,7 @@ link = "http://sessionize.com/osa-con-2023"
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Register"
 link = "/register"
 
