@@ -98,8 +98,8 @@ link = "/plugins/bootstrap.min.css"
 [[params.plugins.css]]
 link = "/plugins/bootstrap-table.min.css"
 
-[[params.plugins.css]]
-link = "/plugins/swiper-bundle.min.css"
+# [[params.plugins.css]]
+# link = "/plugins/swiper-bundle.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -111,8 +111,8 @@ link="/plugins/4a6d2efc2e.js"
 [[params.plugins.js]]
 link="/plugins/bootstrap-table.min.js"
 
-[[params.plugins.js]]
-link="/plugins/swiper-bundle.min.js"
+# [[params.plugins.js]]
+# link="/plugins/swiper-bundle.min.js"
 
-[[params.plugins.js]]
-link="/plugins/atc.min.js"
+# [[params.plugins.js]]
+# link="/plugins/atc.min.js"

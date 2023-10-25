@@ -6,9 +6,10 @@
       <div class="row">
           <div class="image-column col-md-4 col-lg-3 col-sm-12">
             {{ $img := resources.Get (index .Params.images 0) }}
-            {{ $imgp := $img.Resize "400x webp" }}
-            <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded">
-
+            {{ with $img }}
+              {{ $imgp := $img.Resize "400x webp" }}
+              <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded">
+            {{ end }}
             <ul class="social-icon-two social-icon-colored text-center">
                       {{ with .Params.twitter }}
                       {{ if ne . "" }}

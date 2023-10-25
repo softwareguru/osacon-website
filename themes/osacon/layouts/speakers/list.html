@@ -13,8 +13,10 @@
           <div class="headshot-box">
             <a href="{{.Permalink}}">
                 {{ $img := resources.Get (index .Params.images 0) }}
-                {{ $imgp := $img.Resize "400x webp" }}
-                <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+                {{ with $img }}
+                  {{ $imgp := $img.Resize "400x webp" }}
+                  <img src="{{$imgp.Permalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+                {{ end }}  
             </a>
           </div>
           <div class="speaker-info text-center">
