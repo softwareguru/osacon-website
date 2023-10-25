@@ -32,7 +32,7 @@
               {{ $time_start := .Params.time_start | time }}
               {{ $time_end := .Params.time_end | time }}            
               {{ if lt now $time_start }}
-              <div>
+              <div class="d-none">
               <em>{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }}{{ end }}{{with .Params.room}} in {{.}}{{ end }}</em>
               </div>
               {{ else }}
@@ -41,7 +41,6 @@
               {{ end }}
               {{ end }}
             </div>
-            {{ with .Params.language }}<p class="session-meta" id="lang">Language: {{ humanize . }}</p>{{ end }}
             <div class="d-lg-none d-xl-none">
               By
               {{ range (.GetTerms "speakers") }}
