@@ -29,6 +29,16 @@ speaker = "speakers"
   weight = 1
 
 [[menu.main]]
+  name = "Sessions"
+  url = "/sessions/2023"
+  weight = 2
+
+[[menu.main]]
+  name = "Speakers"
+  url = "/speakers"
+  weight = 3
+
+[[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 7
@@ -91,28 +101,31 @@ tags = "/blog/tags/:slug/"
 posts = "/:year/:month/:title/"
 
 ############################# Plugins ##############################
+
+
+
+
+
 # CSS Plugins
 [[params.plugins.css]]
-link = "/plugins/bootstrap.min.css"
+link = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
 
 [[params.plugins.css]]
-link = "/plugins/bootstrap-table.min.css"
+link = "https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css"
 
 # [[params.plugins.css]]
 # link = "/plugins/swiper-bundle.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link="/plugins/bootstrap.bundle.min.js"
+link = "https://code.jquery.com/jquery-3.5.1.slim.min.js" 
 
 [[params.plugins.js]]
-link="/plugins/4a6d2efc2e.js"
+link="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
 
 [[params.plugins.js]]
-link="/plugins/bootstrap-table.min.js"
+link="https://kit.fontawesome.com/2e09285ae6.js"
 
-# [[params.plugins.js]]
-# link="/plugins/swiper-bundle.min.js"
+[[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
 
-# [[params.plugins.js]]
-# link="/plugins/atc.min.js"
