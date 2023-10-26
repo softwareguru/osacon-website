@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/patnadolny/
 github: 
 events:
  - 2023
-featured: true 
+
 ---
 
 Pat is Senior Data Engineer at Meltano where he spends most of his time contributing to the Meltano open source project and its surrounding ecosystem.

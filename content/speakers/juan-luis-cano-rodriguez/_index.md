@@ -9,7 +9,6 @@ linkedin:
 github: 
 events:
  - 2023
-featured: true 
 ---
 
 Juan Luis is an Aerospace Engineer with a passion for STEM, programming, outreach, and sustainability. He has a decade of experience as developer advocate, software engineer, and Python trainer in several industries, and currently he works as Principal Product Manager for Kedro, an open source Python framework for data science, at QuantumBlack, AI by McKinsey.
