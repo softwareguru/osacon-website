@@ -47,7 +47,7 @@
                       <ul>
                       {{ range $index, $value := (.Data.Pages.ByParam "time_start").Reverse }}
                         {{ if eq $index 0 }}                        
-                        <h4>Sessions by {{ .Title }}</h4>
+                        <h4>Sessions by {{ $.Title }}</h4>
                         {{ end }}  
                         <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.time_start | time }} ({{ .Format "2006" }}){{ end }}</li>
                       {{ end }}

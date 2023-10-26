@@ -18,9 +18,17 @@
           {{ if hasPrefix .RelPermalink "/sessions/2023/"}}
           <tr>
             <td>
-              <a class="text-dark" href="{{.Permalink}}">{{ .Params.title }}</a>
+              <a class="text-dark" href="{{.Permalink}}"><h3>{{ .Params.title }}</h3></a>
             </td>
-            <td>{{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</td>
+            <td>{{ range .Params.speakers }}
+                  {{ $speaker_url := printf "/speakers/%s" (. | anchorize) }}
+                  {{ with $.Site.GetPage $speaker_url }}
+                    <h4>{{ .Title }}</h4>
+                    <h5 class="mb-4">{{.Params.designation}}</h5>
+
+                  {{end }}
+                {{ end }}  
+              </td>
             <td>{{ with .Params.images }}<a href="{{ index . 0 | relURL }}"><img src="{{ index . 0 | relURL }}" alt="session banner" class="img-fluid"></a>{{ else }}Pending{{ end }}</td>
           </tr>
           {{ end }}
