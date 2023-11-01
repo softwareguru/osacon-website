@@ -5,6 +5,9 @@ speakers:
  - Uma Maheswara Rao Gangumalla
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/UmaMaheswara.jpg
+
 ---
 
 In today's data-driven world, organizations are faced with unprecedented volumes of data and increasingly complex storage requirements. To address these challenges, Apache Ozone emerges as a game-changing solution, redefining the landscape of distributed object storage systems.

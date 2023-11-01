@@ -5,6 +5,9 @@ speakers:
  - Ryan Blue
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/RyanBlue.jpg
+
 ---
 
 Analytic databases are quietly going through an unprecedented transformation. Open table formats, led by Apache Iceberg, enable multiple query engines to share one central copy of a table. This will fundamentally change the data industry, by freeing data that’s being held hostage by siloed data vendors.

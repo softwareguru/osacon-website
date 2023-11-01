@@ -5,6 +5,9 @@ speakers:
  - Arul Jegadish
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/ArulJegadish.jpg
+
 ---
 
 In the landscape of observability, logs reign as a fundamental pillar. Undoubtedly, they are among the most extensively employed telemetry signals. However, beneath their widespread usage by developers lies a complexity that cannot be ignored - logs are verbose, lack structure, and are hard to search and analyze. The pursuit of advanced analytics on this foundation can lead down a costly and intricate path. While tools like OpenSearch offer analytic features, their cost and operational complexity can be prohibitive. Conversely, tools like Loki, while cost-effective, fall short in delivering analytics capabilities.

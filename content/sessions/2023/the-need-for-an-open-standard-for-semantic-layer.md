@@ -5,6 +5,9 @@ speakers:
  - Brian Bickell
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/BrianBickell.jpg
+
 ---
 
 Join Brian Bickell, Cube's VP of Strategy and Alliances, as he proposes an open standard for the semantic layer, uniting BI tools, embedded analytics, and AI agents. 

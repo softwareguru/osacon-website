@@ -5,6 +5,9 @@ speakers:
  - Timothy Spann
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/TimothySpann.jpg
+
 ---
 
 Financial institutions thrive on accurate and timely data to drive critical decision-making processes, risk assessments, and regulatory compliance. However, managing and processing vast amounts of financial data in real-time can be a daunting task. To overcome this challenge, modern data engineering solutions have emerged, combining powerful technologies like Apache Flink, Apache NiFi, Apache Kafka, and Iceberg to create efficient and reliable real-time data pipelines. In this talk, we will explore how this technology stack can unlock the full potential of financial data, enabling organizations to make data-driven decisions swiftly and with confidence.

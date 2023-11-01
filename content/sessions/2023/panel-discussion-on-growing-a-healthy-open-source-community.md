@@ -6,6 +6,9 @@ speakers:
  - Nadine Farah
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/AliNadine.jpg
+
 ---
 
 Communities are at the heart of the open source movement. Community members help with everything from code contributions to trying out software to marketing. Plus, good communities are just fun to be around. In this panel discussion our experts will discuss strategies and tactics to build communities that are welcoming to all, promote collaborative work, and help make their open source projects a success.

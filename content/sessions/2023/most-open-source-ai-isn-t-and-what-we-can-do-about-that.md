@@ -5,10 +5,11 @@ speakers:
  - Chris Hazard
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/ChrisHazard.jpg
+
 ---
 
 What does "Open Source AI" really mean? If you publish the weights for a neural network, is that much different than only publishing an executable binary without the source? What if the model has memorized data or code that it can reproduce without attribution? What if you interrogate a model for why a decision was made, and you get a wrong explanation? How can you debug and fix it, and how can you understand what's going on?
  
- 
- 
- Black box AI and ML techniques are very commonly used, but there are alternative approaches that can achieve the aims of the open source movement. Join Dr. Hazard in exploring what it takes to make a truly open source AI—by exploring what it means to "program with data", how AI pitfalls relate to classic open source concerns, and how we can slow down the accrual of "intellectual debt."
+Black box AI and ML techniques are very commonly used, but there are alternative approaches that can achieve the aims of the open source movement. Join Dr. Hazard in exploring what it takes to make a truly open source AI—by exploring what it means to "program with data", how AI pitfalls relate to classic open source concerns, and how we can slow down the accrual of "intellectual debt."

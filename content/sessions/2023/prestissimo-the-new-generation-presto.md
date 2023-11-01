@@ -5,6 +5,9 @@ speakers:
  - Aditi Pandit
 time_start: 2023-12-12T17:00:00-04:00
 time_end: 2023-12-12T17:25:00-04:00
+images:
+ - /images/sessions/2023/AditiPandit.jpg
+
 ---
 
 Prestissimo is the latest innovation in the Presto SQL query engine (https://prestodb.io/). It is an ambitious endeavor to replace Presto's Java based runtime execution with a new state of the art C++ engine based on the concepts of vectorization and runtime optimizations.  
