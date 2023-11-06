@@ -3,7 +3,7 @@ title: "Pedram Navid"
 designation: "Head of Data Engineering at Dagster Labs"
 images:
  - images/speakers/pedram-navid.jpg
-linkedin: https://linkedin.com/pedramnavid
+linkedin: https://linkedin.com/in/pedramnavid
 events:
  - 2023
 ---
