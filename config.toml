@@ -29,8 +29,8 @@ speaker = "speakers"
   weight = 1
 
 [[menu.main]]
-  name = "Sessions"
-  url = "/sessions/2023"
+  name = "Program"
+  url = "/program"
   weight = 2
 
 [[menu.main]]
