@@ -1,6 +1,6 @@
 ---
-title: "Schedule preview"
-url: /schedule/preview
+title: "Program"
+url: /program
 
 ---
 
