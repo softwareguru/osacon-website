@@ -106,26 +106,27 @@ posts = "/:year/:month/:title/"
 
 
 
+
+
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+link = "/plugins/bootstrap.min.css"
 
 [[params.plugins.css]]
-link = "https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css"
+link = "/plugins/bootstrap-table.min.css"
 
-# [[params.plugins.css]]
-# link = "/plugins/swiper-bundle.min.css"
+[[params.plugins.css]]
+link = "/plugins/fontawesome.css"
+
+[[params.plugins.css]]
+link = "/plugins/swiper-bundle.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+link="/plugins/bootstrap.bundle.min.js"
 
 [[params.plugins.js]]
-link="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+link="/plugins/bootstrap-table.min.js"
 
 [[params.plugins.js]]
-link="https://kit.fontawesome.com/2e09285ae6.js"
-
-[[params.plugins.js]]
-link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
-
+link="/plugins/swiper-bundle.min.js"
