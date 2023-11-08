@@ -418,8 +418,11 @@ hr.section-divider {
     display:none;
 }
 
-section.featured-speakers {
+section.featured-content {
   background-color: #e9ecf0;
+
+  .featured-item {
+  }
 }
 
 section.featured-projects {
