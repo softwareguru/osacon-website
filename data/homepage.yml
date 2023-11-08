@@ -8,12 +8,12 @@ event_info:
   features: 
     - number : "3"
       label : "Days"
-      
-    - number : "20+"
+
+    - number : "Free!"
+      label : "Free and online event"
+
+    - number : "40+"
       label : "Sessions"
 
     - number : "2,500+"
       label : "participants"
-
-    - number : "Free!"
-      label : "Free and online event"

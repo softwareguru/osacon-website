@@ -1,22 +1,4 @@
 
-section.hero {
-  height: 100vh;
-  background: rgb(20,245,151);
-//  background: linear-gradient(60deg, rgba(20,245,151,1) 0%, rgba(24,157,207,1) 100%);
-  background: linear-gradient(180deg, rgba(24,157,207,1) 0%, rgba(16,116,230,1) 80%);
-  display: grid;
-
-  grid-template-columns: 1fr 38% 1fr;
-  grid-template-rows: 120px 1fr 100px;  
-
-  @media (max-width:768px) {
-    grid-template-columns: 1fr 70% 1fr;
-    grid-template-rows: 100px 1fr 100px;  
-  
-  }
-
-}
-
 
 .hero-middle { 
   grid-area: 2 / 2 / 3 / 3; 
@@ -54,18 +36,13 @@ section.hero {
   font-weight: 500;
 }
 
-.hero #button-hero1 { 
-    background-color: white;
-    color: $primary-color;
-}
-
-
 section.hero-alt {
 
+  margin-top: 90px;
   position: relative;
 
   width: 100%;
-  height: 80vh;
+  height: 60vh;
 
   /* Will not allow the video to overflow the 
   container */
@@ -79,7 +56,7 @@ section.hero-alt {
   justify-content: center;
 
   @media (max-width:768px) {
-    height: 100vh;
+    height: 80vh;
   }
 
 }
@@ -102,7 +79,10 @@ section.hero-alt {
 }
 
 .hero-content .event-logo {
-  min-width: 300px;
+  width: 420px;
+  @media (max-width:768px) {
+    width: 350px;
+  }
 }
 
 .hero-content .event-meta {
@@ -111,30 +91,50 @@ section.hero-alt {
   padding-left: 3em;
   font-size: 18px;
 
-  @media (max-width:768px) {
-    text-align: center;
-  }
-
   h1 {
     font-size: 2.2em;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  
   }
 
   h3 {
     font-size: 1.5em;
   }
+
   #button-hero1 { 
     background-color: white;
-    color: $primary-color;
     border: solid $primary-color 2px;
   } 
   #button-hero1:hover {
     background-color: $primary-color;
+  }
+  #button-hero1:hover a, #button-hero1 a:hover {
     color: white;
   }
-  #button-hero1 a:hover {
+
+  #button-hero2 { 
+    background-color: $primary-color;
+    border: solid white 2px;
+  } 
+  #button-hero2:hover {
+    background-color: white;
+  }
+  #button-hero2 a { 
     color: white;
   }
+  #button-hero2:hover a, #button-hero2 a:hover {
+    color: $primary-color;
+  }
+  @media (max-width:768px) {
+    padding-left: 0;
+    text-align: center;
+
+    h1 {
+      font-size: 2em;
+      letter-spacing: 0;  
+    }
+  
+  }
+
 }
