@@ -1,6 +1,6 @@
 ############################## Event ##############################
 projects:
-    - name: Apache Superset
+    - name: Superset
       image: /images/projects/superset.svg
 
     - name: Presto
@@ -9,11 +9,32 @@ projects:
     - name: DuckDB
       image: /images/projects/duckdb.svg
 
-    - name: Apache Airflow
+    - name: Airflow
       image: /images/projects/airflow.svg
 
-    - name: Apache Kafka
+    - name: Kafka
       image: /images/projects/kafka.svg
+
+    - name: Flink
+      image: /images/projects/flink.png  
 
     - name: Grafana
       image: /images/projects/grafana.svg  
+
+    - name: Iceberg
+      image: /images/projects/iceberg.svg  
+
+    - name: Arrow
+      image: /images/projects/arrow.svg  
+
+    - name: dbt
+      image: /images/projects/dbt.svg  
+
+    - name: Hudi
+      image: /images/projects/hudi.png
+
+    - name: Meltano
+      image: /images/projects/meltano.svg  
+
+    - name: Cassandra
+      image: /images/projects/cassandra.svg  
