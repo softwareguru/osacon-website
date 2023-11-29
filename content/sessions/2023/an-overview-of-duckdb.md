@@ -1,11 +1,12 @@
 ---
-title: "An overview of DuckDB"
+title: "An Overview of DuckDB"
 slug: duckdb
 speakers:
  - Gabor Szarnyas
-time_start: 2023-12-12T17:00:00-04:00
-time_end: 2023-12-12T17:25:00-04:00
-images: 
+time_start: 2023-12-13T09:10:00-04:00
+time_end: 2023-12-13T09:40:00-04:00
+track: Databases
+images:
  - /images/sessions/2023/GaborSzarnyas.jpg
 ---
 

@@ -2,12 +2,12 @@
 title: "Who needs ChatGPT? Rock solid AI pipelines with Hugging Face and Kedro"
 slug: who-needs-chatgpt-rock-solid-ai-pipelines-with-hugging-face-and-kedro
 speakers:
- - Juan Luis Cano Rodriguez
-time_start: 2023-12-12T17:00:00-04:00
-time_end: 2023-12-12T17:25:00-04:00
+ - Juan Luis Cano Rodríguez
+time_start: 2023-12-14T09:10:00-04:00
+time_end: 2023-12-14T09:40:00-04:00
+track: Orchestration
 images:
  - /images/sessions/2023/JuanCano.jpg
-
 ---
 
 Artificial Intelligence is all the rage, largely thanks to generative systems like ChatGPT, Midjourney, and the like. These commercial systems are very sophisticated and powerful, but also a bit opaque if you want to learn how they work or adapt them to your needs. What happens inside the 'black box'?
