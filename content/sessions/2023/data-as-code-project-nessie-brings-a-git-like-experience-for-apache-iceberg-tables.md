@@ -6,6 +6,9 @@ speakers:
 time_start: 2023-12-12T11:00:00-04:00
 time_end: 2023-12-12T11:10:00-04:00
 track: Data ingestion
+images:
+ - /images/sessions/2023/AlexMerced.jpg
+
 ---
 
 Multi-table transactions have existed in data warehouses for some time, but with the open source Project Nessie, multi-table transactions and an innovative git-like experience become available to data lakehouses. In this session, learn how Project Nessie enables the new “Data as Code” paradigm allowing for workload isolation, multi-table transactions and experimentation when working with Apache Iceberg tables.

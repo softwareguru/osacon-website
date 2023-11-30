@@ -6,6 +6,9 @@ speakers:
 time_start: 2023-12-12T09:00:00-04:00
 time_end: 2023-12-12T09:10:00-04:00
 track: Data ingestion
+images:
+ - /images/sessions/2023/AndreyGusarov.jpg
+
 ---
 
 In this topic, I'll delve into using Apache Flink for real-time distributed data processing in diverse product initiatives. From implementing counters and windowed analytics to online data enrichment, I'll highlight the challenges faced and share insights on harnessing Flink's capabilities to address these scenarios in high-demand environments

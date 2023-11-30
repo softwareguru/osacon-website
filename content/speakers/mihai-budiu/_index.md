@@ -1,6 +1,6 @@
 ---
 title: "Mihai Budiu"
-designation: "Feldera"
+designation: "Chief Scientist at Feldera"
 images:
  - images/speakers/mihai-budiu.jpg
 linkedin: 

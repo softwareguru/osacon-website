@@ -1,6 +1,6 @@
 ---
 title: "Julien Jakubowski"
-designation: "Developer Advocate @StreamNative"
+designation: "Developer Advocate at StreamNative"
 images:
  - images/speakers/julien-jakubowski.jpg
 linkedin: https://fr.linkedin.com/in/julienjakubowski
