@@ -1,6 +1,6 @@
 ---
 title: "Cole Bowden"
-designation: "Developer Advocate at Starburst"
+designation: "Developer Advocate, Starburst"
 images:
  - images/speakers/cole-bowden.jpg
 linkedin: https://www.linkedin.com/in/cole-m-bowden/

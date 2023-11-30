@@ -1,6 +1,6 @@
 ---
 title: "Brian Bickell"
-designation: "VP of Strategy and Alliances at Cube"
+designation: "VP of Strategy and Alliances, Cube"
 images:
  - images/speakers/brian-bickell.jpg
 linkedin: https://www.linkedin.com/in/bbickell/

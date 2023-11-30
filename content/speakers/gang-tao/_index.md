@@ -1,6 +1,6 @@
 ---
 title: "Gang Tao"
-designation: "CTO at Timeplus"
+designation: "Timeplus, CTO"
 images:
  - images/speakers/gang-tao.jpg
 linkedin: https://www.linkedin.com/in/taogang/

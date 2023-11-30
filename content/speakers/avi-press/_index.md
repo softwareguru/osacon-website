@@ -1,6 +1,6 @@
 ---
 title: "Avi Press"
-designation: "Founder & CEO at Scarf"
+designation: "Founder & CEO of Scarf"
 images:
  - images/speakers/avi-press.jpg
 linkedin: https://www.linkedin.com/in/avi-press-4437a356/

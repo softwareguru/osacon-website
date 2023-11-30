@@ -1,6 +1,6 @@
 ---
 title: "Beinan Wang"
-designation: "Architect at Alluxio"
+designation: "Alluxio, Architect"
 images:
  - images/speakers/beinan-wang.jpg
 linkedin: https://www.linkedin.com/in/beinan/

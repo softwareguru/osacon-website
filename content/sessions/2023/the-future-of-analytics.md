@@ -8,6 +8,7 @@ time_end: 2023-12-13T08:30:00-04:00
 track: Open Source
 images:
  - /images/sessions/2023/RobertHodges.jpg
+featured: true 
 ---
 
 Analytic platforms are like cathedrals for data - and their foundations are cloud native. In this talk we'll discuss the forces driving open source adoption, how cloud native enables flexible analytic applications, and what it means for systems being designed today.

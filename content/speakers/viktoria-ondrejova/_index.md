@@ -1,6 +1,6 @@
 ---
 title: "Viktoria Ondrejova"
-designation: "Data Analyst at Slido"
+designation: "Data Analyst Intern, Slido"
 images:
  - images/speakers/viktoria-ondrejova.jpg
 linkedin: https://www.linkedin.com/in/viktoriaondrejova/

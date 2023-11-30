@@ -1,6 +1,6 @@
 ---
 title: "Arul Jegadish"
-designation: "Co-Founder and CEO of OpsVerse"
+designation: "Co-Founder and CEO of OpsVerse, A DevOps Tools Platform."
 images:
  - images/speakers/arul-jegadish.jpg
 linkedin: https://www.linkedin.com/in/arul-jegadish-francis/

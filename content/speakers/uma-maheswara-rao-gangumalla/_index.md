@@ -1,6 +1,6 @@
 ---
 title: "Uma Maheswara Rao Gangumalla"
-designation: "Engineering Manager at Cloudera | Hadoop PMC/Committer"
+designation: "ASF Member, Software Architect, Hdoop PMC/Committer"
 images:
  - images/speakers/uma-maheswara-rao-gangumalla.jpg
 linkedin: https://www.linkedin.com/in/umamaheswararaog/

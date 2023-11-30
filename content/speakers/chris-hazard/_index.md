@@ -1,6 +1,6 @@
 ---
 title: "Chris Hazard"
-designation: "CTO and co-founder at Howso"
+designation: "CTO and co-founder of Howso"
 images:
  - images/speakers/chris-hazard.jpg
 linkedin: https://www.linkedin.com/in/chrishazard

@@ -1,6 +1,6 @@
 ---
 title: "Albert Wong"
-designation: "Developer Advocate at StarRocks"
+designation: "Developer Advocate @ StarRocks"
 images:
  - images/speakers/albert-wong.jpg
 linkedin: http://linkedin.com/in/atwong

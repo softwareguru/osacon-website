@@ -1,6 +1,6 @@
 ---
 title: "Matt Harrison"
-designation: "Consultant at MetaSnake"
+designation: "MetaSnake"
 images:
  - images/speakers/matt-harrison.jpg
 linkedin: https://www.linkedin.com/in/panela/

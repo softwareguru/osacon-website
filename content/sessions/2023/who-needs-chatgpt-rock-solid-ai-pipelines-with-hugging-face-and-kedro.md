@@ -2,7 +2,7 @@
 title: "Who needs ChatGPT? Rock solid AI pipelines with Hugging Face and Kedro"
 slug: who-needs-chatgpt-rock-solid-ai-pipelines-with-hugging-face-and-kedro
 speakers:
- - Juan Luis Cano Rodríguez
+ - Juan Luis Cano
 time_start: 2023-12-14T09:10:00-04:00
 time_end: 2023-12-14T09:40:00-04:00
 track: Orchestration
