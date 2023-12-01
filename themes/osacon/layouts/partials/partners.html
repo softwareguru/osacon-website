@@ -32,6 +32,21 @@
           </div>
     </div>
 
+    <div id="partner">
+      {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "partner" }} 
+        {{ if eq $index 0 }}
+          <h3 class="my-3 text-center">Partners</h3>
+          <div class="sponsor-strip community">
+        {{ end }}
+            <div class="sponsor-item">
+              <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+              <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
+              </a>
+            </div>
+      {{ end }}
+          </div>
+    </div>
+
     <h4 class="text-center mt-4">Help us build the event of the year for open source analytics. Become a sponsor today! Check out our <a href="/files/OSACON2023-Prospectus_v1_1.pdf" target="_blank">Prospectus</a></h4>
 
     <hr class="section-divider">
