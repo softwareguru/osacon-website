@@ -14,7 +14,7 @@
         </tr>
       </thead>
       <tbody>
-        {{ range where $.Site.RegularPages "Section" "sessions" }}
+        {{ range where $.Site.RegularPages.ByTitle "Section" "sessions" }}
           {{ if hasPrefix .RelPermalink "/sessions/2023/"}}
           <tr>
             <td>

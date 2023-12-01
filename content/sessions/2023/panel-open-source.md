@@ -11,7 +11,6 @@ time_start: 2023-12-14T08:30:00-04:00
 time_end: 2023-12-14T09:00:00-04:00
 track: Open Source
 featured: true
-weight: 4
 images:
  - /images/sessions/2023/PanelOS.jpg
 
