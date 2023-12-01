@@ -1,6 +1,7 @@
 ---
 title: "Panel Discussion on Growing a Healthy Open Source Community"
 slug: panel-discussion-on-growing-a-healthy-open-source-community
+date: 2023-11-30
 speakers:
  - Ali LeClerc
  - Nadine Farah
@@ -9,6 +10,7 @@ speakers:
 time_start: 2023-12-13T08:30:00-04:00
 time_end: 2023-12-13T09:00:00-04:00
 track: Community
+featured: true
 images:
  - /images/sessions/2023/PanelCommunity.jpg
 

@@ -4,7 +4,7 @@
       <h2>Featured Sessions</h2>
     </div>
     <div class="d-flex justify-content-around flex-wrap">
-      {{ range where (where .Site.Pages.ByTitle "Type" "sessions") "Params.featured" true }}
+      {{ range where (where .Site.Pages.ByDate "Type" "sessions") "Params.featured" true }}
       <div class="featured-item mx-3 my-3">
         <a href="{{.Permalink}}">
           {{ $img := resources.Get (index .Params.images 0) }}

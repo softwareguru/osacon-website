@@ -1,6 +1,7 @@
 ---
 title: "Reinventing Kafka in the Data Streaming Era"
 slug: reinventing-kafka-in-the-data-streaming-era
+date: 2023-11-26
 speakers:
  - Jun Rao
 time_start: 2023-12-12T08:30:00-04:00

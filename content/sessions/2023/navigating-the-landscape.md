@@ -1,6 +1,7 @@
 ---
 title: "Navigating the Landscape of a Fully Open Source Data Stack in 2023"
 slug: navigating-landscape
+date: 2023-11-27
 speakers:
  - Max Beauchemin
 time_start: 2023-12-14T08:00:00-04:00

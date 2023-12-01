@@ -1,6 +1,8 @@
 ---
 title: "The Future of Analytics is Open Source and Cloud Native"
 slug: the-future-of-analytics
+date: 2023-11-28
+
 speakers:
  - Robert Hodges
 time_start: 2023-12-13T08:00:00-04:00
