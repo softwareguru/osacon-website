@@ -36,5 +36,8 @@ projects:
     - name: Meltano
       image: /images/projects/meltano.svg  
 
+    - name: Starrocks
+      image: /images/projects/starrocks.png  
+
     - name: Cassandra
       image: /images/projects/cassandra.svg  
