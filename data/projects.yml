@@ -33,6 +33,9 @@ projects:
     - name: Hudi
       image: /images/projects/hudi.png
 
+    - name: Nifi
+      image: /images/projects/nifi.svg
+    
     - name: Meltano
       image: /images/projects/meltano.svg  
 

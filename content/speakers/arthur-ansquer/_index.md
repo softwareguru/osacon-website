@@ -1,6 +1,6 @@
 ---
 title: "Arthur Ansquer"
-designation: "Arthur Ansquer, Product Manager @ Aiven.io (for ClickHouse and Cassandra)"
+designation: "Product Manager at Aiven.io"
 images:
  - images/speakers/arthur-ansquer.jpg
 linkedin: https://www.linkedin.com/in/arthur-ansquer-463921154/
