@@ -40,7 +40,7 @@ projects:
       image: /images/projects/meltano.svg  
 
     - name: Starrocks
-      image: /images/projects/starrocks.png  
+      image: /images/projects/starrocks-logo.png  
 
     - name: Cassandra
       image: /images/projects/cassandra.svg  
