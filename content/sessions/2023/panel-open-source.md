@@ -6,6 +6,7 @@ speakers:
  - Heather Meeker
  - Peter Zaitsev
  - Roman Shaposhnik
+ - Kenaz Kwa
  - Robert Hodges
 time_start: 2023-12-14T08:30:00-04:00
 time_end: 2023-12-14T09:00:00-04:00
