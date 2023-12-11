@@ -43,7 +43,7 @@ projects:
       image: /images/projects/starrocks-logo.png  
 
     - name: Cassandra
-      image: /images/projects/cassandra.svg  
+      image: /images/projects/cassandra.svg
 
     - name: Kubernetes
       image: /images/projects/kubernetes.png  
