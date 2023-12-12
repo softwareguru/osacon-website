@@ -6,6 +6,7 @@ speakers:
 time_start: 2023-12-13T11:00:00-04:00
 time_end: 2023-12-13T11:10:00-04:00
 track: Community
+draft: true
 ---
 
 Developer communities express love through grey-hatting. It’s gentle and well-meaning, but it’s grey-hatting: passionate devs delight in uncovering vulnerabilities, bugs, and unexpected edge cases within your creations. The twist: they won't stop at just code; they'll also grey-hat your governance policies and community norms.
