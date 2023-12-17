@@ -8,6 +8,7 @@ time_end: 2023-12-12T12:20:00-04:00
 track: Artificial intelligence
 images:
  - /images/sessions/2023/ChrisHazard.jpg
+slides: 2023/MostOpenSourceAI.pdf 
 ---
 
 What does "Open Source AI" really mean? If you publish the weights for a neural network, is that much different than only publishing an executable binary without the source? What if the model has memorized data or code that it can reproduce without attribution? What if you interrogate a model for why a decision was made, and you get a wrong explanation? How can you debug and fix it, and how can you understand what's going on? 

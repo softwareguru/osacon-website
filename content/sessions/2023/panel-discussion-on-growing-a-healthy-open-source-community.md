@@ -5,7 +5,6 @@ date: 2023-11-30
 speakers:
  - Ali LeClerc
  - Nadine Farah
- - Ale Murray
  - Evan Rusackas
 time_start: 2023-12-13T08:30:00-04:00
 time_end: 2023-12-13T09:00:00-04:00

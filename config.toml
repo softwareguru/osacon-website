@@ -29,8 +29,8 @@ speaker = "speakers"
   weight = 1
 
 [[menu.main]]
-  name = "Program"
-  url = "/program"
+  name = "Sessions"
+  url = "/sessions/2023"
   weight = 2
 
 [[menu.main]]
@@ -105,9 +105,6 @@ posts = "/:year/:month/:title/"
 
 
 
-
-
-
 # CSS Plugins
 [[params.plugins.css]]
 link = "/plugins/bootstrap.min.css"
@@ -122,6 +119,9 @@ link = "/plugins/fontawesome.css"
 link = "/plugins/swiper-bundle.min.css"
 
 # JS Plugins
+[[params.plugins.js]]
+link="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+
 [[params.plugins.js]]
 link="/plugins/bootstrap.bundle.min.js"
 

@@ -8,6 +8,7 @@ time_end: 2023-12-14T11:00:00-04:00
 track: Orchestration
 images:
  - /images/sessions/2023/PedramNavid.jpg
+slides: 2023/OSSDataStack.pdf
 ---
 
 There are many misconceptions of the Modern Data Stack, and it's easy to forget the real pain it solved and the value it unlocked. 

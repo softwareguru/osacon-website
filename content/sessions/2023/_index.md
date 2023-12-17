@@ -4,5 +4,7 @@ time_start: 2023-09-19T09:00:00.000Z
 
 ---
 
-### This is a preview of the sessions that we will have at OSA CON 2023. Note that submissions are still under review, and we will add more sessions before the program is finalized.
+### These sessions were presented at OSA Con 2023 on December 12-14, 2023.
+
+The recordings are available on the event on Airmeet at https://us.airmeet.com/e/c7ebf9c0-5d03-11ee-b9d8-cb88fcc4024e
 

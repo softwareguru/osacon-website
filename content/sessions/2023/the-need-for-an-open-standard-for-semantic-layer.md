@@ -8,6 +8,7 @@ time_end: 2023-12-13T11:40:00-04:00
 track: Infrastructure
 images:
  - /images/sessions/2023/BrianBickell.jpg
+slides: 2023/OpenSemanticLayer.pdf
 ---
 
 Join Brian Bickell, Cube's VP of Strategy and Alliances, as he proposes an open standard for the semantic layer, uniting BI tools, embedded analytics, and AI agents. 

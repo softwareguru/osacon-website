@@ -9,6 +9,7 @@ time_end: 2023-12-12T11:00:00-04:00
 track: Databases
 images:
  - /images/sessions/2023/JoveGang.jpg
+slides: 2023/QueryLiveData.pdf 
 ---
 
 Streaming data is rapidly becoming a key component in modern applications, and Apache Kafka, Redpanda and Apache Pulsar have emerged as a popular and powerful platform for managing and processing these data streams. However, as the volume and complexity of streaming data continue to grow, it becomes increasingly critical to have efficient and effective ways of querying and analyzing this data.

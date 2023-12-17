@@ -8,6 +8,7 @@ time_end: 2023-12-13T10:20:00-04:00
 track: Databases
 images:
  - /images/sessions/2023/JavierRamirez.jpg
+slides: https://www.slideshare.net/supercoco9/questdb-the-building-blocks-of-a-fast-opensource-timeseries-database 
 ---
 
 Traditionally, databases have treated timestamps just as another data type. However, when performing real-time analytics, timestamps should be first class citizens and we need rich time semantics to get the most out of our data. We also need to deal with ever growing datasets while keeping performant, which is as fun as it sounds.
