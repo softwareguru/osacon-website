@@ -8,6 +8,7 @@ time_end: 2023-12-12T09:10:00-04:00
 track: Data ingestion
 images:
  - /images/sessions/2023/AndreyGusarov.jpg
+slides: 2023/Flink.pdf 
 
 ---
 
