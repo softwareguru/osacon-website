@@ -8,6 +8,7 @@ time_end: 2023-12-14T10:20:00-04:00
 track: Databases
 images: 
  - /images/sessions/2023/DunithDhanushka.jpg
+slides: 2023/ManyFacesRTA.pdf 
 ---
 
 Real-time analytics systems derive meaningful insights from continuous streams of data, enabling organizations to make swift decisions and react fast. However, not all real-time analytics systems are made equal. While they share the same goal in the end, there are differences in how they achieve it. 
