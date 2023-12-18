@@ -8,11 +8,9 @@ time_end: 2023-12-12T11:10:00-04:00
 track: Data ingestion
 images:
  - /images/sessions/2023/AlexMerced.jpg
-
+slides: 2023/Nessie.pdf
 ---
 
 Multi-table transactions have existed in data warehouses for some time, but with the open source Project Nessie, multi-table transactions and an innovative git-like experience become available to data lakehouses. In this session, learn how Project Nessie enables the new “Data as Code” paradigm allowing for workload isolation, multi-table transactions and experimentation when working with Apache Iceberg tables.
  
- 
- 
- In this session you'll learn about the Data-as-code paradigm, what is the open source Project Nessie and the new patterns in data engineering it enables.
+In this session you'll learn about the Data-as-code paradigm, what is the open source Project Nessie and the new patterns in data engineering it enables.
