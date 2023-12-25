@@ -120,7 +120,7 @@ link = "/plugins/swiper-bundle.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+link="/plugins/jquery.min.js"
 
 [[params.plugins.js]]
 link="/plugins/bootstrap.bundle.min.js"
