@@ -9,7 +9,7 @@ track: Data ingestion
 images:
  - /images/sessions/2023/AndreyGusarov.jpg
 slides: 2023/Flink.pdf 
-
+video: https://youtu.be/8flIQBugHKg
 ---
 
 In this topic, I'll delve into using Apache Flink for real-time distributed data processing in diverse product initiatives. From implementing counters and windowed analytics to online data enrichment, I'll highlight the challenges faced and share insights on harnessing Flink's capabilities to address these scenarios in high-demand environments

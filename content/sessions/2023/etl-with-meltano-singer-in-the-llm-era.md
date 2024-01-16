@@ -9,6 +9,7 @@ track: Data ingestion
 images:
  - /images/sessions/2023/PatNadolny.jpg
 slides: 2023/SingerLLM.pdf 
+video: https://youtu.be/mTFrCK4duh8
 ---
 
 Are we reinventing ETL in the LLM app ecosystem? While the existing LLM app tools like LangChain and LlamaIndex are useful for building LLM apps, their ETL features fall short for production use cases. We’ll explore Singer and the Meltano community, new data pipeline needs in the AI space, and how we can apply data engineering principles to solve them.

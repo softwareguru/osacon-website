@@ -11,5 +11,6 @@ images:
  - /images/sessions/2023/MaximeBeauchemin.jpg
 featured: true 
 slides: 2023/NavigatingLandscape.pdf
+video: https://youtu.be/oAzT0jl3t9w
 ---
 

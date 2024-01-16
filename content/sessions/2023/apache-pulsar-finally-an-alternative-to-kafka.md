@@ -8,7 +8,7 @@ time_end: 2023-12-12T09:50:00-04:00
 track: Databases
 images:
  - /images/sessions/2023/Julien.jpg
-
+video: https://youtu.be/VD7y5h4AtgM
 ---
 
 Today, when you think about building event-driven and real-time applications, the words that come to you spontaneously are probably: RabbitMQ, ActiveMQ, or Kafka. These are the solutions that dominate this landscape. But have you ever heard of Apache Pulsar?

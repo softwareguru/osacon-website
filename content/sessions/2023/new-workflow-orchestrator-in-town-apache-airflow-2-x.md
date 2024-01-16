@@ -9,6 +9,7 @@ track: Orchestration
 images:
  - /images/sessions/2023/JarekPotiuk.jpg
 slides: 2023/Airflow2x.pdf
+video: https://youtu.be/YjCtMRvz4lg
 ---
 
 Quite often you hear about the "new" orchestrator that aims to solve your orchestration needs. You can also often hear how it compares to Airlfow. However those comparisions often overlook the fact that since Airflow 2.0 has been introduced, it continues to evolve and piece-by-piece modernize itself.

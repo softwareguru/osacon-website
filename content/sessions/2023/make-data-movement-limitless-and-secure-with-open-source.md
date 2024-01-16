@@ -9,6 +9,7 @@ track: Data ingestion
 images:
  - /images/sessions/2023/MichelTricot.jpg
 slides: 2023/Airbyte.pdf 
+video: https://youtu.be/4uJebxUuDOY
 ---
 
 In 2017, the average number of SaaS apps used by an organization was 16, and by 2022 that number increased to 110, and this number doesn’t even account for databases and files. Accessing and integrating that data into a warehouse is a significant challenge for organizations. Each of these sources is a data silo with huge variability in data formats and complexity to access. In order to ensure successful data movement in a world of exponential data growth, any ELT solution that feeds data warehouses must address both the most common sources and the long tail of APIs. It also must conform to every company’s unique internal processes, security requirements, and external regulatory constraints.

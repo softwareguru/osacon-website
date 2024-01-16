@@ -8,6 +8,7 @@ time_end: 2023-12-13T10:20:00-04:00
 track: Orchestration
 images:
  - /images/sessions/2023/CameronCyr-CICD.jpg
+video: https://youtu.be/DZHQd55MWf8
 ---
 
 Continuous integration and continuous deployment (CICD) pipelines are crucial for deploying efficient and reliable data transformations. In this session we will answer the question "DIY or DIWhy?", where we will help you decide if you should build your own CICD pipelines for deploying your dbt project, or if you should use dbt Cloud's out of the box solutions.

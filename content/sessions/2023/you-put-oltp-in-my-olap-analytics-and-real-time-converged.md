@@ -8,7 +8,8 @@ time_end: 2023-12-14T11:40:00-04:00
 track: Databases
 images:
  - /images/sessions/2023/FelipeMendes.jpg
-slides: 2023/YouPutOLTP.pdf 
+slides: 2023/YouPutOLTP.pdf
+video: https://youtu.be/RWQdvRIzjgU 
 ---
 
 Analytics (OLAP) and Real-time (OLTP) workloads serve distinctly different purposes. OLAP is optimized for data analysis and reporting, while OLTP is optimized for real-time low-latency traffic.

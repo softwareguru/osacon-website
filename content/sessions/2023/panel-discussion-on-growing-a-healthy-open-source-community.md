@@ -12,7 +12,7 @@ track: Community
 featured: true
 images:
  - /images/sessions/2023/PanelCommunity.jpg
-
+video: https://youtu.be/NKYw2rrjUA0
 ---
 
 Communities are at the heart of the open source movement. Community members help with everything from code contributions to trying out software to marketing. Plus, good communities are just fun to be around. In this panel discussion our experts will discuss strategies and tactics to build communities that are welcoming to all, promote collaborative work, and help make their open source projects a success.

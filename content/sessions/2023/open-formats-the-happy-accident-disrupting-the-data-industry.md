@@ -9,6 +9,7 @@ track: Infrastructure
 images:
  - /images/sessions/2023/RyanBlue.jpg
 slides: 2023/HappyAccident.pdf
+video: https://youtu.be/EDVAYx3XBYc
 ---
 
 Analytic databases are quietly going through an unprecedented transformation. Open table formats, led by Apache Iceberg, enable multiple query engines to share one central copy of a table. This will fundamentally change the data industry, by freeing data that’s being held hostage by siloed data vendors.

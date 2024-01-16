@@ -14,7 +14,7 @@ track: Open Source
 featured: true
 images:
  - /images/sessions/2023/PanelOS.jpg
-
+video: https://youtu.be/11or-I7T6fI
 ---
 
 Open source licenses are a linchpin of the free and open source software movement. Join our panel of open source experts as we do our yearly check-on the state of licenses. We'll talk about new developments in licensing this year (Terraform anyone?), revisit what a license actually does for your project, and talk about legal and moral issues when projects relicense. We'll even take questions from the crowd.

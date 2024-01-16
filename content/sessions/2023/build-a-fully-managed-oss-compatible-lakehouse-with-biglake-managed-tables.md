@@ -8,6 +8,7 @@ time_end: 2023-12-12T13:00:00-04:00
 track: Data ingestion
 images:
  - /images/sessions/2023/JeffreyNelson.jpg
+video: https://youtu.be/nQ6jqpgGlb0
 ---
 
 Open table formats like Apache Iceberg, Apache Hudi, and Delta Lake use embedded metadata, stored alongside data on object stores to provide transactionally consistent DML and time travel features. This metadata is usually backed by a transaction log also stored in object storage. While this approach of maintaining a transaction log on an object store provides simplicity to build an open ecosystem, workloads that require high-throughput write and DML are often limited. This is because commits to the transaction log can throttle write performance and throughput.

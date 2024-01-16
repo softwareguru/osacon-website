@@ -8,6 +8,7 @@ time_end: 2023-12-13T13:00:00-04:00
 track: Infrastructure
 images:
  - /images/sessions/2023/BeinanWang.jpg
+video: https://youtu.be/8UK1qG4BxdY
 ---
 
 As data lakes scale in complexity and size, companies face challenges with slow and inconsistent data access, rapidly growing storage costs, and high operation costs when migrating to the cloud. In this talk, we discuss an open-source caching framework we designed to improve performance by 1.5x and reduce storage costs by millions per year. The framework leverages tools like Hadoop, Parquet, Hudi, and Alluxio and applies to both on-prem and cloud environments.

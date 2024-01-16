@@ -9,6 +9,7 @@ track: Databases
 images:
  - /images/sessions/2023/AlbertWong.jpg
 slides: 2023/StarRocks.pdf 
+video: https://youtu.be/-9YpmU3gxUY
 ---
 
 Real-time analytics is essential for user-facing applications, such as e-commerce websites, social media platforms, and streaming services. These applications need to be able to analyze data in real time to provide users with personalized experiences and make recommendations.

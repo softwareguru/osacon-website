@@ -8,6 +8,7 @@ time_end: 2023-12-14T09:40:00-04:00
 track: Orchestration
 images:
  - /images/sessions/2023/JuanCano.jpg
+video: https://youtu.be/woDJEftjbMk
 ---
 
 Artificial Intelligence is all the rage, largely thanks to generative systems like ChatGPT, Midjourney, and the like. These commercial systems are very sophisticated and powerful, but also a bit opaque if you want to learn how they work or adapt them to your needs. What happens inside the 'black box'?

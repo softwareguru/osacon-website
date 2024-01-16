@@ -9,6 +9,7 @@ track: Databases
 images:
  - /images/sessions/2023/ZanderMatheson.jpg
 slides: 2023/RealTimeRevolution.pdf 
+video: https://youtu.be/q8kjZaLLjzg
 ---
 
 Stream processing is hard! It's expensive! It's unnecessary! Batch is all you need! It's hard to maintain! While some of these may sound true, the world of streaming data has come a long way and it is time we start to take advantage of data in real-time. 

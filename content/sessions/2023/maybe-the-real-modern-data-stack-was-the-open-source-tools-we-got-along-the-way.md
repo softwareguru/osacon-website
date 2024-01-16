@@ -9,6 +9,7 @@ track: Orchestration
 images:
  - /images/sessions/2023/PedramNavid.jpg
 slides: 2023/OSSDataStack.pdf
+video: https://youtu.be/7D50THUYkTs
 ---
 
 There are many misconceptions of the Modern Data Stack, and it's easy to forget the real pain it solved and the value it unlocked. 

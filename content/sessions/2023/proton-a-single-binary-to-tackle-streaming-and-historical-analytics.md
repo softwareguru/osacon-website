@@ -6,6 +6,7 @@ speakers:
 time_start: 2023-12-14T11:00:00-04:00
 time_end: 2023-12-14T11:10:00-04:00
 track: Databases
+video: https://youtu.be/Duh6MJz_CjU
 ---
 
 Proton is a unified streaming and historical analytic engine which is built on top of ClickHouse code base and is in one single binary. It is the core engine which empowers Timeplus core product and open sourced under apache v2 https://github.com/timeplus-io/proton.
