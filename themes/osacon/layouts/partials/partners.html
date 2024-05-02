@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="principles-header text-center">Our Sponsors</h2>
 
-    <div id="platinum">
+    <div id="platinum" class="mb-4">
       {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "platinum" }} 
         {{ if eq $index 0 }}
           <h3 class="my-3 text-center">Platinum</h3>
@@ -17,7 +17,7 @@
           </div>
     </div>
 
-    <div id="gold">
+    <div id="gold" class="mb-4">
       {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "gold" }} 
         {{ if eq $index 0 }}
           <h3 class="my-3 text-center">Gold</h3>
@@ -32,7 +32,7 @@
           </div>
     </div>
 
-    <div id="partner">
+    <div id="partner" class="mb-4">
       {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "partner" }} 
         {{ if eq $index 0 }}
           <h3 class="my-3 text-center">Community Partners</h3>
@@ -47,7 +47,7 @@
           </div>
     </div>
 
-    <div id="partner">
+    <div id="partner" class="mb-4">
       {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "collaborators" }} 
         {{ if eq $index 0 }}
           <h3 class="my-3 text-center">Community Collaborators</h3>
