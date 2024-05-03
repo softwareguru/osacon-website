@@ -2,69 +2,92 @@
   <div class="container">
     <h2 class="principles-header text-center">Our Sponsors</h2>
 
-    <div id="platinum" class="mb-4">
-      {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "platinum" }} 
-        {{ if eq $index 0 }}
-          <h3 class="my-3 text-center">Platinum</h3>
-          <div class="sponsor-strip platinum">
-        {{ end }}
-            <div class="sponsor-item">
-              <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
-              </a>
-            </div>
+    {{ $category_exists := 0 }}
+    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "platinum" }} 
+      {{ if eq $index 0 }}
+      {{ $category_exists = 1 }}
+      <div id="platinum" class="mb-4">
+        <h3 class="mt-4 mb-2 text-center">Platinum</h3>
+        <div class="sponsor-strip platinum">
       {{ end }}
+          <div class="sponsor-item">
+            <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
+            </a>
           </div>
-    </div>
+    {{ end }}
 
-    <div id="gold" class="mb-4">
-      {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "gold" }} 
-        {{ if eq $index 0 }}
-          <h3 class="my-3 text-center">Gold</h3>
-          <div class="sponsor-strip gold">
-        {{ end }}
-            <div class="sponsor-item">
-              <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
-              </a>
-            </div>
+    {{ if eq $category_exists 1 }}
+        </div>
+      </div>
+    {{ end }}
+
+    {{ $category_exists = 0 }}
+    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "gold" }} 
+      {{ if eq $index 0 }}
+      {{ $category_exists = 1 }}
+      <div id="gold" class="mb-4">
+        <h3 class="mt-4 mb-3 text-center">Gold</h3>
+        <div class="sponsor-strip gold">
       {{ end }}
+          <div class="sponsor-item">
+            <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
+            </a>
           </div>
-    </div>
+    {{ end }}
 
-    <div id="partner" class="mb-4">
-      {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "partner" }} 
-        {{ if eq $index 0 }}
-          <h3 class="my-3 text-center">Community Partners</h3>
-          <div class="sponsor-strip community">
-        {{ end }}
-            <div class="sponsor-item">
-              <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
-              </a>
-            </div>
+    {{ if eq $category_exists 1 }}
+        </div>
+      </div>
+    {{ end }}
+
+    {{ $category_exists = 0 }}
+    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "partner" }} 
+      {{ if eq $index 0 }}
+      {{ $category_exists = 1 }}
+      <div id="partner" class="mb-4">
+        <h3 class="mt-4 mb-3 text-center">Community Partners</h3>
+        <div class="sponsor-strip community">
       {{ end }}
+          <div class="sponsor-item">
+            <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
+            </a>
           </div>
-    </div>
+    {{ end }}
+    {{ if eq $category_exists 1 }}
+        </div>
+      </div>
+    {{ end }}
 
-    <div id="partner" class="mb-4">
-      {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "collaborators" }} 
-        {{ if eq $index 0 }}
-          <h3 class="my-3 text-center">Community Collaborators</h3>
-          <div class="sponsor-strip community">
-        {{ end }}
-            <div class="sponsor-item">
-              <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
-              </a>
-            </div>
+    {{ $category_exists = 0 }}
+    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "collaborators" }} 
+      {{ if eq $index 0 }}
+      {{ $category_exists = 1 }}
+      <div id="collaborators" class="mb-4">
+        <h3 class="mb-3 mt-4 text-center">Community Collaborators</h3>
+        <div class="sponsor-strip community">
       {{ end }}
+          <div class="sponsor-item">
+            <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }}" />
+            </a>
           </div>
-    </div>
+    {{ end }}
+    {{ if eq $category_exists 1 }}
+        </div>
+      </div>
+    {{ end }}
 
-    <h4 class="text-center mt-4">Help us build the event of the year for open source analytics. Become a sponsor today! Check out our <a href="/files/OSACON2023-Prospectus_v1_2.pdf" target="_blank">Prospectus</a></h4> 
 
-    <hr class="section-divider">
+    <h4 class="text-center mt-4">
+      Help us build the event of the year for open source analytics. Become a
+      sponsor today! Check out our
+      <a href="/files/OSACON2023-Prospectus_v1_2.pdf" target="_blank"
+        >Prospectus</a>.
+    </h4>
 
+    <hr class="section-divider" />
   </div>
 </section>
