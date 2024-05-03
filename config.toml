@@ -48,22 +48,22 @@ speaker = "speakers"
 
 [params]
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
-logo = "/images/logo-h2.svg"
+logo = "/images/osacon2024-logo-h.svg"
 home = "Home"
 privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["/images/osacon2023-card3.jpg"]
+images = ["/images/osacon2024-card.jpg"]
 start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "December 12-14, 2023. Online event."
+text = "November 19-21, 2024. Online event."
 
 [params.hero.cta1]
 text = "Become a speaker"
-link = "http://sessionize.com/osa-con-2023"
+link = "http://sessionize.com/osa-con-2024"
 
 # Navigation button
 [params.navigation_button]
