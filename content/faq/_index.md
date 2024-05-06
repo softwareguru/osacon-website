@@ -17,7 +17,7 @@ Yes, participation in OSA CON 2023 is free.
 Registration is now open. [Sign up for the event here](/register).
 
 ### How can I be a speaker?
-We are accepting proposals for presentations. Please review our guidelines, and [submit your proposal here](https://sessionize.com/osa-con-2023).
+We are accepting proposals for presentations. Please review our guidelines, and call for proposals will open soon.
 
 ### Is there a code of conduct?
 Yes. Please review our [Code of Conduct](/coc).
