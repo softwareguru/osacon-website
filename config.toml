@@ -67,9 +67,9 @@ link = "http://sessionize.com/osa-con-2024"
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Register"
-link = "/register"
+enable = true
+label = "Call for presentations"
+link = "https://sessionize.com/osa-con-2024/"
 
 
 [params.links]
@@ -81,13 +81,18 @@ link = "/register"
 [[params.links.footer_resources]]
     name = "Code of Conduct"
     url = "/coc"
+
 # [[params.links.footer_resources]]
 #    name = "Prospectus"
 #    url = "/files/OSACON2023-Prospectus_v1_2.pdf"
+
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
 
+[[params.links.footer_previous]]
+    name = "OSA CON 2023"
+    url = "/sessions/2023"
 [[params.links.footer_previous]]
     name = "OSA CON 2022"
     url = "https://altinity.com/osa-con2022/"
