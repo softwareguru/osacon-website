@@ -82,9 +82,9 @@ link = "https://sessionize.com/osa-con-2024/"
     name = "Code of Conduct"
     url = "/coc"
 
-# [[params.links.footer_resources]]
-#    name = "Prospectus"
-#    url = "/files/OSACON2023-Prospectus_v1_2.pdf"
+ [[params.links.footer_resources]]
+    name = "Prospectus"
+    url = "/files/OSACON2024-Prospectus_v1.pdf"
 
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
