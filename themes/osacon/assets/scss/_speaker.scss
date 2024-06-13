@@ -12,10 +12,9 @@
 
 .speaker-strip {
 	display: grid;
-
 	grid-template-columns: repeat(auto-fill, 280px);
     grid-column-gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 	 
 }
 
@@ -38,6 +37,12 @@
 	width: 100%;
 	margin-bottom: 1em;
 	border: 3px solid $primary-color;
+}
+
+.speaker-detail .image-column img, .headshot-box-featured img {
+	width: 100%;
+	margin-bottom: 1em;
+	border: 3px solid white;
 }
 .speaker-detail .image-column ul {
     padding: 0;
@@ -113,15 +118,41 @@
 }
 
 .social-icon-two li a .fab{
-	width: 48px;
+	width: 38px;
 	text-align: center;
 	font-size:24px;
-	background-color: #ffffff;
 	color: $primary-color;
+	
 }
+
+
 
 .social-icon-two li a:hover .fab{
 	color: $secondary-color;
+}
+
+
+.social-icon-two-featured{
+	position: relative;
+	display: block;
+	padding: 0 1rem 1rem;
+}
+
+.social-icon-two-featured li{
+	position:relative;
+	display:inline-block;
+}
+
+.social-icon-two-featured li a .fab{
+	width: 38px;
+	text-align: center;
+	font-size:24px;
+	color: rgb(218, 218, 218);
+}
+
+
+.social-icon-two-featured li a:hover .fab{
+	color: white;
 }
 
 p.designation {
