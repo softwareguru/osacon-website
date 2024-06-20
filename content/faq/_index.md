@@ -13,10 +13,8 @@ OSA CON 2024 is an online event on December 12-14.
 ### Is the event free?
 Yes, participation in OSA CON 2024 is free.
 
-<!--
 ### How can I register for the event?
-Registration is now open. [Sign up for the event here](/register).
--->
+Registration will be open soon. [Sign up for news](https://softwareguru.typeform.com/to/Z1lyI2x2).
 
 ### How can I be a speaker?
 We are accepting proposals for presentations. Please review our guidelines, and register your talk [here](https://sessionize.com/osa-con-2024).
