@@ -4,4 +4,4 @@ title: Speakers
 ---
 
 
-### Meet our speakers 2024.
+### Meet some of our speakers for 2024.

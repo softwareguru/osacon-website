@@ -8,13 +8,13 @@ linkTitle: "FAQ"
 Anybody involved in data analytics: data scientists, data engineers, analysts, information designers, infrastructure gurus and product managers.  along with open source communities and leaders.
 
 ### Will the event be in-person or online?
-OSA CON 2024 is an online event on December 12-14.
+OSA CON 2024 is an online event on November 19-21.
 
 ### Is the event free?
 Yes, participation in OSA CON 2024 is free.
 
 ### How can I register for the event?
-Registration will be open soon. [Sign up for news](https://softwareguru.typeform.com/to/Z1lyI2x2).
+Registration is now open. Sign up for the event [here](/register).
 
 ### How can I be a speaker?
 We are accepting proposals for presentations. Please review our guidelines, and register your talk [here](https://sessionize.com/osa-con-2024).
