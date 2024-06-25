@@ -7,7 +7,7 @@ summary: "Join us for an in-person meeting on Tuesday 12 December at MUX in San 
 images: ["images/blog/mux.jpg"]
 # author
 author: "OSA CON Team"
-
+draft: true
 ---
 
 Hello OSA Con attendees! What could be better than hearing the best talks of the year on open source analytics online? Meeting in person! We're adding an in-real-life meeting on Tuesday 12 December at MUX in San Francisco to continue the discussions about open source, analytics, and AI.

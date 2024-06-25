@@ -8,4 +8,5 @@ images: ["images/blog/register.png"]
 # author
 author: "OSA CON Team"
 redirection: register/
+draft: true
 ---
