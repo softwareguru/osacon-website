@@ -3,8 +3,8 @@ event_info:
   enable : true
   title : "What is OSA CON?"
   description : "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics. Learn, share, connect, and explore the latest in data ingestion, orchestration, databases, infrastructure, governance, visualization, and AI. Join the doers of the modern data stack."
-  cta_text: "Save your spot!"
-  cta_link: "https://softwareguru.typeform.com/to/Z1lyI2x2"
+  cta_text: "Register now!"
+  cta_link: "/register"
   features: 
     - number : "3"
       label : "Days"
