@@ -78,6 +78,16 @@ link = "https://sessionize.com/osa-con-2024/"
     url = "mailto:hello@osacon.io"
     icon = "fa fa-envelope"
 
+[[params.links.social]]
+    name = "Join us!"
+    url = "https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A"
+    icon = "fab fa-slack"
+
+[[params.links.social]]
+    name = "Whatch us!"
+    url = "https://www.youtube.com/@OpenSourceAnalyticsConference"
+    icon = "fab fa-youtube"
+
 [[params.links.footer_resources]]
     name = "Code of Conduct"
     url = "/coc"
