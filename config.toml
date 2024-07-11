@@ -96,7 +96,7 @@ link = "https://sessionize.com/osa-con-2024/"
 
  [[params.links.footer_resources]]
     name = "Prospectus"
-    url = "/files/OSACon2024_Prospectus_v1_2.pdf"
+    url = "/files/OSACon2024_Prospectus_v1_3.pdf"
 
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
