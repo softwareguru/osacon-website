@@ -59,7 +59,7 @@ start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "November 19-21, 2024. Online event."
+text = "November 19-21, 2024. Free, online."
 
 [params.hero.cta1]
 text = "Become a speaker"
