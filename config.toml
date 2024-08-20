@@ -72,8 +72,6 @@ label = "Call for presentations"
 link = "https://sessionize.com/osa-con-2024/"
 
 
-
-
 [params.links]
 [[params.links.social]]
     name = "Email us"
