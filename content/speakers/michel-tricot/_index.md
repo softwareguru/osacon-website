@@ -2,7 +2,7 @@
 title: "Michel Tricot"
 designation: "CEO @ Airbyte"
 images:
- - images/speakers/michel-tricot.jpg
+ - images/speakers/michel_tricot.png
 twitter: https://twitter.com/micheltricot
 linkedin: https://www.linkedin.com/in/micheltricot/
 events:

@@ -2,10 +2,11 @@
 title: "Dunith Dhanushka"
 designation: "Senior Developer Advocate at Redpanda"
 images:
- - images/speakers/dunith-dhanushka.jpg
+ - /images/speakers/dunith_dhanushka.jpg
 linkedin: https://www.linkedin.com/in/dunithd/
 events:
  - 2023
+ - 2024
 ---
 
 Dunith avidly enjoys designing, building, and operating large-scale real-time, event-driven architectures. He's got 10+ years of doing so and loves to share his learnings through blogging, videos, and public speaking.
