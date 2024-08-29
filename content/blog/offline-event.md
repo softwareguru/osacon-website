@@ -1,13 +1,12 @@
 ---
-title: "Join us for an offline event in SFO"
-date: 2023-11-22T10:00:00
-description: "Join us for an in-person meeting on Tuesday 12 December at MUX in San Francisco to continue the discussions about open source, analytics, and AI."
-summary: "Join us for an in-person meeting on Tuesday 12 December at MUX in San Francisco to continue the discussions about open source, analytics, and AI."
+title: "Don’t miss out on Maxime Beauchemin, Founder & CEO at Present "
+date: 2024-08-28T10:00:00
+redirection: /sessions/2024/ai-reality-checkpoint-the-good-the-bad-and-the-overhyped/
 # post thumb
-images: ["images/blog/mux.jpg"]
+images: ["images/blog/maxime-session.png"]
 # author
 author: "OSA CON Team"
-draft: true
+draft: false
 ---
 
 Hello OSA Con attendees! What could be better than hearing the best talks of the year on open source analytics online? Meeting in person! We're adding an in-real-life meeting on Tuesday 12 December at MUX in San Francisco to continue the discussions about open source, analytics, and AI.

@@ -1,10 +1,9 @@
 ---
-title: "CFP extended, submit your proposal now!"
+title: "Sessions are published"
 date: 2024-05-24T10:00:00
-description: ""
-summary: ""
+redirection: /sessions/2024
 # post thumb
-images: ["images/blog/2024-cfp.jpg"]
+images: ["images/blog/sessions-published.png"]
 # author
 author: "OSA CON Team"
 ---
