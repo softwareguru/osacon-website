@@ -28,20 +28,30 @@ speaker = "speakers"
   url = "/about"
   weight = 1
 
-[[menu.main]]
-  name = "Sessions"
-  url = "/sessions/2024"
-  weight = 2
-
-[[menu.main]]
-  name = "Speakers"
-  url = "/speakers"
-  weight = 3
 
 [[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 7
+
+  [[menu.main]]
+    identifier = "program"
+    name = "Program"
+    url = "/program"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "schedule"
+    name = "Sesions"
+    url = "/sessions/2024"
+    parent = "program"
+    weight = 1
+
+  [[menu.main]]
+    name = "Speakers"
+    url = "speakers"
+    weight = 2
+    parent = "program"
 
 
 # Everything below this are Site Params
