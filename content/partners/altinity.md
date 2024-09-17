@@ -5,7 +5,7 @@ images:
  - /images/partners/altinity-logo.svg
 webUrl: "https://www.altinity.com"
 weight: 1
-draft: false
+
 ---
 
 [Altinity®](https://altinity.com/) is the leading service and software provider for ClickHouse®  – an open-source column-store analytic DBMS – the cutting-edge technology for managing and analyzing extremely large volumes of data. 
