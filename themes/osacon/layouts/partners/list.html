@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<section class="section-sponsors section">
+    <div class="container">
+        <div>
+            {{ .Content }}
+        </div>
+
+        <h2>Platinum sponsors</h2>
+
+        {{ range where .Data.Pages ".Params.level" "platinum"}}
+          <div class="row">
+            <div class="col-md-4 px-4"><img class="platinum-logo" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
+            </div>
+            <div class="col-md-8">{{.Content}}</div>
+          </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
