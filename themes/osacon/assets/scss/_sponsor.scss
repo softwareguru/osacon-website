@@ -76,7 +76,40 @@ section.sponsors {
 
 .platinum-logo {
 	width: 250px;
+	margin-bottom: 77px;
+
+	@media (max-width:991px) {
+		width: 180px;
+		margin-bottom: 77px;
+	  }
+  
+	@media (max-width:767px) {
+		width: 250px;
+		margin-bottom: 0px;
+	}
 }
+
+.collaborators-logo {
+	width: 250px;
+
+	
+	@media (max-width:991px) {
+		width: 180px;
+
+	  }
+
+	  @media (max-width:767px) {
+		width: 250px;
+	
+	}
+
+}
+
+.collaborators-text{
+	display: flex;
+	align-items: center;
+}
+
 
 .sponsor-strip.gold {
 	display: flex;

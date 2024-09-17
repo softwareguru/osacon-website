@@ -6,15 +6,31 @@
             {{ .Content }}
         </div>
 
-        <h2>Platinum sponsors</h2>
+        <h2>Platinum sponsors</h2> <hr>
 
         {{ range where .Data.Pages ".Params.level" "platinum"}}
-          <div class="row">
-            <div class="col-md-4 px-4"><img class="platinum-logo" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
+          <div class="row ">
+            <div class="col-md-3 px-0 p-4"><img class="platinum-logo" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
             </div>
-            <div class="col-md-8">{{.Content}}</div>
+            <div class="col-md-9">{{.Content}}</div>
           </div>
         {{ end }}
+
+        <br><br><br>
+
+        <h2>Community Collaborators</h2> <hr>
+
+        {{ range where .Data.Pages ".Params.level" "collaborators"}}
+          <div class="row">
+            <div class="col-md-3 px-0 p-4"><img class="collaborators-logo" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
+            </div>
+            <div class="col-md-9 collaborators-text">{{.Content}}</div>
+          </div>
+        {{ end }}
+    </div>
+
+    <br><br>
+    <h3 class="text-center">Interested in sponsoring? Become a sponsor today! <a href="mailto:hello@osacon.io">Contact us.</a></h3>
     </div>
 </section>
 {{ end }}

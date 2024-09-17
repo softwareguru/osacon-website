@@ -28,12 +28,6 @@ speaker = "speakers"
   url = "/about"
   weight = 1
 
-
-[[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 7
-
   [[menu.main]]
     identifier = "program"
     name = "Program"
@@ -58,6 +52,31 @@ speaker = "speakers"
     url = "speakers"
     weight = 3
     parent = "program"
+  
+  [[menu.main]]
+    identifier = "sponsor"
+    name = "Sponsors"
+    url = "sponsors"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "sponsor0"
+    name = "2024 Sponsors"
+    url = "/sponsors"
+    parent = "sponsor"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "sponsor1"
+    name = "Prospectus"
+    url = "/files/OSACon2024_Prospectus_v1_4.pdf"
+    weight = 2
+    parent = "sponsor"
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 7
 
 
 # Everything below this are Site Params
