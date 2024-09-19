@@ -74,6 +74,11 @@ speaker = "speakers"
     parent = "sponsor"
 
   [[menu.main]]
+  name = "Get Involved"
+  URL = "get-involved"
+  weight = 6
+
+  [[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 7
