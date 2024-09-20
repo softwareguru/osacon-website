@@ -2,7 +2,7 @@
 title: "Metal Bear"
 level: "collaborators"
 images:
- - "/images/partners/metal-bear.jpg"
+ - "/images/partners/metalbear-logo.svg"
 webUrl: "https://metalbear.co"
 weight: 2
 ---
