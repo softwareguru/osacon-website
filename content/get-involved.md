@@ -14,4 +14,4 @@ OSA CON needs you! We're looking for volunteers to make this the most successful
  * Help us make OSA CON a year-round community for open source analytics software.
 
 
-[Join Slack](https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A) today or send email to help@osacon.io. We'll help you get connected with jobs. We're eager to meet you
+[Join Slack](https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A) today or send email to hello@osacon.io. We'll help you get connected with jobs. We're eager to meet you
