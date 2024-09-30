@@ -43,7 +43,7 @@ Methods of processing
 
 The data controller takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.
 
-Your data is used exclusively to provide you the service of attending this event and is not shared with any other third parties or sponsors.
+Your data is used to provide you the service of attending this event and we will request your explicit permission in order to share it with any other third parties or sponsors.
 
 Place
 
