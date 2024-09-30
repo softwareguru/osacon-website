@@ -1,7 +1,7 @@
 ---
 title: "Laura Gutierrez Funderburk"
 date: 2024-08-29T10:16:10-06:00
-designation: "Senior Developer Advocate"
+designation: "Sr Developer Advocate at Bytewax"
 images:
  - images/speakers/laura-gutierrez-funderburk.jpg
 linkedin: https://www.linkedin.com/in/laurafunderburk/

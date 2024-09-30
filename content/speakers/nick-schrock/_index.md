@@ -6,7 +6,6 @@ images:
 twitter: https://x.com/schrockn
 linkedin: https://www.linkedin.com/in/schrockn/
 events:
- - 2023
  - 2024
 featured: true
 ---
