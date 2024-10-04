@@ -10,8 +10,8 @@ topics:
 day: 20241
 room: B
 timeslot: 18
-time_start: 2024-11-19T22:00:00.000Z
-time_end:   2024-11-19T22:30:00.000Z
+time_start: 2024-11-19T20:00:00.000Z
+time_end:   2024-11-19T20:30:00.000Z
 gridarea: 13/3/14/4
 ---
 
