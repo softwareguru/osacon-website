@@ -92,6 +92,7 @@ logo = "/images/osacon2024-logo-h.png"
 home = "Home"
 privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
+live_link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 
 # First one is picked as the Twitter card image if not set on page.
 images = ["/images/osacon2024-card.jpg"]

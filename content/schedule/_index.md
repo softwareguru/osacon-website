@@ -1,183 +1,128 @@
 ---
 title: "Program"
-date: 2023-04-21T15:49:31-05:00
-url: program
-draft: true
+date: 2024-04-21T15:49:31-05:00
+url: /schedule
 aliases:
- - /schedule
-description: 
+ - /program
 
 tracks:
  - One
  - Two
  
-days: 
-  - id: 1
+days:  
+  - id: 20241
+    enabled: true
     title_short: Tuesday
-    title_full: Tuesday, September 19, 2023
-    rooms: ["Ballroom A-B", "Ballroom C-D", "Ballroom crush", "York"]
-    timeslots: 
-      - id: 1
-        time_start: 2023-09-19T09:00:00-04:00
-        type: keynote
-      - id: 2
-        time_start: 2023-09-19T09:30:00-04:00
-        type: keynote
-      - id: 3
-        time_start: 2023-09-19T10:00:00-04:00
-        type: keynote
-      - id: 4
-        time_start: 2023-09-19T11:00:00-04:00
-        time_end: 2023-09-19T11:30:00-04:00
-        type: break
-        name: Morning break
-      - id: 4a
-        time_start: 2023-09-19T11:00:00-04:00
-        type: room-labels
-      - id: 5
-        time_start: 2023-09-19T11:30:00-04:00
-        type: concurrent
-      - id: 6
-        time_start: 2023-09-19T12:00:00-04:00
-        type: concurrent
-      - id: 7
-        time_start: 2023-09-19T12:30:00-04:00
-        type: concurrent
-      - id: 8
-        time_start: 2023-09-19T13:00:00-04:00
-        time_end: 2023-09-19T14:00:00-04:00
-        type: break
-        name: Lunch
-      - id: 8a
-        time_start: 2023-09-19T11:00:00-04:00
-        type: room-labels
-      - id: 9
-        time_start: 2023-09-19T14:00:00-04:00
-        type: concurrent
-      - id: 10
-        time_start: 2023-09-19T14:30:00-04:00
-        type: concurrent
-      - id: 11
-        time_start: 2023-09-19T15:00:00-04:00
-        type: concurrent
-      - id: 12
-        time_start: 2023-09-19T15:30:00-04:00
-        type: concurrent
-      - id: 13
-        time_start: 2023-09-19T16:00:00-04:00
-        time_end: 2023-09-19T16:15:00-04:00
-        type: break
-        name: Afternoon break
-      - id: 13a
-        time_start: 2023-09-19T16:15:00-04:00
-        type: room-labels
-      - id: 14
-        time_start: 2023-09-19T16:15:00-04:00
-        type: concurrent
-      - id: 15
-        time_start: 2023-09-19T16:45:00-04:00
-        type: concurrent
-      - id: 16
-        time_start: 2023-09-19T17:15:00-04:00
-        type: concurrent
-      - id: 17
-        time_start: 2023-09-19T17:45:00-04:00
-        type: concurrent
+    title_full: Tuesday, November 19, 2024
+    schedule_items: 
+      - type: timelabel
+        label: "2024-11-19T16:00:00.000Z"
+        gridarea: "1/1/2/2"
+      - type: activity
+        label: "Welcome"
+        gridarea: "1/2/2/4"
+        time_start: "2024-11-19T16:00:00.000Z"
+        time_end: "2024-11-19T16:10:00.000Z"
+        gridaream: "1/1/2/2"
+      - type: timelabel
+        label: "2024-11-19T16:10:00.000Z"
+        gridarea: "2/1/3/2"
+      - type: timelabel
+        label: "2024-11-19T16:40:00.000Z"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "2024-11-19T17:10:00.000Z"
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "2024-11-19T17:20:00.000Z"
+        gridarea: "5/1/6/2"
+      - type: timelabel
+        label: "2024-11-19T17:50:00.000Z"
+        gridarea: "6/1/7/2"
+      - type: timelabel
+        label: "2024-11-19T18:00:00.000Z"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "2024-11-19T18:40:00.000Z"
+        gridarea: "9/1/10/2"
+      - type: timelabel
+        label: "2024-11-19T19:20:00.000Z"
+        gridarea: "11/1/12/2"
+      - type: timelabel
+        label: "2024-11-19T20:00:00.000Z"
+        gridarea: "13/1/14/2"
 
-
-  - id: 2
+  - id: 20242
+    enabled: true
     title_short: Wednesday
-    title_full: Wednesday, September 20, 2023
-    rooms: ["Ballroom A-B", "Ballroom C-D", "Ballroom crush", "York"]
-    timeslots: 
-      - id: 1
-        time_start: 2023-09-20T09:00:00-04:00
-        type: keynote
-      - id: 2
-        time_start: 2023-09-20T09:30:00-04:00
-        type: keynote
-      - id: 3
-        time_start: 2023-09-20T10:00:00-04:00
-        type: keynote
-      - id: 4
-        time_start: 2023-09-20T11:00:00-04:00
-        time_end: 2023-09-20T11:30:00-04:00
-        type: break
-        name: Morning break
-      - id: 4a
-        time_start: 2023-09-19T11:00:00-04:00
-        type: room-labels
-      - id: 5
-        time_start: 2023-09-20T11:30:00-04:00
-        type: concurrent
-      - id: 6
-        time_start: 2023-09-20T12:00:00-04:00
-        type: concurrent
-      - id: 7
-        time_start: 2023-09-20T12:30:00-04:00
-        type: concurrent
-      - id: 8
-        time_start: 2023-09-20T13:00:00-04:00
-        time_end: 2023-09-20T14:00:00-04:00
-        type: break
-        name: Lunch
-      - id: 8a
-        time_start: 2023-09-19T11:00:00-04:00
-        type: room-labels
-      - id: 9
-        time_start: 2023-09-20T14:00:00-04:00
-        type: concurrent
-      - id: 10
-        time_start: 2023-09-20T14:30:00-04:00
-        type: concurrent
-      - id: 11
-        time_start: 2023-09-20T15:00:00-04:00
-        type: concurrent
-      - id: 12
-        time_start: 2023-09-20T15:30:00-04:00
-        type: concurrent
-      - id: 13
-        time_start: 2023-09-20T16:00:00-04:00
-        time_end: 2023-09-20T16:15:00-04:00
-        type: break
-        name: Afternoon break
-      - id: 13a
-        time_start: 2023-09-19T11:00:00-04:00
-        type: room-labels
-      - id: 14
-        time_start: 2023-09-20T16:15:00-04:00
-        type: concurrent
-      - id: 15
-        time_start: 2023-09-20T16:45:00-04:00
-        type: concurrent
-      - id: 16
-        time_start: 2023-09-20T17:15:00-04:00
-        type: concurrent
-      - id: 17
-        time_start: 2023-09-20T17:45:00-04:00
-        type: concurrent
+    title_full: Wednesday, November 20, 2024
+    schedule_items: 
+      - type: timelabel
+        label: "2024-11-20T16:00:00.000Z"
+        gridarea: "1/1/2/2"
+      - type: timelabel
+        label: "2024-11-20T16:30:00.000Z"
+        gridarea: "2/1/3/2"
+      - type: timelabel
+        label: "2024-11-20T17:00:00.000Z"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "2024-11-20T17:10:00.000Z"
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "2024-11-20T17:50:00.000Z"
+        gridarea: "6/1/7/2"
+      - type: timelabel
+        label: "2024-11-20T18:30:00.000Z"
+        gridarea: "8/1/9/2"
+      - type: timelabel
+        label: "2024-11-20T19:10:00.000Z"
+        gridarea: "10/1/11/2"
+      - type: timelabel
+        label: "2024-11-20T19:50:00.000Z"
+        gridarea: "12/1/13/2"
 
-
-  - id: 3
+  - id: 20243
+    enabled: true
     title_short: Thursday
-    title_full: Thursday, September 21, 2023
-    rooms: ["Trinity 1", "Trinity 2", "Trinity 3", "Trinity 4", "Trinity 5"]
-    timeslots: 
-      - id: 1
-        time_start: 2023-09-21T09:00:00-04:00
-        type: workshops
-      - id: 2
-        time_start: 2023-09-21T11:30:00-04:00
-        time_end: 2023-09-21T12:00:00-04:00
-        type: break
-        name: Lunch
-      - id: 3
-        time_start: 2023-09-21T12:00:00-04:00
-        type: workshops
+    title_full: Thursday, November 21, 2024
+    schedule_items: 
+      - type: timelabel
+        label: "2024-11-20T16:00:00.000Z"
+        gridarea: "1/1/2/2"
+      - type: timelabel
+        label: "2024-11-20T16:30:00.000Z"
+        gridarea: "2/1/3/2"
+      - type: timelabel
+        label: "2024-11-20T17:00:00.000Z"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "2024-11-20T17:10:00.000Z"
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "2024-11-20T17:40:00.000Z"
+        gridarea: "5/1/6/2"
+      - type: timelabel
+        label: "2024-11-20T17:50:00.000Z"
+        gridarea: "6/1/7/2"
+      - type: timelabel
+        label: "2024-11-20T18:30:00.000Z"
+        gridarea: "8/1/9/2"
+      - type: timelabel
+        label: "2024-11-20T19:10:00.000Z"
+        gridarea: "10/1/11/2"
+      - type: timelabel
+        label: "2024-11-20T19:50:00.000Z"
+        gridarea: "12/1/13/2"
 
 
 summary: "Welcome to the session program for OSA CON."
 description: "Welcome to the session program for OSA CON."
 ---
 
-<h4 class="mb-4">Welcome to the session program for OSA CON 2023. </h4>
+<h4 class="mb-4">Welcome to the session program for OSA CON 2024. </h4>
+
+* Times shown are in your local timezone.
+* If you prefer the previous layout from sessionize, you can <a href="/program-sessionize">access it here</a>.
+
+

@@ -1,3 +1,21 @@
+{{ define "headextra" }}
+  <link rel="stylesheet" href="https://cdn.addevent.com/libs/atc/themes/fff-theme-1/theme.css" type="text/css" media="all" />
+
+  <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"></script>
+  <script type="text/javascript">
+    window.addeventasync = function(){
+        addeventatc.settings({
+            appleical  : {show:true, text:"Apple Calendar"},
+            google     : {show:true, text:"Google <em>(online)</em>"},
+            office365  : {show:true, text:"Office 365 <em>(online)</em>"},
+            outlook    : {show:true, text:"Outlook"},
+            outlookcom : {show:false, text:"Outlook.com <em>(online)</em>"},
+            yahoo      : {show:false, text:"Yahoo <em>(online)</em>"}
+        });
+    };
+    </script>
+{{ end }}
+
 {{ define "main" }}
 
 <!-- Speaker Detail -->
@@ -32,13 +50,23 @@
               {{ $time_start := .Params.time_start | time }}
               {{ $time_end := .Params.time_end | time }}            
               {{ if lt now $time_start }}
-              <div class="d-none">
-              <em>{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }}{{ end }}{{with .Params.room}} in {{.}}{{ end }}</em>
-              </div>
+              <div class="d-flex align-items-center">
+                <div class="pe-4">
+                  <em>{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04 MST" }}{{end}} (<span class="localtimelabel">{{.Params.time_start}}</span>-<span class="localtimelabel">{{.Params.time_end}}</span> your timezone)</em>              
+                </div>
+                <div title="Add to Calendar" class="addeventatc" data-styling="none">
+                  Add to Calendar
+                  <span class="addeventatc_icon"></span>
+                  <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                  <span class="end">{{ with .Params.time_end | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                  <span class="timezone">UTC</span>
+                  <span class="title">OSACon: {{.Title}}</span>
+                  <span class="description">{{with .Params.speakers}}Presented by {{ delimit . ", " " & "}}.{{end}}{{.Content}}</span>
+                  <span class="location">{{.Site.Params.live_link}}</span>
+                </div>
+              </div>  
               {{ else }}
-                {{ if ne $time_start.Year 2023 }}
-              <em>Presented at {{ $time_start.Format "2006" }}</em>
-              {{ end }}
+                <em>Presented at OSACon {{ $time_start.Format "2006" }}</em>
               {{ end }}
             </div>
             <div class="d-lg-none d-xl-none">
@@ -83,6 +111,5 @@
     adjTime("{{ $time_start.Format "02 Jan 2006 15: 04: 05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15: 04: 05 MST" }}");
   {{ end }}  
 </script>
-
 
 {{ end }}

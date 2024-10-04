@@ -5,9 +5,12 @@ speakers:
  - Alex Merced
 topics:
  - Open Source
-room: 
-time_start: 2024-11-19T09:00:00-04:00
-time_end: 2024-11-19T09:25:00-04:00
+day: 20243
+room: A
+timeslot: 7
+time_start: 2024-11-21T17:50:00.000Z
+time_end:   2024-11-21T18:20:00.000Z
+gridarea: 6/2/7/3
 ---
 
 The open data lakehouse offers those frustrated with the costs and complex pipelines of using traditional warehouses an alternative that offers performance with affordability and simpler pipelines. In this talk, we'll be talking about technologies that are making the open data lakehouse possible.

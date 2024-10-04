@@ -5,9 +5,12 @@ speakers:
  - Arjun Sharda
 topics:
  - Open Source
-room: 
-time_start: 2024-11-19T09:00:00-04:00
-time_end: 2024-11-19T09:25:00-04:00
+day: 20243
+room: Lightning talk
+timeslot: 6
+time_start: 2024-11-21T17:40:00.000Z
+time_end:   2024-11-21T17:50:00.000Z
+gridarea: 5/2/6/4
 ---
 
 Open source is an amazing place for developers to contribute to exciting new projects and also sharpen their coding skills while at it. However, as an open source maintainer of about 30 projects myself, I've realized that open source marketing is very similar to business marketing. Both open source projects and companies aim to receive users. Just as 90% of businesses fail or become abandoned, the same can be said for open source projects. In this lightning talk, I'll be discussing the similarities between open source marketing and business marketing.

@@ -6,9 +6,12 @@ speakers:
  - Tarun Annapareddy
 topics:
  - Databases
-room: 
-time_start: 2024-11-19T09:00:00-04:00
-time_end: 2024-11-19T09:25:00-04:00
+day: 20241
+room: A
+timeslot: 5
+time_start: 2024-11-19T17:20:00.000Z
+time_end:   2024-11-19T17:50:00.000Z
+gridarea: 5/2/6/3
 ---
 
 Given the AI hype, organisations want to capture every data point which very quickly results into capturing extensive data from analytics, user interactions, transactions, metrics, logs, and time series. Given different shapes, volumes, scale, consistency and availability requirements, this evolves to many data stores to explore, manage and nurture. However, relying on multiple specialized databases increases operational costs, makes developers loaded with cognitive overload, necessitates various dashboards, and eventually demands significant expertise spread across teams.

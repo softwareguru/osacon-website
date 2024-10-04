@@ -3,11 +3,14 @@ title: "Apache Doris: an alternative lakehouse solution for real-time analytics"
 slug: apache-doris-an-alternative-lakehouse-solution-for-real-time-analytics
 speakers:
  - Mingyu Chen
-topics:
+topics: 
  - Databases
-room: 
-time_start: 2024-11-19T09:00:00-04:00
-time_end: 2024-11-19T09:25:00-04:00
+day: 20241
+room: A
+timeslot: 8
+time_start: 2024-11-19T18:00:00.000Z
+time_end:   2024-11-19T18:30:00.000Z
+gridarea: 7/2/8/3
 ---
 
 Lakehouse is a big data solution that combines the advantages of data warehouse and data lake, helping users to perform fast data analysis and efficient data management on the data lake.

@@ -4,10 +4,14 @@ slug: open-source-success-learnings-from-1-billion-downloads
 speakers:
  - Avi Press
 topics:
- - 
-room: 
-time_start: 2024-11-19T09:00:00-04:00
-time_end: 2024-11-19T09:25:00-04:00
+ - Use cases
+ - Open source
+day: 20243
+room: A
+timeslot: 13
+time_start: 2024-11-21T19:10:00.000Z
+time_end:   2024-11-21T19:40:00.000Z
+gridarea: 10/2/11/3
 ---
 
 In this talk, we share the results of an in-depth analysis of data gathered from over 1 billion open source package downloads across more than 2000 diverse projects on Scarf. Our findings offer valuable insights into user behaviors and interactions with open source software, making it essential for maintainers, founders, and executives in open source companies.
