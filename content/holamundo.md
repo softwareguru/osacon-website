@@ -1,5 +1,6 @@
 ---
 title: "Hola Mundo"
+draft: true
 ---
 
 Esta es una linda página de hola mundo.
