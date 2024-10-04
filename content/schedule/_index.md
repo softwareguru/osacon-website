@@ -124,5 +124,8 @@ description: "Welcome to the session program for OSA CON."
 
 * Times shown are in your local timezone.
 * If you prefer the previous layout from sessionize, you can <a href="/program-sessionize">access it here</a>.
+* Sessions will be immediately available for on-demand viewing on the event platform (Airmeet). [Register to get access](/register).
+
+
 
 
