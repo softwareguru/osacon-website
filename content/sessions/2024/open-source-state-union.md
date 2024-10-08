@@ -1,9 +1,9 @@
 ---
-title: "Open Source State Union"
+title: "Open Source State of the Union"
 url: /sessions/open-source-state-union
 speakers:
  - Ali LeClerc
- - Alissa Wright
+ - Alyssa Wright
  - Josep Prat
 day: 20243
 room: B
