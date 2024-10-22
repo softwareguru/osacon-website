@@ -8,5 +8,6 @@ linkedin: https://www.linkedin.com/in/drewbanin/
 events:
  - 2024
 featured: true
+draft: true
 ---
 

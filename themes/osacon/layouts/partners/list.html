@@ -18,6 +18,18 @@
 
         <br><br><br>
 
+        <h2>Partner</h2> <hr>
+
+        {{ range where .Data.Pages ".Params.level" "partner"}}
+          <div class="row ">
+            <div class="col-md-3 px-0 p-4"><img class="platinum-logo" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
+            </div>
+            <div class="col-md-9">{{.Content}}</div>
+          </div>
+        {{ end }}
+
+        <br><br><br>
+
         <h2>Community Collaborators</h2> <hr>
 
         {{ range where .Data.Pages ".Params.level" "collaborators"}}
