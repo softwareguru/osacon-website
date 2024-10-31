@@ -1,8 +1,8 @@
 ---
 title: "Ali LeClerc"
-designation: "Presto Community Chair & Product Manager at IBM"
+designation: "Head of Open Source Strategy at IBM"
 images:
- - images/speakers/ali-leclerc.jpg
+ - images/speakers/ali-leclerc.jfif
 twitter: https://x.com/ali_leclerc
 linkedin: https://www.linkedin.com/in/alidodson/
 events:
