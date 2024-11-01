@@ -1,5 +1,5 @@
 ---
-title: "Running ClickHouse in Production – Lessons Learned"
+title: "Running ClickHouse® in Production – Lessons Learned"
 slug: running-clickhouse-in-production-lessons-learned
 speakers:
  - Noa Baron

@@ -1,5 +1,5 @@
 ---
-title: "Unified Data Management with ClickHouse and Postgres"
+title: "Unified Data Management with ClickHouse® and Postgres"
 slug: unified-data-management-with-clickhouse-and-postgres
 speakers:
  - Shivji Kumar Jha
@@ -12,6 +12,7 @@ timeslot: 5
 time_start: 2024-11-19T17:20:00.000Z
 time_end:   2024-11-19T17:50:00.000Z
 gridarea: 5/2/6/3
+
 ---
 
 Given the AI hype, organisations want to capture every data point which very quickly results into capturing extensive data from analytics, user interactions, transactions, metrics, logs, and time series. Given different shapes, volumes, scale, consistency and availability requirements, this evolves to many data stores to explore, manage and nurture. However, relying on multiple specialized databases increases operational costs, makes developers loaded with cognitive overload, necessitates various dashboards, and eventually demands significant expertise spread across teams.
