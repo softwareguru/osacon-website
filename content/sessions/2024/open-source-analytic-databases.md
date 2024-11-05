@@ -1,6 +1,7 @@
 ---
-title: "Open Source Analytic Databases - Past, Present, and Future"
-slug: open-source-analytic-databases
+title: "Restaurants or Food Trucks? Mobile Analytic Databases and the Real-Time Data Lake"
+slug: restaurants-or-food-trucks
+aliases: sessions/2024/open-source-analytic-databases
 speakers:
  - Robert Hodges
 topics: 
@@ -14,4 +15,4 @@ time_end:   2024-11-19T16:35:00.000Z
 gridarea: 2/2/3/4
 ---
 
-Rising floods of data and technology improvements ignited a Cambrian explosion of innovation in analytics that has lasted for decades. In this talk we'll survey the arc of analytic databases and major trends influencing system architecture for tomorrow's applications. Have we reached peak cloud data warehouse? Why is AI leading to disaggregation of analytic database systems? And what's a real-time data lake? Most important, why are analytics just so darn fun to work on?!!
+Cloud data warehouses are the dominant life form for modern analytic systems. They work like restaurants where users visit to feed on data. Larger data sets, AI, and user decisions to keep information in their own data lakes are undermining the restaurant model. What we need now is food trucks that move anywhere users need them. The food truck metaphor helps us envision a powerful new analytic system: the real-time data lake.
