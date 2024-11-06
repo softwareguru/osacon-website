@@ -116,8 +116,9 @@ days:
         gridarea: "12/1/13/2"
 
 
-summary: "Welcome to the session program for OSA CON."
-description: "Welcome to the session program for OSA CON."
+summary: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event".
+description: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event".
+
 ---
 
 <h4 class="mb-4">Welcome to the session program for OSA CON 2024. </h4>
