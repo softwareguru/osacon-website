@@ -116,8 +116,8 @@ days:
         gridarea: "12/1/13/2"
 
 
-summary: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event".
-description: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event".
+summary: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event."
+description: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event."
 
 ---
 
