@@ -3,7 +3,7 @@ title: "Unified Data Management with ClickHouse® and Postgres"
 slug: unified-data-management-with-clickhouse-and-postgres
 speakers:
  - Shivji Kumar Jha
- - Tarun Annapareddy
+ - Sachidananda Maharana
 topics:
  - Databases
 day: 20241
