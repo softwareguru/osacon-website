@@ -1,6 +1,6 @@
 ---
 title: "Replicating data between transactional databases and ClickHouse®"
-slug: designing-a-lakehouse-for-product-engineers
+slug: replicating-data-between-transactional-databases-and-clickhouse
 speakers:
  - Kanthi Subramanian
  - Arnaud Adant
