@@ -6,11 +6,11 @@ speakers:
 topics:
  - Databases
 day: 20243
-room: Keynote
+room: A
 timeslot: 2
 time_start: 2024-11-21T16:30:00.000Z
 time_end:   2024-11-21T17:00:00.000Z
-gridarea: 2/2/3/4
+gridarea: 2/2/3/3
 
 ---
 

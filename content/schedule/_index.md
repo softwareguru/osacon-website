@@ -16,12 +16,12 @@ days:
     title_full: Tuesday, November 19, 2024
     schedule_items: 
       - type: timelabel
-        label: "2024-11-19T16:00:00.000Z"
+        label: "2024-11-19T15:50:00.000Z"
         gridarea: "1/1/2/2"
       - type: activity
-        label: "Welcome"
+        label: "Opening remarks"
         gridarea: "1/2/2/4"
-        time_start: "2024-11-19T16:00:00.000Z"
+        time_start: "2024-11-19T15:50:00.000Z"
         time_end: "2024-11-19T16:10:00.000Z"
         gridaream: "1/1/2/2"
       - type: timelabel
@@ -58,11 +58,8 @@ days:
     title_full: Wednesday, November 20, 2024
     schedule_items: 
       - type: timelabel
-        label: "2024-11-20T16:00:00.000Z"
+        label: "2024-11-20T16:15:00.000Z"
         gridarea: "1/1/2/2"
-      - type: timelabel
-        label: "2024-11-20T16:30:00.000Z"
-        gridarea: "2/1/3/2"
       - type: timelabel
         label: "2024-11-20T17:00:00.000Z"
         gridarea: "3/1/4/2"

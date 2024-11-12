@@ -8,7 +8,7 @@ topics:
  - Open Source
 day: 20243
 room: A
-timeslot: 4
+timeslot: 5
 time_start: 2024-11-21T17:10:00.000Z
 time_end:   2024-11-21T17:40:00.000Z
 gridarea: 4/2/5/3

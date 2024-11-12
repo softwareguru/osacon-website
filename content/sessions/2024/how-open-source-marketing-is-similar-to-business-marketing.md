@@ -7,7 +7,7 @@ topics:
  - Open Source
 day: 20243
 room: Lightning talk
-timeslot: 6
+timeslot: 7
 time_start: 2024-11-21T17:40:00.000Z
 time_end:   2024-11-21T17:50:00.000Z
 gridarea: 5/2/6/4

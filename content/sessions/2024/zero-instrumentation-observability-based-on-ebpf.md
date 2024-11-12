@@ -7,7 +7,7 @@ topics:
  - Observability
 day: 20243
 room: B
-timeslot: 8
+timeslot: 9
 time_start: 2024-11-21T17:50:00.000Z
 time_end:   2024-11-21T18:20:00.000Z
 gridarea: 6/3/7/4

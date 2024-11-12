@@ -6,11 +6,11 @@ speakers:
 topics:
  - AI
  - Data ingestion
-day: 20242
+day: 20243
 room: A
-timeslot: 7
-time_start: 2024-11-20T17:50:00.000Z
-time_end:   2024-11-20T18:20:00.000Z
+timeslot: 8
+time_start: 2024-11-21T17:50:00.000Z
+time_end:   2024-11-21T18:20:00.000Z
 gridarea: 6/2/7/3
 ---
 

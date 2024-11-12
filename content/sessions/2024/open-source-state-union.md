@@ -7,7 +7,7 @@ speakers:
  - Josep Prat
 day: 20243
 room: B
-timeslot: 5
+timeslot: 6
 time_start: 2024-11-21T17:10:00.000Z
 time_end:   2024-11-21T17:40:00.000Z
 gridarea: 4/3/5/4
