@@ -6,12 +6,12 @@ speakers:
 topics:
  - Open Source
 day: 20242
-room: A
-timeslot: 7
-time_start: 2024-11-20T17:50:00.000Z
-time_end:   2024-11-20T18:20:00.000Z
-gridarea: 6/2/7/3
-
+room: B
+timeslot: 14
+time_start: 2024-11-20T19:10:00.000Z
+time_end:   2024-11-20T19:40:00.000Z
+gridarea: 10/3/11/4
+ 
 ---
 
 The open data lakehouse offers those frustrated with the costs and complex pipelines of using traditional warehouses an alternative that offers performance with affordability and simpler pipelines. In this talk, we'll be talking about technologies that are making the open data lakehouse possible.
