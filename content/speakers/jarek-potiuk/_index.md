@@ -7,6 +7,7 @@ linkedin: https://www.linkedin.com/in/jarekpotiuk/
 events:
  - 2023
  - 2024
+featured: true
 ---
 
 Independent Open-Source Contributor and Advisor, Committer and PMC member of Apache Airflow, Member of the Apache Software Foundation

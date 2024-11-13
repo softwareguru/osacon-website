@@ -2,7 +2,7 @@
 title: "pg_duckdb: Adding analytics to your application database"
 slug: pg-duckdb-adding-analytics-to-your-application-database
 speakers:
- - Jordan Tigani
+ - Yves Le Maout
 topics:
  - Databases
 day: 20241
