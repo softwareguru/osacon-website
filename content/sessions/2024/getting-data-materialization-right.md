@@ -5,12 +5,14 @@ speakers:
  - Gian Merlino
 topics: 
  - Databases
-day: 20241
-room: A
-timeslot: 17
-time_start: 2024-11-19T20:00:00.000Z
-time_end:   2024-11-19T20:30:00.000Z
-gridarea: 13/2/14/3
+
+day: 20243
+room: B
+timeslot: 14
+time_start: 2024-11-21T19:10:00.000Z
+time_end:   2024-11-21T19:40:00.000Z
+gridarea: 10/3/11/4
+
 ---
 
 Materialization moves computation from query time to ingest time by creating specialized derived tables, or materialized views, that are simpler than the source tables and are geared towards supporting specific workloads. This is one of the most powerful and common techniques for speeding up OLAP workloads. You can implement materialization in various ways, including built-in "materialized view" or "projection" features in many databases, as well as with third-party stream processors and workflow orchestrators that sit outside the database.

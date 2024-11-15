@@ -5,12 +5,14 @@ speakers:
  - Diptiman Raichaudhuri
 topics:
  - Open Source
-day: 20243
-room: B
-timeslot: 14
-time_start: 2024-11-21T19:10:00.000Z
-time_end:   2024-11-21T19:40:00.000Z
-gridarea: 10/3/11/4
+
+day: 20241
+room: A
+timeslot: 17
+time_start: 2024-11-19T20:00:00.000Z
+time_end:   2024-11-19T20:30:00.000Z
+gridarea: 13/2/14/3
+
 ---
 
 Apache Flink has steadily established itself as the leader in stream processing technologies. With thousands of users implementing simple to advanced streaming use cases, the future of the flink community looks bright.
