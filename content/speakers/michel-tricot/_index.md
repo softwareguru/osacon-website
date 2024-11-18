@@ -7,8 +7,7 @@ twitter: https://twitter.com/micheltricot
 linkedin: https://www.linkedin.com/in/micheltricot/
 events:
  - 2023
- - 2024
-featured: true
+featured: false
 ---
 
 Michel is the co-founder and CEO of Airbyte, the leading open-source data integration platform that allows replicating data from any APIs, databases & files to data warehouses, data lakes, and any other destinations. Airbyte has been used by over 40k companies and has over 4k daily active customers. Airbyte raised $180M from Accel, Benchmark, Coatue & Altimeter.
