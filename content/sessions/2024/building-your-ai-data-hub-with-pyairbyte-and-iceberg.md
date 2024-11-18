@@ -2,7 +2,7 @@
 title: "Building your AI Data Hub with PyAirbyte and Iceberg"
 slug: building-your-ai-data-hub-with-pyairbyte-and-iceberg
 speakers:
- - Michel Tricot
+ - AJ Steers
 topics:
  - AI
  - Data ingestion
@@ -14,4 +14,6 @@ time_end:   2024-11-21T18:20:00.000Z
 gridarea: 6/2/7/3
 ---
 
-To provide great results, AI applications need access to great data. While Iceberg is quickly becoming the gold standard for cloud data storage, PyAirbyte makes it easy to reliably move data from anywhere to anywhere else, directly in Python. We'll show you how to combine these two tools and build a scalable data hub for GenAI applications and analytics - getting started in minutes building out your own AI data hub. Whether you are new to data lakes or an experienced veteran, we'll show you how to get data from any of Airbyte's hundreds of source connectors - or build your own - for a solution that is approachable for hobby projects and POCs, while at the same time robust enough for enterprise applications.
+Great AI applications start with great data. While DuckDB and MotherDuck are rapidly gaining traction for open-source AI and data engineering, PyAirbyte provides seamless and reliable data movement—directly in Python. In this session, we’ll show you how to combine these powerful tools to build a scalable data hub for GenAI applications and analytics, getting started in just minutes. We’ll conclude by demonstrating how you can build your next GenAI app directly in the database, all on a foundation of great data.
+
+Whether you’re new to data or a seasoned professional, you’ll discover how to harness Airbyte’s hundreds of open source data connectors—or even build your own—for a solution that’s approachable for hobby projects and proofs of concept, yet robust enough for large-scale applications.
