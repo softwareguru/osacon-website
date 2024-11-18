@@ -1,6 +1,7 @@
 ---
-title: "Building your AI Data Hub with PyAirbyte and Iceberg"
-slug: building-your-ai-data-hub-with-pyairbyte-and-iceberg
+title: "Build your AI Data Hub with Airbyte and MotherDuck"
+aliases: building-your-ai-data-hub-with-pyairbyte-and-iceberg
+slug: building-your-ai-data-hub-with-airbyte-and-motherduck
 speakers:
  - AJ Steers
 topics:
