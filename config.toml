@@ -129,6 +129,10 @@ link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
     url = "https://www.youtube.com/@OpenSourceAnalyticsConference"
     icon = "fab fa-youtube"
 
+[[params.links.footer_resources]] 
+    name = "Team"
+    url = "/team"
+
 [[params.links.footer_resources]]
     name = "Code of Conduct"
     url = "/coc"
@@ -140,6 +144,7 @@ link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
+
 
 [[params.links.footer_resources]] 
     name = "Previous Speakers"
