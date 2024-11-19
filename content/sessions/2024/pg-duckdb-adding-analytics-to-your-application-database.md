@@ -2,7 +2,7 @@
 title: "pg_duckdb: Adding analytics to your application database"
 slug: pg-duckdb-adding-analytics-to-your-application-database
 speakers:
- - Yves Le Maout
+ - Boaz Leskes
 topics:
  - Databases
 day: 20241
