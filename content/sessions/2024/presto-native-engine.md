@@ -12,6 +12,8 @@ timeslot: 11
 time_start: 2024-11-19T18:40:00.000Z
 time_end:   2024-11-19T19:10:00.000Z
 gridarea: 9/2/10/3
+video:
+slides: 2024/Presto-Native-Engine-at-Meta-and-IBM.pdf
 ---
 
 Presto 2.0 is a full rewrite of the Presto query execution engine (https://prestodb.io/). The goal is to bring a 3-4x improvement in Presto performance and scalability by moving from the old Java implementation to a modern C++ one. This move towards native execution aligns with industry initiatives like Databricks Photon and Apache DataFusion, among others. We are very excited to bring this technology to Presto to make it the best Open Data Lakehouse engine in the market.

@@ -11,7 +11,8 @@ timeslot: 1
 time_start: 2024-11-20T16:00:00.000Z
 time_end:   2024-11-20T16:30:00.000Z
 gridarea: 1/2/2/4
-
+slides: 2024/AI-Reality-Checkpoint_-The-Good,-the-Bad,-and-the-Overhyped.pdf
+video: 
 ---
 
 In the past 18 months, artificial intelligence has not just entered our workspaces – it has taken over. As we stand at the crossroads of innovation and automation, it's time for a candid reflection on how AI has reshaped our professional lives, and to talk about where it's been a game changer, where it's falling short, and what's about to shift dramatically in the short term.

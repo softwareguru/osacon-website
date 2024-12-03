@@ -11,6 +11,8 @@ timeslot: 9
 time_start: 2024-11-19T18:00:00.000Z
 time_end:   2024-11-19T18:30:00.000Z
 gridarea: 7/3/8/4
+video:
+slides: 2024/Uncover-insights-in-your-complex-data-with-graph-visualization.pdf
 ---
 
 Finding hidden relationships is the key to unlocking insights. Traditional charts and graphs fall short when visualizing complex, interconnected data. This presentation will describe into the world of graph visualization, a powerful technique for unveiling hidden patterns, dependencies, and anomalies in your data.

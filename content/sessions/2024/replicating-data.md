@@ -12,6 +12,8 @@ timeslot: 3
 time_start: 2024-11-21T16:30:00.000Z
 time_end:   2024-11-21T17:00:00.000Z
 gridarea: 2/3/3/4
+slides: 2024/Replicating-data-between-transactional-databases-and-ClickHouse®.pdf
+video: 
 ---
 
 Transactional databases like MySQL, PostgreSQL and MongoDB are usually not a great fit for real time analytics, especially as the data volume grows.

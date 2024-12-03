@@ -125,12 +125,9 @@
 	
 }
 
-
-
 .social-icon-two li a:hover .fab{
 	color: $secondary-color;
 }
-
 
 .social-icon-two-featured{
 	position: relative;
@@ -164,7 +161,6 @@ p.designation {
 	position: relative;
 }
 
-
 .headshot .overlay {
 	position: absolute;
 	border-radius: 50%;
@@ -179,4 +175,8 @@ p.designation {
 
 .headshot:hover .overlay {
     opacity: 0.5;
+}
+
+.speaker-archive-content{
+	margin-top: -45px;
 }

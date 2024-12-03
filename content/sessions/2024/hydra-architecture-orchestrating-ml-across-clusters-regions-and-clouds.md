@@ -11,6 +11,8 @@ timeslot: 17
 time_start: 2024-11-20T19:50:00.000Z
 time_end:   2024-11-20T20:20:00.000Z
 gridarea: 12/3/13/4
+slides: 2024/Hydra-Architecture.pdf
+video: 
 ---
 
 Increasingly, ML teams must satisfy requirements for executing workflows across multiple Kubernetes clusters, regions, or clouds. Challenges include constrained GPU availability within a single cloud, cloud credits or commitments across multiple providers, or strict data residency requirements. Traditional methods for replicating workflows across environments are both resource-intensive and operationally cumbersome. 
