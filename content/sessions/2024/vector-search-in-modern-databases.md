@@ -11,6 +11,8 @@ timeslot: 16
 time_start: 2024-11-20T19:50:00.000Z
 time_end:   2024-11-20T20:20:00.000Z
 gridarea: 12/2/13/3
+slides: 
+video: https://youtu.be/KGGml9pEORM
 ---
 
 In this talk, we'll explore the emergent landscape of vector search in databases, a paradigm shift in information retrieval. Vector search, traditionally the domain of specialized systems, is now being integrated into mainstream databases and search engines like Lucene, Elasticsearch, Solr, PostgreSQL, MySQL, MongoDB, and Manticore. This integration marks a significant evolution in handling complex data structures and search queries.

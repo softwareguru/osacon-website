@@ -11,6 +11,8 @@ timeslot: 6
 time_start: 2024-11-19T17:20:00.000Z
 time_end:   2024-11-19T17:50:00.000Z
 gridarea: 5/3/6/4
+video: https://youtu.be/xmRZg8ODmAw
+slides: 2024/Anatomy-of-a-real-time-analytics-dashboard.pdf
 ---
 
 Typically, data visualization is the last mile in a data pipeline, as it presents insights in a way that is easily understood by users. When insights are fresh and relevant, humans can act upon them on time.

@@ -12,7 +12,7 @@ timeslot: 11
 time_start: 2024-11-19T18:40:00.000Z
 time_end:   2024-11-19T19:10:00.000Z
 gridarea: 9/2/10/3
-video:
+video: https://youtu.be/hbwI-C_MiQg
 slides: 2024/Presto-Native-Engine-at-Meta-and-IBM.pdf
 ---
 

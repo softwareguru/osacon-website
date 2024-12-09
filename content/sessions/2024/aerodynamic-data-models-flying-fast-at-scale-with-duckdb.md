@@ -11,6 +11,8 @@ timeslot: 7
 time_start: 2024-11-19T17:50:00.000Z
 time_end:   2024-11-19T18:00:00.000Z
 gridarea: 6/2/7/4
+slides: 
+video: https://youtu.be/KCSKq9VQ8CY
 ---
 
 At Rill, we rely on DuckDB to power uniquely fast dashboards for exploring time-series metrics. To achieve this interactivity, Rill’s dashboards generate up to 100 parallel queries in response to each user interaction.

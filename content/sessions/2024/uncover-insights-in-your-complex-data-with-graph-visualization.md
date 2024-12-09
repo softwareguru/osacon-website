@@ -11,7 +11,7 @@ timeslot: 9
 time_start: 2024-11-19T18:00:00.000Z
 time_end:   2024-11-19T18:30:00.000Z
 gridarea: 7/3/8/4
-video:
+video: https://youtu.be/OoyKsKZ04xk
 slides: 2024/Uncover-insights-in-your-complex-data-with-graph-visualization.pdf
 ---
 

@@ -13,7 +13,7 @@ time_start: 2024-11-20T17:00:00.000Z
 time_end:   2024-11-20T17:10:00.000Z
 gridarea: 3/2/4/4
 slides: 2024/Leveraging-Argo-Events-and-Argo-Workflows-for-Scalable-Data-Ingestion.pdf
-video: 
+video: https://youtu.be/16Hq_nuCNZA
 ---
 
 As Argo Workflows and Argo Events continue to gain popularity for their powerful capabilities in event-driven automation and complex job orchestration, this presentation will delve into how we used this architecture to process millions of records daily.

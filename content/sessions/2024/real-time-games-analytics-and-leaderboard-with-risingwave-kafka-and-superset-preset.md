@@ -11,7 +11,7 @@ timeslot: 4
 time_start: 2024-11-19T17:10:00.000Z
 time_end:   2024-11-19T17:20:00.000Z
 gridarea: 4/2/5/4
-video:
+video: https://youtu.be/IeReTaqQmmI
 slides: 2024/Real-Time-Games-Analytics-and-Leaderboard-with-RisingWave,-Kafka,-and-Superset-(Preset).pdf
 ---
 

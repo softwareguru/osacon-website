@@ -11,6 +11,8 @@ timeslot: 14
 time_start: 2024-11-19T19:20:00.000Z
 time_end:   2024-11-19T20:00:00.000Z
 gridarea: 11/2/12/3
+slides: 
+video: https://youtu.be/i37nc2vQLdY
 ---
 
 PostgreSQL is the fastest growing open source transactional database. DuckDB is the fastest growing open source analytical one. pg_duckdb is a new Postgres extension that brings the two together, and lets you run analytical queries on your postgres instance, with the full performance of DuckDB. 

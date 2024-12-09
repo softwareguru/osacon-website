@@ -12,7 +12,7 @@ timeslot: 5
 time_start: 2024-11-19T17:20:00.000Z
 time_end:   2024-11-19T17:50:00.000Z
 gridarea: 5/2/6/3
-video:
+video: https://youtu.be/2EvS9-8zvNg
 slides: 2024/Unified-Data-Management-with-ClickHouse®-and-Postgres.pdf
 ---
 

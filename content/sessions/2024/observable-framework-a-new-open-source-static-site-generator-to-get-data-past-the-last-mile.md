@@ -11,6 +11,8 @@ timeslot: 15
 time_start: 2024-11-19T19:20:00.000Z
 time_end:   2024-11-19T20:00:00.000Z
 gridarea: 11/3/12/4
+slides: 
+video: https://youtu.be/KynLyg5qMWM
 ---
 
 Data teams often have established workflows to access data from different sources, process, and analyze data, but can be stymied by the “last mile problem” in data: creating rich, fast, and fully customized apps and dashboards. Closed-source, GUI-based BI options pose challenges for data visualization developers, restricting them to pre-built data integrations, out-of-the-box chart components and layouts, and restricted publishing options.

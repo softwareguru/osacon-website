@@ -12,7 +12,7 @@ time_start: 2024-11-21T17:00:00.000Z
 time_end:   2024-11-21T17:10:00.000Z
 gridarea: 3/2/4/4
 slides: 2024/Building-a-Thriving-DevRel-Program-for-OSS-Projects.pdf
-video: 
+video: https://youtu.be/ZHz5Rc0DFcU
 ---
 
 Over the years, we have seen a good number of OSS projects with great features and services go unnoticed and often get overshadowed by their proprietary counterparts. This highlights a key point: having a brilliant open-source project alone isn't enough. To truly grow an open source project, you need a vibrant developer community that uses, contributes to, and champions your project. 

@@ -12,6 +12,8 @@ timeslot: 11
 time_start: 2024-11-20T18:30:00.000Z
 time_end:   2024-11-20T19:00:00.000Z
 gridarea: 8/3/9/4
+video: https://youtu.be/r2bLtcHoqpA
+slides: 2024/Observability-for-Large-Language-Models-with-OpenTelemetry.pdf
 ---
 
 Large Language Models (LLMs) mark a transformative advancement in artificial intelligence. These models are trained on vast datasets comprising text and code, enabling them to handle complex tasks such as text generation, language translation, and interactive querying.

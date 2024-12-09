@@ -11,6 +11,8 @@ timeslot: 8
 time_start: 2024-11-19T18:00:00.000Z
 time_end:   2024-11-19T18:30:00.000Z
 gridarea: 7/2/8/3
+slides: 
+video: https://youtu.be/QKtZfg5OA8g
 ---
 
 Lakehouse is a big data solution that combines the advantages of data warehouse and data lake, helping users to perform fast data analysis and efficient data management on the data lake.
