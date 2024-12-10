@@ -11,7 +11,7 @@ timeslot: 7
 time_start: 2024-11-19T17:50:00.000Z
 time_end:   2024-11-19T18:00:00.000Z
 gridarea: 6/2/7/4
-slides: 
+slides: 2024/Aerodynamic-Data-Models_-Flying-Fast-at-Scale-with-DuckDB.pdf
 video: https://youtu.be/KCSKq9VQ8CY
 ---
 

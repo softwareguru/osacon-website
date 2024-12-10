@@ -12,7 +12,7 @@ time_start: 2024-11-21T16:30:00.000Z
 time_end:   2024-11-21T17:00:00.000Z
 gridarea: 2/2/3/3
 slides: 2024/Designing-a-Lakehouse-for-product-engineers.pdf
-video: 
+video: https://youtu.be/M8jYJDOG--U
 ---
 
 

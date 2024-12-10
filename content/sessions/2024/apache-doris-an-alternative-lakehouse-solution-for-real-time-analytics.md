@@ -11,7 +11,7 @@ timeslot: 8
 time_start: 2024-11-19T18:00:00.000Z
 time_end:   2024-11-19T18:30:00.000Z
 gridarea: 7/2/8/3
-slides: 
+slides: 2024/Apache-Doris_-an-alternative-lakehouse-solution-for-real-time-analytics.pdf
 video: https://youtu.be/QKtZfg5OA8g
 ---
 

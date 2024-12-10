@@ -11,7 +11,7 @@ timeslot: 3
 time_start: 2024-11-19T16:40:00.000Z
 time_end:   2024-11-19T17:10:00.000Z
 gridarea: 3/2/4/4
-slides: 
+slides: 2024/Leveraging-Data-Streaming-Platform-for-Analytics-and-GenAI.pdf
 video: https://youtu.be/7dh6BighWEo
 ---
 

@@ -11,7 +11,7 @@ timeslot: 13
 time_start: 2024-11-20T19:10:00.000Z
 time_end:   2024-11-20T19:40:00.000Z
 gridarea: 10/2/11/3
-slides: 
+slides: 2024/Bring-streaming-to-AI_-introducing-Bytewax-connectors.pdf
 video: https://youtu.be/xivNND4sLmw
 ---
 

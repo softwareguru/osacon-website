@@ -11,7 +11,7 @@ timeslot: 14
 time_start: 2024-11-19T19:20:00.000Z
 time_end:   2024-11-19T20:00:00.000Z
 gridarea: 11/2/12/3
-slides: 
+slides: 2024/pg_duckdb_-Adding-analytics-to-your-application-database.pdf
 video: https://youtu.be/i37nc2vQLdY
 ---
 
