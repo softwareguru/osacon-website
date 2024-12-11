@@ -11,6 +11,8 @@ timeslot: 9
 time_start: 2024-11-21T17:50:00.000Z
 time_end:   2024-11-21T18:20:00.000Z
 gridarea: 6/3/7/4
+slides:
+video: https://youtu.be/9c316jybHVw
 ---
 
 Observability is a critical aspect of any infrastructure as it enables teams to promptly identify and address issues. Nevertheless, achieving system observability comes with its own set of challenges. It is a time- and resource-intensive process as it necessitates the incorporation of instrumentation into every application.

@@ -12,6 +12,8 @@ timeslot: 10
 time_start: 2024-11-21T18:30:00.000Z
 time_end:   2024-11-21T19:00:00.000Z
 gridarea: 8/2/9/3
+slides:
+video: https://youtu.be/QsG42AyFu0k
 ---
 
 Teams of all shapes and sizes benefit from near real-time analytics. In this session, I will present a project template that can serve as the foundation to build one such high performing system, powered by Apache Kafka, QuestDB, Grafana OSS, and Jupyter Notebook.

@@ -11,6 +11,8 @@ timeslot: 11
 time_start: 2024-11-21T18:30:00.000Z
 time_end:   2024-11-21T19:00:00.000Z
 gridarea: 8/3/9/4
+slides: 
+video: https://youtu.be/7JbSX50Wp7s
 ---
 
 When we chose ClickHouse as our main data lake for analytics at Cato Networks, we envisioned it as a silver bullet solution for our data needs, promising effortless data ingestion and ready-to-query dashboards.
