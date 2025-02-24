@@ -98,7 +98,7 @@ speaker = "speakers"
 
 [params]
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
-logo = "/images/osacon2024-logo-h.png"
+logo = "/images/osacon2025-logo-h.png"
 home = "Home"
 privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
@@ -110,7 +110,7 @@ start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "November 19-21, 2024. Free, online."
+text = "November 04-05, 2025. Free, online."
 
 [params.hero.cta1]
 text = "Become a speaker"
@@ -159,6 +159,10 @@ link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 [[params.links.footer_resources]] 
     name = "Previous Speakers"
     url = "/speakers/archive"
+
+[[params.links.footer_previous]]
+    name = "OSA CON 2024"
+    url = "/sessions/2024"
 
 [[params.links.footer_previous]]
     name = "OSA CON 2023"
