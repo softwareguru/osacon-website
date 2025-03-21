@@ -6,7 +6,7 @@ event_info:
   cta_text: "Register now!"
   cta_link: "/register"
   features: 
-    - number : "3"
+    - number : "2"
       label : "Days"
 
     - number : "Free!"

@@ -105,7 +105,7 @@ google_analytics = "G-GLFP2KJWR4"
 live_link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["/images/osacon2024-card.jpg"]
+images = ["/images/card-osacon-2025.jpg"]
 start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
