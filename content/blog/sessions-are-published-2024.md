@@ -1,5 +1,5 @@
 ---
-title: "Sessions are published"
+title: "OSA Con 2024 Recordings"
 date: 2024-05-24T10:00:00
 redirection: /sessions/2024
 # post thumb

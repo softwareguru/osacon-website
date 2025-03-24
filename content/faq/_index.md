@@ -19,7 +19,7 @@ Yes, participation in OSA CON 2025 is free.
 
 ### How can I register for the event?
 
-Registration will be open soon. Stay tuned for updates.
+Registration will be open soon. Sing up for updates [here](/sing-up-for-updates).
 
 ### How can I be a speaker?
 
