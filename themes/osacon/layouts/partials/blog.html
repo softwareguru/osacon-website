@@ -8,12 +8,12 @@
 
       {{ if .Params.redirection }}
       <div class="col-lg-4 col-md-6">
-        <a href="{{ .Params.redirection }}">
+        <a href="{{ .Params.redirection }}" target="_blank">
           <div class="blog-item card border-0 mb-5 mb-lg-0">
             {{ $img := resources.Get (index .Params.images 0) }}
             {{ with $img }}
             {{ $imgp := $img.Resize "300x webp" }}
-            <img src="{{$imgp.Permalink }}" alt="" class="img-fluid">
+            <img src="{{$imgp.Permalink }}" lass="img-fluid">
             {{ end }}
             <div class="blog-caption">
               <h3 class="mt-2 mb-3">{{ .Title | markdownify }}</h3>
