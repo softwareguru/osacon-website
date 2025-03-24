@@ -79,7 +79,7 @@ speaker = "speakers"
   [[menu.main]]
     identifier = "sponsor1"
     name = "Prospectus"
-    url = "/files/OSACon2024_Prospectus_v1_4.pdf"
+    url = "/files/OSACon2025-Prospectus.pdf"
     weight = 2
     parent = "sponsor"
 
@@ -149,7 +149,7 @@ link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 
  [[params.links.footer_resources]]
     name = "Prospectus"
-    url = "/files/OSACon2024_Prospectus_v1_4.pdf"
+    url = "/files/OSACon2025-Prospectus.pdf"
 
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
