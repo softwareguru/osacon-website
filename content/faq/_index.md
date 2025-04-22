@@ -23,7 +23,7 @@ Registration will be open soon. Sing up for updates [here](/sing-up-for-updates)
 
 ### How can I be a speaker?
 
-We will be accepting proposals for presentations starting the last week of April.
+We are accepting proposals for presentations. Please review our guidelines, and register your talk [here](https://sessionize.com/osacon-2025/). 
 
 ### Is there a code of conduct?
 Yes. Please review our [Code of Conduct](/coc).
