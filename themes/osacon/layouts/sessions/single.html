@@ -50,7 +50,7 @@
               {{ $time_start := .Params.time_start | time }}
               {{ $time_end := .Params.time_end | time }}            
               {{ if lt now $time_start }}
-              <div class="d-flex align-items-center">
+              <!--<div class="d-flex align-items-center">
                 <div class="pe-4">
                   <em>{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04 MST" }}{{end}} (<span class="localtimelabel">{{.Params.time_start}}</span>-<span class="localtimelabel">{{.Params.time_end}}</span> your timezone)</em>              
                 </div>
@@ -64,7 +64,7 @@
                   <span class="description">{{with .Params.speakers}}Presented by {{ delimit . ", " " & "}}.{{end}}{{.Content}}</span>
                   <span class="location">{{.Site.Params.live_link}}</span>
                 </div>
-              </div>  
+              </div>  -->
               {{ else }}
                 <em>Presented at OSACon {{ $time_start.Format "2006" }}</em>
               {{ end }}
