@@ -53,3 +53,6 @@ projects:
 
     - name: Altinity
       image: /images/partners/altinity-logo.svg  
+
+    #- name: Apache Pinot
+    #  image: /images/projects/pinot.png
