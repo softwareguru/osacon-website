@@ -6,6 +6,7 @@ images:
 linkedin: https://www.linkedin.com/in/villevbro/
 events:
  - 2025
+featured-2025: true
 draft: false
 ---
 

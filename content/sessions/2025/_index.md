@@ -1,4 +1,4 @@
 ---
-title: "2024 sessions"
+title: "2025 sessions"
 draft: false
 ---

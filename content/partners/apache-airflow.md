@@ -1,10 +1,12 @@
 ---
-title: "Apache Airflow"
+title: "Airflow Summit"
 level: "collaborators"
 images: 
- - "/images/partners/Apache-Airflow.png"
-webUrl: "https://airflow.apache.org/"
+ - "/images/partners/airflow-summit.png"
+webUrl: "https://airflowsummit.org/"
 weight: 13
-draft: true
+draft: false
 ---
 
+
+[Airflow Summit](https://airflowsummit.org/) is the annual conference for the worldwide community of Apache Airflow users and contributors. This conference is a celebration of the people who make Airflow what it is.

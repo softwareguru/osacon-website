@@ -7,6 +7,7 @@ linkedin: https://www.linkedin.com/in/heathermeeker/
 events:
  - 2023
  - 2025
+featured-2025: true
 ---
 
 Heather Meeker is the co-founder of Chinstrap Community, a forum for building commercial open source software businesses. She was a founding partner at OSS Capital, an early stage venture capital fund specializing in commercial open source development. She is also a partner at Tech Law Partners, LLP, www.techlawpartners.com, a law firm focused on technology transactions.
