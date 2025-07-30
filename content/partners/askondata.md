@@ -5,7 +5,7 @@ images:
  - "/images/partners/ask-on-data.png"
 webUrl: "https://askondata.com/"
 weight: 12
-draft: false
+draft: true
 ---
 
 [Ask on Data](https://askondata.com/) is an open Source chat based GenAI powered Data Engineering Tool.

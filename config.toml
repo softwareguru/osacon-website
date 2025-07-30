@@ -71,7 +71,7 @@ speaker = "speakers"
 
   [[menu.main]]
     identifier = "sponsor0"
-    name = "2024 Sponsors"
+    name = "2025 Sponsors"
     url = "/sponsors"
     parent = "sponsor"
     weight = 1
