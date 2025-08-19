@@ -5,7 +5,7 @@ images:
  - images/speakers/karthickram-vailraj.jpg
 designation: Anna University, Tamil Nadu, India,
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/karthickram-vailraj-6b1a7a112
 github: 
 events:
  - 2025
