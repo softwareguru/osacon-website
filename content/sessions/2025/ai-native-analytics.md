@@ -3,10 +3,15 @@ title: "AI-Native Analytics: Building the Next Generation of Intelligent, Conver
 slug: ai-native-analytics
 speakers:
  - Rajesh Sura
-block: Artificial Intelligence & Data Science
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+topics: 
+ - Artificial Intelligence & Data Science
+day: 20251
+room: A
+timeslot: 16
+time_start: 2025-11-04T19:45:00.000Z
+time_end: 2025-11-04T20:15:00.000Z
+gridarea: 10/2/11/3
+
 ---
 
 As enterprises grapple with an explosion of data and increasing pressure to make rapid, informed decisions, traditional Business Intelligence (BI) tools are reaching their limits. Static dashboards and complex query interfaces often exclude non-technical users, creating friction between data and action. Enter AI-native analytics—a transformative approach that integrates natural language interfaces (NLIs) with scalable machine learning (ML) to deliver intelligent, conversational decision systems.

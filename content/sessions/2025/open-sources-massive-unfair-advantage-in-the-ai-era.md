@@ -3,10 +3,13 @@ title: "Open Source’s Massive Unfair Advantage in the AI Era"
 slug: open-sources-massive-unfair-advantage-in-the-ai-era
 speakers:
  - Maxime Beauchemin
-block: 
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+day: 20252
+room: Keynote
+timeslot: 20
+time_start: 2025-11-05T16:00:00.000Z
+time_end: 2025-11-05T16:30:00.000Z
+gridarea: 1/2/2/4
+
 ---
 
 As AI transforms how we build, scale, and interact with software, one thing is becoming clear: open source isn’t just keeping up—it’s leading. In this keynote, Max Beauchemin, creator of Apache Superset and Apache Airflow, unpacks why open source is uniquely positioned to dominate in the age of AI. From training data to developer velocity, open projects have structural advantages that proprietary vendors simply can't replicate.

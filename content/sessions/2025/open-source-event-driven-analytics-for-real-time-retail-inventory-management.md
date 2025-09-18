@@ -3,10 +3,12 @@ title: "Open Source Event-Driven Analytics for Real-Time Retail Inventory Manage
 slug: open-source-event-driven-analytics-for-real-time-retail-inventory-management
 speakers:
  - Nidhin Jose
-block: 
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+day: 20251
+room: B
+timeslot: 17
+time_start: 2025-11-04T19:45:00.000Z
+time_end: 2025-11-04T20:15:00.000Z
+gridarea: 10/3/11/4
 ---
 
 The retail sector's shift toward omnichannel fulfillment and instant availability demands has exposed critical limitations in traditional batch-processed inventory systems. This presentation demonstrates how open source Event-Driven Architecture (EDA) tools are transforming retail inventory analytics, enabling continuous real-time processing that delivers superior accuracy, automated insights, and scalable supply chain responsiveness.

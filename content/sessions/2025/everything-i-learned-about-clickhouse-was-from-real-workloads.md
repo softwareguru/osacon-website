@@ -3,11 +3,14 @@ title: "Everything I Learned About ClickHouse was From Real Workloads"
 slug: everything-i-learned-about-clickhouse-was-from-real-workloads
 speakers:
  - Udi Rot
-block: 
-topics: Data Storage & Query
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+topics: 
+ - Data Storage & Query
+day: 20252
+room: B
+timeslot: 27
+time_start: 2025-11-05T18:00:00.000Z
+time_end: 2025-11-05T18:30:00.000Z
+gridarea: 5/3/6/4
 ---
 
 After years of pushing ClickHouse to its outer limits in real-world observability workloads, we've learned a lot - sometimes the hard way - about getting the most out of your analytics system. But before you dive into inverted indexes, object storage, and terabyte-scale performance tuning, it's critical to get the basics right. 

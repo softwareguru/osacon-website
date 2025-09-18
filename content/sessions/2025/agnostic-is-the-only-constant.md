@@ -3,9 +3,14 @@ title: "Agnostic is the Only Constant: Embracing the Lakehouse Paradigm Without 
 slug: agnostic-is-the-only-constant
 speakers:
  - Viktor Kessler
-block: Data Storage & Query
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
+topics: 
+ - Data Storage & Query
+time_start: 2025-11-04T18:00:00.000Z
+time_end: 2025-11-04T18:30:00.000Z
+day: 20251
+room: B
+timeslot: 9
+gridarea: 6/3/7/4
 draft: false
 ---
 

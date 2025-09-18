@@ -3,11 +3,15 @@ title: "What the Spec?!: New Features in Apache Iceberg™ Table Format V3"
 slug: what-the-spec
 speakers:
  - Danica Fine
-block: 
-topic: Data Storage & Query
-time_start: 2021-07-18T16:00:00.000Z
-time_end: 2021-07-18T16:45:00.000Z
-draft: false
+topics: 
+ - Data Storage & Query
+day: 20251
+room: B
+timeslot: 15
+time_start: 2025-11-04T19:15:00.000Z
+time_end: 2025-11-04T19:45:00.000Z
+gridarea: 9/3/10/4
+
 ---
 
 Apache Iceberg™ made great advancements going from Table Format V1 to Table Format V2, introducing features like position deletes, advanced metrics, and cleaner metadata abstractions. But with Table Format V3 on the horizon, Iceberg users have even more to look forward to.

@@ -10,107 +10,104 @@ tracks:
  - Two
  
 days:  
-  - id: 20241
+  - id: 20251
     enabled: true
     title_short: Tuesday
-    title_full: Tuesday, November 19, 2024
+    title_full: Tuesday, November 4th, 2025
     schedule_items: 
       - type: timelabel
-        label: "2024-11-19T15:50:00.000Z"
+        label: "2025-11-04T16:00:00.000Z"
         gridarea: "1/1/2/2"
       - type: activity
         label: "Opening remarks"
         gridarea: "1/2/2/4"
-        time_start: "2024-11-19T15:50:00.000Z"
-        time_end: "2024-11-19T16:10:00.000Z"
+        time_start: "2025-11-04T16:00:00.000Z"
+        time_end: "2025-11-04T16:15:00.000Z"
         gridaream: "1/1/2/2"
       - type: timelabel
-        label: "2024-11-19T16:10:00.000Z"
+        label: "2025-11-04T16:15:00.000Z"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "2024-11-19T16:40:00.000Z"
+        label: "2025-11-04T16:50:00.000Z"
         gridarea: "3/1/4/2"
       - type: timelabel
-        label: "2024-11-19T17:10:00.000Z"
+        label: "2025-11-04T17:20:00.000Z"
         gridarea: "4/1/5/2"
+      - type: activity
+        label: "Break"
+        gridarea: "4/2/5/4"
+        time_start: "2025-11-04T17:20:00.000Z"
+        time_end: "2025-11-04T17:30:00.000Z"
+        gridaream: "4/1/5/2"
       - type: timelabel
-        label: "2024-11-19T17:20:00.000Z"
+        label: "2025-11-04T17:30:00.000Z"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "2024-11-19T17:50:00.000Z"
+        label: "2025-11-04T18:00:00.000Z"
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "2024-11-19T18:00:00.000Z"
+        label: "2025-11-04T18:30:00.000Z"
         gridarea: "7/1/8/2"
       - type: timelabel
-        label: "2024-11-19T18:40:00.000Z"
+        label: "2025-11-04T19:00:00.000Z"
+        gridarea: "8/1/9/2"
+      - type: activity
+        label: "Break"
+        gridarea: "8/2/9/4"
+        time_start: "2025-11-04T19:00:00.000Z"
+        time_end: "2025-11-04T19:15:00.000Z"
+        gridaream: "11/1/12/2"
+
+      - type: timelabel
+        label: "2025-11-04T19:15:00.000Z"
         gridarea: "9/1/10/2"
       - type: timelabel
-        label: "2024-11-19T19:20:00.000Z"
-        gridarea: "11/1/12/2"
+        label: "2025-11-04T19:45:00.000Z"
+        gridarea: "10/1/11/2"
       - type: timelabel
-        label: "2024-11-19T20:00:00.000Z"
-        gridarea: "13/1/14/2"
+        label: "2025-11-04T20:15:00.000Z"
+        gridarea: "11/1/12/2"
 
-  - id: 20242
+  - id: 20252
     enabled: true
     title_short: Wednesday
-    title_full: Wednesday, November 20, 2024
+    title_full: Wednesday, November 5th, 2025
     schedule_items: 
       - type: timelabel
-        label: "2024-11-20T16:15:00.000Z"
+        label: "2025-11-05T16:00:00.000Z"
         gridarea: "1/1/2/2"
       - type: timelabel
-        label: "2024-11-20T17:00:00.000Z"
-        gridarea: "3/1/4/2"
-      - type: timelabel
-        label: "2024-11-20T17:10:00.000Z"
-        gridarea: "4/1/5/2"
-      - type: timelabel
-        label: "2024-11-20T17:50:00.000Z"
-        gridarea: "6/1/7/2"
-      - type: timelabel
-        label: "2024-11-20T18:30:00.000Z"
-        gridarea: "8/1/9/2"
-      - type: timelabel
-        label: "2024-11-20T19:10:00.000Z"
-        gridarea: "10/1/11/2"
-      - type: timelabel
-        label: "2024-11-20T19:50:00.000Z"
-        gridarea: "12/1/13/2"
-
-  - id: 20243
-    enabled: true
-    title_short: Thursday
-    title_full: Thursday, November 21, 2024
-    schedule_items: 
-      - type: timelabel
-        label: "2024-11-20T16:00:00.000Z"
-        gridarea: "1/1/2/2"
-      - type: timelabel
-        label: "2024-11-20T16:30:00.000Z"
+        label: "2025-11-05T16:35:00.000Z"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "2024-11-20T17:00:00.000Z"
+        label: "2025-11-05T17:10:00.000Z"
         gridarea: "3/1/4/2"
+      - type: activity
+        label: "Break"
+        gridarea: "3/2/4/4"
+        time_start: "2025-11-05T17:10:00.000Z"
+        time_end: "2025-11-05T17:30:00.000Z"
+        gridaream: "3/1/4/2"
+
       - type: timelabel
-        label: "2024-11-20T17:10:00.000Z"
+        label: "2025-11-05T17:30:00.000Z"
         gridarea: "4/1/5/2"
       - type: timelabel
-        label: "2024-11-20T17:40:00.000Z"
+        label: "2025-11-05T18:00:00.000Z"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "2024-11-20T17:50:00.000Z"
+        label: "2025-11-05T18:30:00.000Z"
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "2024-11-20T18:30:00.000Z"
+        label: "2025-11-05T19:00:00.000Z"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "2025-11-05T19:30:00.000Z"
         gridarea: "8/1/9/2"
       - type: timelabel
-        label: "2024-11-20T19:10:00.000Z"
-        gridarea: "10/1/11/2"
-      - type: timelabel
-        label: "2024-11-20T19:50:00.000Z"
-        gridarea: "12/1/13/2"
+        label: "2025-11-05T20:00:00.000Z"
+        gridarea: "9/1/10/2"
+
 
 
 summary: "Check out the sessions for Open Source Analytics Conference. Join us in this free and online event."
@@ -118,7 +115,7 @@ description: "Check out the sessions for Open Source Analytics Conference. Join 
 
 ---
 
-<h4 class="mb-4">Welcome to the session program for OSA CON 2024. </h4>
+<h4 class="mb-4">Welcome to the session program for OSA CON 2025. </h4>
 
 * Times shown are in your local timezone.
 * If you prefer the previous layout from sessionize, you can <a href="/program-sessionize">access it here</a>.

@@ -3,11 +3,15 @@ title: "Micromegas - unified observability for video games"
 slug: micromegas-unified-observability-for-video-games
 speakers:
  - Marc-Antoine Desroches
-topic: Crazy New Tech
-block: 
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+topics: 
+ - Crazy New Tech
+day: 20252
+room: B
+timeslot: 31
+time_start: 2025-11-05T19:00:00.000Z
+time_end: 2025-11-05T19:30:00.000Z
+gridarea: 7/3/8/4
+
 ---
 
 How we built an open source observability stack that can track every frame of our game.

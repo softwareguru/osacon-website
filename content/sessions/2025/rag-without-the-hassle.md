@@ -3,10 +3,14 @@ title: "RAG Without the Hassle: Building AI-Powered Analytics Apps on OceanBase 
 slug: rag-without-the-hassle
 speakers:
  - Peng Wang
-block: Artificial Intelligence & Data Science
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+topics: 
+ - Artificial Intelligence & Data Science
+day: 20251
+room: A
+timeslot: 18
+time_start: 2025-11-04T20:15:00.000Z
+time_end: 2025-11-04T20:45:00.000Z
+gridarea: 11/2/12/3
 ---
 
 Retrieval-Augmented Generation (RAG) is transforming analytics applications — but implementing it often means managing multiple systems: OLTP, vector DBs, and orchestration tools.

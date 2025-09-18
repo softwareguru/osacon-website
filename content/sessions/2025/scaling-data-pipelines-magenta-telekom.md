@@ -1,12 +1,16 @@
 ---
-title: "Scaling data pipelines @ Magenta Telekom"
+title: "Scaling Data Pipelines @ Magenta Telekom"
 slug: scaling-data-pipelines-magenta-telekom
 speakers:
  - Georg Heiler
-block: Orchestration & Platform Management
-time_start: 2025-11-04T16:00:00.000Z
-time_end: 2025-11-04T16:45:00.000Z
-draft: false
+topics: 
+ - Orchestration & Platform Management
+day: 20252
+room: A
+timeslot: 30
+time_start: 2025-11-05T19:00:00.000Z
+time_end: 2025-11-05T19:30:00.000Z
+gridarea: 7/2/8/3
 ---
 
 Magenta Telekom ingests many terabytes of new data every day, and every downstream consumer wants it immediately. The real bottleneck turned out not to be hardware but humans wrestling with hidden, hard-wired dependencies in hundreds of heterogeneous pipelines and sometimes tool silos.
