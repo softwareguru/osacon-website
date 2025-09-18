@@ -12,4 +12,4 @@ events:
 ---
 
 
-Peter Corless is the Principal Product Marketing Manager at Redpanda Data. Prior to that he was Director of Product Marketing at StarTree and Director of Technical Advocacy at ScyllaDB. In his long career in Silicon Valley he has also held various roles spanning from Aerospike to Cisco Systems.
+Peter has worked across a broad spectrum of the data industry over the past decade: real-time data streaming, as well as distributed databases, OLTP and OLAP, SQL and NoSQL. He recently wrote an O'Reilly book on Open Source Observability.
