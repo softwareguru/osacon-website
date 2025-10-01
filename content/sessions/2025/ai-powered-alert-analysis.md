@@ -3,6 +3,7 @@ title: "AI-Powered Alert Analysis with ClickHouse Cloud"
 slug: ai-powered-alert-analysis
 speakers:
  - Alkin Tezuysal
+ - Boris Tyshkevich
 #day: 20251
 room: 
 timeslot: 
