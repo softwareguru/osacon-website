@@ -1,10 +1,10 @@
 ---
 title: "Data Kitchen"
-level: "silver"
+level: "partner"
 images:
  - /images/partners/datakitchen.png
 webUrl: "https://datakitchen.io/"
-weight: 1
+weight: 4 
 draft: false
 ---
 
