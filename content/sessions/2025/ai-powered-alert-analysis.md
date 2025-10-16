@@ -1,5 +1,5 @@
 ---
-title: "AI-Powered Alert Analysis with ClickHouse Cloud"
+title: "AI-Powered Alert Analysis: Uncovering Critical Patterns in ClickHouse® Cloud Databases"
 slug: ai-powered-alert-analysis
 speakers:
  - Alkin Tezuysal
@@ -10,6 +10,7 @@ timeslot:
 time_start: 2025-11-04T19:45:00.000Z
 time_end: 2025-11-04T20:15:00.000Z
 #gridarea: 10/2/11/3
+draft: true
 ---
 
 Manual analysis of thousands of daily database alerts is impossible—but AI changes everything. This talk demonstrates using modern AI tools to analyze internal alert databases and uncover critical patterns in ClickHouse Cloud deployments.
