@@ -130,6 +130,11 @@ link = "/register"
     url = "https://www.youtube.com/@OpenSourceAnalyticsConference"
     icon = "fab fa-youtube"
 
+[[params.links.social]]
+    name = "Join us!"
+    url = "https://www.linkedin.com/company/osa-con/"
+    icon = "fab fa-linkedin-in"
+
 [[params.links.footer_resources]] 
     name = "Team"
     url = "/team"

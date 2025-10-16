@@ -1,5 +1,5 @@
 ---
-title: "chdb: truly opensource clickhouse engine"
+title: "chdb: truly opensource ClickHouse® engine"
 slug: chdb-truly-opensource-clickhouse-engine
 speakers:
  - Lorenzo Mangani
@@ -11,4 +11,4 @@ images:
 draft: true
 ---
 
-Introducing chdb, a free, open-source, embedded, in-process SQL columnar OLAP engine powered by ClickHouse.
+Introducing chdb, a free, open-source, embedded, in-process SQL columnar OLAP engine powered by ClickHouse®.

@@ -1,5 +1,5 @@
 ---
-title: "Leveraging object storage: Tiered Storage for ClickHouse"
+title: "Leveraging object storage: Tiered Storage for ClickHouse®"
 slug: leveraging-object-storage-tiered-storage-for-clickhouse
 speakers:
  - Arthur Ansquer
@@ -10,4 +10,4 @@ slides: 2023/TieredStorageClickHouse.pdf
 video: https://youtu.be/yk7Q1uOpAAQ
 ---
 
-Discussing the journey to make Tiered Storage available for Aiven for ClickHouse. From product discovery to the benefits and use cases of leveraging object storage for ClickHouse workloads.
+Discussing the journey to make Tiered Storage available for Aiven for ClickHouse®. From product discovery to the benefits and use cases of leveraging object storage for ClickHouse® workloads.
