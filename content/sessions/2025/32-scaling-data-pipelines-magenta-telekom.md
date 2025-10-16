@@ -7,10 +7,10 @@ topics:
  - Orchestration & Platform Management
 day: 20252
 room: A
-timeslot: 30
-time_start: 2025-11-05T19:00:00.000Z
-time_end: 2025-11-05T19:30:00.000Z
-gridarea: 7/2/8/3
+timeslot: 32
+time_start: 2025-11-05T19:30:00.000Z
+time_end: 2025-11-05T20:00:00.000Z
+gridarea: 8/2/9/3
 ---
 
 Magenta Telekom ingests many terabytes of new data every day, and every downstream consumer wants it immediately. The real bottleneck turned out not to be hardware but humans wrestling with hidden, hard-wired dependencies in hundreds of heterogeneous pipelines and sometimes tool silos.

@@ -6,10 +6,10 @@ speakers:
 
 day: 20252
 room: A
-timeslot: 26
-time_start: 2025-11-05T18:00:00.000Z
-time_end: 2025-11-05T18:30:00.000Z
-gridarea: 5/2/6/3
+timeslot: 28
+time_start: 2025-11-05T18:30:00.000Z
+time_end: 2025-11-05T19:00:00.000Z
+gridarea: 6/2/7/3
 
 ---
 

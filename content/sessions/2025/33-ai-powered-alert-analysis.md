@@ -4,13 +4,13 @@ slug: ai-powered-alert-analysis
 speakers:
  - Alkin Tezuysal
  - Boris Tyshkevich
-#day: 20251
-room: 
-timeslot: 
-time_start: 2025-11-04T19:45:00.000Z
-time_end: 2025-11-04T20:15:00.000Z
-#gridarea: 10/2/11/3
-draft: true
+day: 20252
+Room: B
+timeslot: 33
+time_start: 2025-11-05T19:30:00.000Z
+time_end: 2025-11-05T20:00:00.000Z
+gridarea: 8/3/9/4
+
 ---
 
 Manual analysis of thousands of daily database alerts is impossible—but AI changes everything. This talk demonstrates using modern AI tools to analyze internal alert databases and uncover critical patterns in ClickHouse® Cloud deployments.

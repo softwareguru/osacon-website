@@ -51,12 +51,6 @@ days:
       - type: timelabel
         label: "2025-11-04T19:00:00.000Z"
         gridarea: "8/1/9/2"
-      - type: activity
-        label: "Break"
-        gridarea: "8/2/9/4"
-        time_start: "2025-11-04T19:00:00.000Z"
-        time_end: "2025-11-04T19:15:00.000Z"
-        gridaream: "11/1/12/2"
 
       - type: timelabel
         label: "2025-11-04T19:15:00.000Z"
@@ -80,14 +74,8 @@ days:
         label: "2025-11-05T16:35:00.000Z"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "2025-11-05T17:10:00.000Z"
+        label: "2025-11-05T17:15:00.000Z"
         gridarea: "3/1/4/2"
-      - type: activity
-        label: "Break"
-        gridarea: "3/2/4/4"
-        time_start: "2025-11-05T17:10:00.000Z"
-        time_end: "2025-11-05T17:30:00.000Z"
-        gridaream: "3/1/4/2"
 
       - type: timelabel
         label: "2025-11-05T17:30:00.000Z"

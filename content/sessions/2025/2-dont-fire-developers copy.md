@@ -6,7 +6,7 @@ speakers:
 topics: 
 day: 20251
 room: Keynote
-timeslot: 2
+timeslot: 1
 time_start: 2025-11-04T16:20:00.000Z
 time_end: 2025-11-04T16:45:00.000Z
 gridarea: 2/2/3/4

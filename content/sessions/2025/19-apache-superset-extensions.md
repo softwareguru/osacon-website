@@ -5,12 +5,13 @@ speakers:
  - Evan Rusackas
  - Michael Molina
  - Ville Brofeldt
+
 day: 20251
-room: A
-timeslot: 6
-time_start: 2025-11-04T17:30:00.000Z
-time_end: 2025-11-04T18:00:00.000Z
-gridarea: 5/2/6/3
+room: B
+timeslot: 19
+time_start: 2025-11-04T20:15:00.000Z
+time_end: 2025-11-04T20:45:00.000Z
+gridarea: 11/3/12/4
 
 ---
 

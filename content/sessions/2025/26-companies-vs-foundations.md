@@ -8,10 +8,11 @@ topics:
  - Community
 day: 20252
 room: A
-timeslot: 24
-time_start: 2025-11-05T17:30:00.000Z
-time_end: 2025-11-05T18:00:00.000Z
-gridarea: 4/2/5/3
+
+timeslot: 26
+time_start: 2025-11-05T18:00:00.000Z
+time_end: 2025-11-05T18:30:00.000Z
+gridarea: 5/2/6/3
 
 ---
 
