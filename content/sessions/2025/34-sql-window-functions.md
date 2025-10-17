@@ -1,6 +1,6 @@
 ---
 title: "SQL Window Functions In Five Easy Steps"
-slug: scaling-data-pipelines-magenta-telekom
+slug: sql-window-functions-in-five-easy-steps
 speakers:
  - David Stokes
 topics: 

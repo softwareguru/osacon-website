@@ -1,5 +1,5 @@
 ---
-title: "AI-Powered Alert Analysis: Uncovering Critical Patterns in ClickHouse® Cloud Databases"
+title: "AI-Powered Alert Analysis: Uncovering Critical Patterns in ClickHouse® Databases"
 slug: ai-powered-alert-analysis
 speakers:
  - Alkin Tezuysal

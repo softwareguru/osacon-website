@@ -2,7 +2,7 @@
 title: "SQL Window Functions - An Introduction"
 slug: sql-window-functions-an-introduction
 speakers:
- - Dave Stokes
+ - David Stokes
 topics:
  - Databases
 day: 20243
