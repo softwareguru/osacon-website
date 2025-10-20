@@ -13,7 +13,7 @@ gridarea: 8/3/9/4
 
 ---
 
-Manual analysis of thousands of daily database alerts is impossible—but AI changes everything. This talk demonstrates using modern AI tools to analyze internal alert databases and uncover critical patterns in ClickHouse® Cloud deployments.
+Manual analysis of thousands of daily database alerts is impossible—but AI changes everything. This talk demonstrates using modern AI tools to analyze internal alert databases and uncover critical patterns in ClickHouse® Deployments.
  
 Through live demos, we'll show how to:
  
