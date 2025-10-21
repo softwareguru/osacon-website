@@ -3,7 +3,7 @@ title: "Alkin Tezuysal"
 date: 2025-09-27T07:58:56-06:00
 images: 
  - images/speakers/alkin-tezuysal.png
-designation: 
+designation: Director of Services at Altinity Inc
 twitter: 
 linkedin: https://www.linkedin.com/in/askdba/
 github: 

@@ -6,7 +6,8 @@ images:
 linkedin: https://www.linkedin.com/in/lmangani/
 events:
  - 2023
-draft: true
+ - 2025
+draft: false
 ---
 
 CEO and Co-Founder at QXIP & Gigapipe. Expert in Open-Source, Analytics, Monitoring and Observability.
