@@ -7,7 +7,7 @@ topics:
  - Data Storage & Query
 day: 20252
 room: A
-timeslot: 32
+timeslot: 34
 time_start: 2025-11-05T20:00:00.000Z
 time_end: 2025-11-05T20:30:00.000Z
 gridarea: 9/2/10/3
