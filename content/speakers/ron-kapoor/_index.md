@@ -11,5 +11,4 @@ events:
  - 2025
 ---
 
-
-Ron is a Developer Advocate at CelerData, where he helps bridge the gap between high-performance analytics technology and the data engineering community. Before joining CelerData, Ron worked at Jefferies, where he engineered real-time streaming systems and electronic trading infrastructure for fixed income products. His work focused on ultra-low-latency performance, reliability, and data integrity in capital markets environments. He’s especially interested in modern data architecture. Particularly streaming analytics, lakehouse ecosystems, and how simplicity and performance intersect in
+Ron is a Developer Advocate at CelerData, where he helps bridge the gap between high-performance analytics technology and the data engineering community. Before joining CelerData, Ron worked at Jefferies, where he engineered real-time streaming systems and electronic trading infrastructure for fixed income products. His work focused on ultra-low-latency performance, reliability, and data integrity in capital markets environments. He’s especially interested in modern data architecture. Particularly streaming analytics, lakehouse ecosystems, and the intersection of simplicity and performance.
