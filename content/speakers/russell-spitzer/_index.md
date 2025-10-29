@@ -3,7 +3,7 @@ title: "Russell Spitzer"
 date: 2025-10-29T12:19:32-06:00
 images: 
  - images/speakers/russell-spitzer.jpg
-designation: 
+designation: PMC Member, Apache Iceberg
 twitter: 
 linkedin: https://www.linkedin.com/in/russell-spitzer-5697328/
 github: 
