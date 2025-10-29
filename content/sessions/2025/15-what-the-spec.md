@@ -2,7 +2,7 @@
 title: "What the Spec?!: New Features in Apache Iceberg™ Table Format V3"
 slug: what-the-spec
 speakers:
- - Danica Fine
+ - Russell Spitzer
 topics: 
  - Data Storage & Query
 day: 20251
