@@ -2,7 +2,7 @@
 title: "Making DuckDB with Arrow Flight and the Airport Extension"
 slug: making-ducdb-arrow
 speakers:
- - Lorenzo Mangani
+ - Rusty Conover
 topics: 
  - Data Storage & Query
 day: 20252
