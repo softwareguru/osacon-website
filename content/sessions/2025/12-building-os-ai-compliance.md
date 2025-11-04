@@ -11,6 +11,7 @@ timeslot: 12
 time_start: 2025-11-04T19:00:00.000Z
 time_end: 2025-11-04T19:10:00.000Z
 gridarea: 8/2/9/3
+draft: true
 ---
 
 The regulatory compliance landscape generates massive datasets—over 300 million pages of regulatory documents globally with 200+ daily changes—creating both analytical challenges and opportunities for the open source community. This presentation demonstrates how open source analytics tools and frameworks can be leveraged to build sophisticated regulatory compliance systems that rival proprietary enterprise solutions.

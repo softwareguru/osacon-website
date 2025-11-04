@@ -11,7 +11,7 @@ timeslot: 23
 time_start: 2025-11-05T17:15:00.000Z
 time_end: 2025-11-05T17:25:00.000Z
 gridarea: 3/3/4/4
-
+draft: true
 ---
 
 Airport is a DuckDB community extension developed by Query.Farm that adds Apache Arrow Flight support to DuckDB.
