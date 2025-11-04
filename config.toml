@@ -110,8 +110,8 @@ link = "http://sessionize.com/osa-con-2024"
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Register"
-link = "/register"
+label = "Join now"
+link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
 
 
 [params.links]

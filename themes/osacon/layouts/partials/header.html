@@ -33,7 +33,7 @@
         {{ end }}
         {{ if .Site.Params.navigation_button.enable }}
         <li class="nav-item">
-          <a href="{{ .Site.Params.navigation_button.link | relURL }}" class="btn btn-header btn-rounded">{{
+          <a target="_blank" href="{{ .Site.Params.navigation_button.link | relURL }}" class="btn btn-header btn-rounded">{{
             .Site.Params.navigation_button.label }}</a>
         </li>
         {{ end }}
