@@ -56,3 +56,6 @@ projects:
 
     - name: Apache Pinot
       image: /images/projects/apache-pinot-b.png
+
+    - name: Doris
+      image: /images/projects/doris_logo.png
