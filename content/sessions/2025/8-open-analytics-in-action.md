@@ -10,7 +10,8 @@ timeslot: 8
 time_start: 2025-11-04T18:00:00.000Z
 time_end: 2025-11-04T18:30:00.000Z
 gridarea: 6/2/7/3
-
+video: https://youtu.be/XqbkHwlhZcw
+slides: 
 ---
 
 This session explores how open-source analytics technologies are transforming the public sector through the lens of Electronic Income Verification (EIV) systems—platforms that process over 850,000 real-time verifications daily, integrate 40+ data sources, and maintain 99.95% uptime to support equitable, efficient public benefit delivery.

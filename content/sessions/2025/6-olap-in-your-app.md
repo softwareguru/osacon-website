@@ -10,7 +10,8 @@ timeslot: 6
 time_start: 2025-11-04T17:30:00.000Z
 time_end: 2025-11-04T18:00:00.000Z
 gridarea: 5/2/6/3
-
+video: https://youtu.be/41eQikJcuU0
+slides: 
 ---
 
 Modern analytics experiences demand “conversation-fast” backends—systems that serve the requests of an agent or LLM in real time at the speed of a natural conversation.

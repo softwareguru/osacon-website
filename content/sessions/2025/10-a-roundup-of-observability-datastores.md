@@ -10,7 +10,8 @@ timeslot: 10
 time_start: 2025-11-04T18:30:00.000Z
 time_end: 2025-11-04T19:00:00.000Z
 gridarea: 7/2/8/3
-
+video: https://youtu.be/9CCRHT8Pj48
+slides: 
 ---
 
 From plain-old Postgres to the LGTM stack, ELK, Cassandra, and ClickHouse®, the landscape of telemetry storage options is as vast as it is overwhelming. With so many choices, how do we decide which datastore is right for the job? In this talk, Joshua will guide attendees through the foundational principles of telemetry—covering metrics, traces, logs, profiles, and wide events—and break down the strengths and limitations of different database technologies for each use case.

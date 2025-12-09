@@ -3,14 +3,14 @@ title: "Open Source Database Architectures for High Volume Financial Analytics"
 slug: open-source-database-architectures-for-high-volume-financial-analytics
 speakers:
  - Karthickram Vailraj
-
 day: 20252
 room: A
 timeslot: 28
 time_start: 2025-11-05T18:30:00.000Z
 time_end: 2025-11-05T19:00:00.000Z
 gridarea: 6/2/7/3
-
+video: https://youtu.be/TFxyRfNioVg
+slides: 
 ---
 
 Financial analytics platforms face unprecedented data challenges, processing millions of transactions while delivering real-time insights to traders, risk managers, and compliance teams. Open source distributed databases have emerged as the backbone of modern FinTech analytics, enabling organizations to scale cost-effectively while maintaining full control over their data architecture.

@@ -8,12 +8,12 @@ topics:
  - Community
 day: 20252
 room: A
-
 timeslot: 26
 time_start: 2025-11-05T18:00:00.000Z
 time_end: 2025-11-05T18:30:00.000Z
 gridarea: 5/2/6/3
-
+video: https://youtu.be/RiM6EAz7pzQ
+slides: 
 ---
 
 Recently, several open source companies attracted a lot of attention after their announcements of license changes. Not surprisingly, these shifts sparked backlash from open source enthusiasts, prompting some to create community-driven forks under open source foundations.

@@ -9,7 +9,8 @@ timeslot: 20
 time_start: 2025-11-05T16:00:00.000Z
 time_end: 2025-11-05T16:30:00.000Z
 gridarea: 1/2/2/4
-
+video: https://youtu.be/kOthGa4R0VI
+slides: 
 ---
 
 As AI transforms how we build, scale, and interact with software, one thing is becoming clear: open source isn’t just keeping up—it’s leading. In this keynote, Max Beauchemin, creator of Apache Superset and Apache Airflow, unpacks why open source is uniquely positioned to dominate in the age of AI. From training data to developer velocity, open projects have structural advantages that proprietary vendors simply can't replicate.

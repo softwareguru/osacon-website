@@ -11,6 +11,8 @@ day: 20251
 room: B
 timeslot: 9
 gridarea: 6/3/7/4
+video: https://youtu.be/aEa9s7qWakw
+slides: 
 draft: false
 ---
 

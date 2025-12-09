@@ -11,7 +11,8 @@ timeslot: 15
 time_start: 2025-11-04T19:15:00.000Z
 time_end: 2025-11-04T19:45:00.000Z
 gridarea: 9/3/10/4
-
+video: https://youtu.be/2Ah_JcKW8ww
+slides: 
 ---
 
 Apache Iceberg™ made great advancements going from Table Format V1 to Table Format V2, introducing features like position deletes, advanced metrics, and cleaner metadata abstractions. But with Table Format V3 on the horizon, Iceberg users have even more to look forward to.

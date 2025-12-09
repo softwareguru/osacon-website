@@ -10,7 +10,8 @@ timeslot: 33
 time_start: 2025-11-05T19:30:00.000Z
 time_end: 2025-11-05T20:00:00.000Z
 gridarea: 8/3/9/4
-
+video: https://youtu.be/fJGJlGZj848
+slides: 
 ---
 
 Manual analysis of thousands of daily database alerts is impossible—but AI changes everything. This talk demonstrates using modern AI tools to analyze internal alert databases and uncover critical patterns in ClickHouse® Deployments.

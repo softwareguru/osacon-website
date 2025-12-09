@@ -11,7 +11,8 @@ timeslot: 24
 time_start: 2025-11-05T17:30:00.000Z
 time_end: 2025-11-05T18:00:00.000Z
 gridarea: 4/2/5/3
-
+video: https://youtu.be/waqRzFXcD1E
+slides: 
 ---
 
 Data teams continue to face long-standing challenges: their customers often distrust their results, data providers frequently ignore their existence, and teams spend more time firefighting than creating insights. The demand for AI just makes it more complicated:  no wonder many data teams experience PTSD.

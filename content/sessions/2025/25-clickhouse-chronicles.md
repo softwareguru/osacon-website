@@ -12,7 +12,8 @@ timeslot: 25
 time_start: 2025-11-05T17:30:00.000Z
 time_end: 2025-11-05T18:00:00.000Z
 gridarea: 4/3/5/4
-
+video: https://youtu.be/h7aJsBTNelM
+slides: 
 ---
 
 Distributed systems are full of surprises—and ClickHouse® is no exception. In this talk, Shivji (Nutanix) and Anurag (Incerto) share real-world war room stories from designing, testing, and running ClickHouse® across both cloud and on-prem environments, where debugging production issues often felt more like unraveling plot twists in a thriller than routine operations.

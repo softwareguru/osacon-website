@@ -11,6 +11,8 @@ timeslot: 13
 time_start: 2025-11-04T19:00:00.000Z
 time_end: 2025-11-04T19:10:00.000Z
 gridarea: 8/3/9/4
+video: https://youtu.be/boRVa3Ual1Q
+slides: 
 ---
 
 New employee onboarding often involves navigating a sea of information, which can delay full productivity. This session will explore how AI can personalize information discovery, helping new hires integrate more quickly and engage effectively.
