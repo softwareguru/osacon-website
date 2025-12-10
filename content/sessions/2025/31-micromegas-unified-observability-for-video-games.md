@@ -12,7 +12,7 @@ time_start: 2025-11-05T19:00:00.000Z
 time_end: 2025-11-05T19:30:00.000Z
 gridarea: 7/3/8/4
 video: https://youtu.be/oxIxM10Wp_E
-slides: 
+slides: 2025/micromegas-unified-observability-for-video-games.pdf
 ---
 
 How we built an open source observability stack that can track every frame of our game.

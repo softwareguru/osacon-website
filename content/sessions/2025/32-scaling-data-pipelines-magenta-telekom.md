@@ -12,7 +12,7 @@ time_start: 2025-11-05T19:30:00.000Z
 time_end: 2025-11-05T20:00:00.000Z
 gridarea: 8/2/9/3
 video: https://youtu.be/31LHhLIXZ5o
-slides: 
+slides: 2025/scaling-data-pipelines-magenta-telekom.pdf
 ---
 
 Magenta Telekom ingests many terabytes of new data every day, and every downstream consumer wants it immediately. The real bottleneck turned out not to be hardware but humans wrestling with hidden, hard-wired dependencies in hundreds of heterogeneous pipelines and sometimes tool silos.

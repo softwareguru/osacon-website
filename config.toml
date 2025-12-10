@@ -109,7 +109,7 @@ link = "http://sessionize.com/osa-con-2024"
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Join now"
 link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
 
