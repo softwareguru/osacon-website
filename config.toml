@@ -29,50 +29,31 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
-    identifier = "program"
-    name = "Program"
-    url = "/program"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "schedule"
-    name = "Schedule"
-    url = "/program"
-    parent = "program"
-    weight = 1
-
-  [[menu.main]]
     name = "Sessions"
     url = "/sessions/2025"
     weight = 2
-    parent = "program"
-
-  [[menu.main]]
-    name = "Speakers"
-    url = "/speakers"
-    weight = 3
-    parent = "program"
 
 
-  [[menu.main]]
-    identifier = "sponsor"
-    name = "Sponsors"
-    url = "/sponsors"
-    weight = 2
 
-  [[menu.main]]
-    identifier = "sponsor0"
-    name = "2025 Sponsors"
-    url = "/sponsors"
-    parent = "sponsor"
-    weight = 1
+  #[[menu.main]]
+  #  identifier = "sponsor"
+  #  name = "Sponsors"
+  #  url = "/sponsors"
+  #  weight = 2
 
-  [[menu.main]]
-    identifier = "sponsor1"
-    name = "Prospectus"
-    url = "/files/osacon2025-prospectus_v1.pdf"
-    weight = 2
-    parent = "sponsor"
+  #[[menu.main]]
+  #  identifier = "sponsor0"
+  #  name = "2025 Sponsors"
+  #  url = "/sponsors"
+  #  parent = "sponsor"
+  #  weight = 1
+
+  #[[menu.main]]
+  #  identifier = "sponsor1"
+  #  name = "Prospectus"
+  #  url = "/files/osacon2025-prospectus_v1.pdf"
+  #  weight = 2
+  #  parent = "sponsor"
 
   [[menu.main]]
   name = "Get Involved"
@@ -89,7 +70,7 @@ speaker = "speakers"
 
 [params]
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
-logo = "/images/osacon2025-logo-h.png"
+logo = "/images/osacon-logo-h.png"
 home = "Home"
 privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
@@ -101,7 +82,7 @@ start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "November 04-05, 2025. Free, online."
+text = "Free, online."
 
 [params.hero.cta1]
 text = "Become a speaker"
@@ -155,6 +136,10 @@ link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
 [[params.links.footer_resources]] 
     name = "Previous Speakers"
     url = "/speakers/archive"
+
+[[params.links.footer_previous]]
+    name = "OSA CON 2025"
+    url = "/sessions/2025"
 
 [[params.links.footer_previous]]
     name = "OSA CON 2024"
