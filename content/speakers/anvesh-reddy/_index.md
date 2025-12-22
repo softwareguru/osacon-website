@@ -9,6 +9,7 @@ linkedin:
 github: 
 events:
  - 2025
+draft: true
 ---
 
 Anvesh Reddy Aileni is an accomplished Director of AI Solution Architecture with over 17 years of experience leading high-performance global engineering and architecture teams. Based in the San Francisco Bay Area, he has established himself as a strategic technology leader specializing in designing and implementing complex AI/ML solutions for Fortune 100 companies.
