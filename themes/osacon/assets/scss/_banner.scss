@@ -29,20 +29,21 @@
   color: white;
 
 }
-
+section.hero-alt {
+  margin-bottom: 0;
+}
 
 #button-hero1, #button-hero2 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
 }
 
 section.hero-alt {
 
-  margin-top: 90px;
+  margin-top: 80px;
   position: relative;
-
   width: 100%;
-  height: 60vh;
+  min-height: 75vh;
 
   /* Will not allow the video to overflow the 
   container */
@@ -55,10 +56,6 @@ section.hero-alt {
   align-items: center;
   justify-content: center;
 
-  @media (max-width:768px) {
-    height: 80vh;
-  }
-
 }
 
 .bg-video {
@@ -68,6 +65,13 @@ section.hero-alt {
   left: 0;
   height: 100%;
   width: 100%;
+  background-color:$darkblue;
+}
+
+.video-overlay {
+  position: absolute;
+  inset:0;
+  background: linear-gradient(90deg, #011A6666 0%, #011A66cc 70%);
 }
 
 .hero-content {
@@ -76,13 +80,11 @@ section.hero-alt {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 60px auto;
 }
 
 .hero-content .event-logo {
-  width: 420px;
-  @media (max-width:768px) {
     width: 350px;
-  }
 }
 
 .hero-content .event-meta {
@@ -90,52 +92,58 @@ section.hero-alt {
   color: white;
   padding-left: 3em;
   font-size: 18px;
+  max-width:800px;
 
   h1 {
-    font-size: 2.2em;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;  
+    font-size: clamp(2rem, 4.2vw, 3.4rem);
+    // text-transform: uppercase;
+    font-weight: 700; 
   }
 
-  h3 {
-    font-size: 1.5em;
-  }
 
-  #button-hero1 { 
-    background-color: white;
-    border: solid $primary-color 2px;
-  } 
-  #button-hero1:hover {
-    background-color: $primary-color;
-    border-color: white;
-  }
-  #button-hero1:hover a, #button-hero1 a:hover {
-    color: white;
-  }
 
-  #button-hero2 { 
-    background-color: transparent;
-    border: solid white 2px;
-  } 
-  #button-hero2:hover {
-    background-color: $primary-color;
-  }
-  #button-hero2 a { 
-    color: white;
-  }
-  #button-hero2:hover a, #button-hero2 a:hover {
-    color: white;
-  }
   @media (max-width:768px) {
     padding-left: 0;
     text-align: center;
+    max-width: 100vw;
+    padding: 0 15px;
 
     h1 {
       font-size: 2em;
       letter-spacing: 0;  
     }
-  
+  }
+  .hero-meta {
+    margin: 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size:1.1rem;
+
+    >div {
+      display: flex;
+      padding: 1rem;
+      border-right: 1px solid rgba(255,255,255,0.25);
+      &:last-child{
+        border-right: 0 none;
+      }
+    }
+    h3{
+      font-size:1.7rem;
+      margin-bottom: 0;
+    }
+    .hero-icon {
+      font-size:2rem;
+      padding: 0 10px 10px;
+    }
+    @media (max-width:768px) {
+      grid-template-columns: 1fr 1fr;
+      margin-bottom:50px;
+      >div {
+      display: block;
+      padding: 1rem;
+      border-right: 0 none;
+    }
+    }
   }
 
 }

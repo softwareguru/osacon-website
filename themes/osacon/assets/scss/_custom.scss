@@ -6,8 +6,6 @@
 	margin-top: 2em;
 }
 
-
-
 section.faq img,
 section.coc img {
 	max-width: 100%;
@@ -114,7 +112,6 @@ section.swag p {
 	}
 }
 
-
 .event-info .content {
 	display: grid;
 	grid-gap: 32px;
@@ -126,9 +123,7 @@ section.swag p {
 	}
 }
 
-.event-info h2 {
-	font-size: 40px;
-}
+
 
 
 .statistics-block {
@@ -162,21 +157,6 @@ section.swag p {
 	margin-top: 4px;
 }
 
-.event-info a {
-	color: $primary-color;
-	text-transform: uppercase;
-	&:hover {
-		color: $black-lighter;
-	}
-}
-
-.event-info .btn-outline-primary>a {
-	color: $primary-color;
-	text-transform: uppercase;
-	&:hover {
-		color: white !important;
-	}
-}
 
 .list-content {
 	margin-bottom: 1.6em;
@@ -187,15 +167,6 @@ section.swag p {
 	position: relative;
 	top: -100px;
 	visibility: hidden;
-}
-
-.card h3,
-.card h6 {
-	font-weight: 400;
-}
-
-.card h3 {
-	font-size: 20px;
 }
 
 .office-hours td {
@@ -233,8 +204,9 @@ article.swag {
 	padding: 20px 0 40px;
 }
 
-#partners img {
+.partner-logo {
 	width: 100%;
+	max-width: 120px;
 }
 /* Add to calendar button */
 /* The button */
@@ -434,29 +406,170 @@ section.featured-content {
 }
 
 section.featured-projects {
-	background-color: #e9ecf0;
-	padding:10px 0;
 	align-content: center; 
 	align-items: center; 
+	border-bottom: 1px solid #e9ecf0;
+	position:relative;
+	background: white;
+	padding: 60px 0;
 }
-  
+
+.prev-projects-header {
+	text-align:center;
+	bottom: 100%;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight:600;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+.logo-slider {
+  width: 100%; 
+  position:relative;
+  overflow: hidden; 
+  mask-image: linear-gradient(90deg, transparent, rgb(0, 0, 0) 6%, rgb(0, 0, 0) 94%, transparent);
+	
+	.slide-track {
+	  display: flex; 
+	  align-items: center; 
+	  gap: 64px; 
+	  width: max-content; 
+	  animation: 46s linear 0s infinite normal none running scroll;
+
+			img {
+				max-width: 100px;
+				max-height: 35px;
+				object-fit: scale-down;
+				filter: saturate(0);
+				opacity: 0.7;
+			}
+		}
+
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% {   transform: translateX(-50%); } 
+}
+
+
+.card-icon {
+	width: 45px;
+	height:auto;
+	max-height: 45px;
+	object-fit: scale-down;
+	object-position: center;
+}
+
+.card-icon-sm {
+	width: 100%;
+	height:auto;
+	max-width: 32px;
+	max-height: 32px;
+	object-fit: scale-down;
+	object-position: center;
+	transition: all 0.25s ease;
+}
+.card:hover .card-icon-sm {
+	transform: scale(1.1);
+	transition: all 0.125s ease;
+}
+
+.logo-card {
+	justify-content:center;
+}
+
+.logo-card img {
+	max-width: 150px;
+	max-height: 100%;
+}
+
+@media(min-width:769px){
+	.features-extended>div{
+		border-right: 1px solid rgba(0,0,0,0.1)
+	}
+	.features-extended>div:last-child{
+		border-right: 0px none;
+	}
+}
+
+.feature-extended-icon {
+	font-size: 2.5rem;
+	display:block;
+  margin: 10px auto;
+  color: $trueblue;
+}
+
+.card.testimonial-card {
+	min-height: 14em;
+	justify-content: center;
+	background-color:$lightblue;
+
+	.card-body {
+		margin: auto;
+		padding-left: 2.2em;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		font-size: 150%;
+		line-height: 1.5;
+		font-style: italic;
+		font-family: Times, Serif;
+		
+		.card-text {
+			position:relative;
+
+			.text-trueblue {
+				position: absolute;
+				top: -0.45em;
+				left: -1.2em;
+				font-size: 200%;
+				opacity: 0.25;
+				line-height: 1;
+			}
+		}
+
+	}
+}
+
+
 section.blog {
 	padding-bottom: 75px;
 }
 
-.project-logo {
-  display: flex;
-  width: 160px;
-  height: 40px;
-  margin: 20px;
-  align-items: center;
-  align-content: center; 
-  align-self: center;
-  justify-self: center;
-  justify-content: center;
+ul.checklist-blue {
+  list-style: none; 
+  padding-left: 1.5rem;
+  margin-left:0;
 }
 
-.project-logo img {
-	max-width: 100%;
-	max-height: 100%;
+ul.checklist-blue li{
+	position: relative;
+	line-height: 1.4;
+	margin-bottom: 0.7rem;
+}
+
+ul.checklist-blue li::before {
+	display: inline-flex;
+	border-radius: 5px;
+	justify-content: center;
+  align-items: center;
+	background: $lightblue;
+	width: 1.4rem; 
+  content: "✔";
+  color: $trueblue;
+  font-size: 1rem;
+  font-weight: bold;
+  position:absolute;
+  left: -1.6rem;
+}
+
+.bottom-cta{
+	background-position: top;
+  background-attachment: fixed;
+  background-color: $darkblue;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"  width="86.6" height="50" viewBox="0 0 86.6 50"><g fill="none" stroke="%230F3ADB99" stroke-width="0.5"><path d="M43.3 0 L86.6 25 L43.3 50 L0 25 Z"/></g></svg>');
+  background-size: 86.6px 50px;
+  color: #fff;
 }

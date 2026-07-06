@@ -1,30 +1,165 @@
 {{ $data := index .Site.Data }}
-
+{{ $siteParams := .Site.Params }}
 {{ with $data.homepage.event_info }}
-<section class="section event-info mt-4">
+<section class="event-info mt-4">
   <a id="event-info"></a>
   <div class="container">
-    <div class="content text-center text-sm-start">
-      <div>
-        <h2>{{ .title }}</h2>
-        <p style="line-height:150%">OSA Con is a community-driven conference for engineers and architects building modern analytics and AI systems. Organized by the Open Source Analytics (OSA) community, the conference brings together practitioners, project maintainers, and data leaders to share real-world architectures, lessons from production systems, and updates from the open-source tools powering today’s analytics and AI platforms.</p>
-
-        <button id="button-what-is1" type="button" class="btn btn-light btn-rounded btn-outline-primary my-2"><a target="_blank" href="https://luma.com/eis7567t">Pre-register</a></button>
-        <button id="button-what-is2" type="button" class="btn btn-light btn-rounded btn-outline-primary my-2"><a target="_blank" href="http://subscribepage.io/7rOdqZ">Sign up for updates</a></button>
-
-
+    <div class="row">
+      <div class="col-12">
+        <p class="section-marker">Why OSA Con</p>
+        <h2>Why attend OSA Con?</h2>
       </div>
-
-      <!--<div class="statistics-block">
-        {{ range .features }}
-          <div class="item">
-            <div class="numbers">{{ .number }}</div>
-            <div class="label">{{ .label }}</div>
+    </div>
+    <div class="row gx-sm-5">
+      {{ range .why_cards }}
+      <div class="col-12 col-md-4 mb-3 p-4">
+        <img src="/images/{{ .icon }}" class="card-icon mb-3" alt="icon">
+        <h3 class="fs-5 mb-3">{{ .title }}</h3>
+        <p  class="pe-3">{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row text-center bg-lightblue rounded-4 p-3 pt-4 mx-auto my-5">
+      <div class="col-12 p-4">
+        <h2>Who is OSA Con for?</h2>
+        <div class="row mx-auto px-md-4 border-bottom">
+          {{ range .who_cards }}
+          <div class="col mb-3 p-4">
+              <img src="/images/{{ .icon }}" class="card-icon align-self-center pt-3 mb-3" alt="icon">
+              <p class="fs-6 text-black"><b>{{ .title }}</b></p>
           </div>
-        {{ end }}
-      </div>-->
-    </div>    
-    <hr class="section-divider">
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-12 mx-auto px-md-5">
+        <div class="row">
+          <div class="col-12 col-md-3  p-3">
+            <h4 class="mb-3">Audience Snapshot</h4>
+          </div>
+          <div class="col-12 col-md-4 p-3">
+            <div class="row text-md-start">
+              <div class="col-12 col-md-3 text-center pb-4" style="min-width:55px;">
+                <img src="images/icon-users-ltgray-circle.svg" class="card-icon" alt="icon" />
+              </div>
+              <div class="col-12 col-md-9">
+                <p><span class="h3">70%+</span><br />
+                  Engineering & Technical Roles</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 p-3">
+            <div class="row text-md-start">
+              <div class="col-12 col-md-3 text-center pb-4" style="min-width:55px;"><img src="images/icon-globe-ltgray-circle.svg" class="card-icon" alt="icon" /></div>
+              <div class="col">
+                <p><span class="h3">Global Reach</span><br />
+                  Organizations ranging from startups to Fortune 500 companies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+<section>
+  <div class="container">
+    <div class="row g-sm-5">
+      <div class="col-12 text-center pb-4 pb-sm-0">
+        <p class="section-marker">Curriculum</p>
+        <h2 class="mb-5">Topics You’ll Learn About</h2>
+        <div class="row g-2 flex-wrap">
+          {{ range .topics_cards }}
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-0">
+            <div class="card h-100 text-center text-md-start bg-white flex-col flex-md-row p-3 align-items-center">
+              <img src="/images/{{ .icon }}" class="card-icon-sm mb-3 mt-1 mx-3" alt="icon">
+                <p class="card-title"><b>{{ .title }}</b></p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <div class="row text-center my-4">
+          <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem">See past sessions <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Participating Companies</h2>
+        <p style="max-width:600px;margin:1em auto 2em;">Engineering leaders from these organizations will share practical experiences building analytics and AI systems.</p>
+        
+        <div class="row d-block d-sm-flex justify-items-center align-items-center justify-content-center mb-4">
+          {{ range .participating_companies }}
+          <div class="col-12 col-sm-2 mb-1 h-100">
+                    <img src="/images/partners/{{ .logo }}" class="partner-logo" alt="{{ .name }}">
+                </div>
+          {{ end }}
+        </div>
+        <p><i>Speakers and more participating companies are coming soon.</i></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container py-5 ">
+    <div class="row g-md-5">
+      <div class="col-12 col-md-6 col-lg-4 pb-4">
+        <h3>The Community Behind OSA Con</h3>
+        <p>OSA Con is built by the Open Source Analytics Community.
+          Throughout the year, our speakers, attendees, sponsors, and organizers connect through meetups, slack, and technical events around the world.</p>
+        <p>Whether you're a maintainer, data engineer, analytics engineer, architect, or technology leader, OSA Community brings together the people building the future of analytics and  AI. </p>
+        <h4>Join the conversation</h4>
+        <a href="{{ $siteParams.slackURL }}" target="_blank" class="btn btn-outline-primary rounded"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="width:1.75rem;vertical-align:-35%;">
+            <!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+            <path d="M190.1 379.1C190.1 405 168.9 426.2 143 426.2C117.1 426.2 96 405 96 379.1C96 353.2 117.2 332 143.1 332L190.2 332L190.2 379.1zM213.8 379.1C213.8 353.2 235 332 260.9 332C286.8 332 308 353.2 308 379.1L308 496.9C308 522.8 286.8 544 260.9 544C235 544 213.8 522.8 213.8 496.9L213.8 379.1zM260.9 190.1C235 190.1 213.8 168.9 213.8 143C213.8 117.1 235 96 260.9 96C286.8 96 308 117.2 308 143.1L308 190.2L260.9 190.2zM260.9 213.8C286.8 213.8 308 235 308 260.9C308 286.8 286.8 308 260.9 308L143.1 308C117.2 308 96 286.8 96 260.9C96 235 117.2 213.8 143.1 213.8L260.9 213.8zM449.9 260.9C449.9 235 471.1 213.8 497 213.8C522.9 213.8 544 235 544 260.9C544 286.8 522.8 308 496.9 308L449.8 308L449.8 260.9zM426.2 260.9C426.2 286.8 405 308 379.1 308C353.2 308 332 286.8 332 260.9L332 143.1C332 117.2 353.2 96 379.1 96C405 96 426.2 117.2 426.2 143.1L426.2 260.9zM379.1 449.9C405 449.9 426.2 471.1 426.2 497C426.2 522.9 405 544 379.1 544C353.2 544 332 522.8 332 496.9L332 449.8L379.1 449.8zM379.1 426.2C353.2 426.2 332 405 332 379.1C332 353.2 353.2 332 379.1 332L496.9 332C522.8 332 544 353.2 544 379.1C544 405 522.8 426.2 496.9 426.2L379.1 426.2z" fill="currentColor" /></svg> Slack Community</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-8">
+        <div class="row g-2">
+          {{ range .event_photos }}
+          <div class="col-12 col-sm-6 col-lg-4"><img src="images/{{ .img }}" alt="past event photo" class="rounded w-100" /></div>
+          {{ end }}
+        </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid my-5" style="background-color: #011A66">
+    <div class="container"><div class="row py-5 features-extended gx-sm-5 text-white">
+          {{ range .features_extended }}
+              <div class="col text-center text-sm-start">
+                <h4 class="text-white"><span class="h2 text-cyan">{{ .number }}</span><br /> {{ .title }}</h4>
+                <p class="opacity-75">{{ .text }}</p>
+              </div>
+          {{ end }}
+        </div>
+      </div></div>
+</section>
+<section>
+  <div class="container py-5">
+    <div class="row g-sm-5">
+      <div class="col-12 col-md-6 ">
+        <h3 class="mb-4">What Attendees Say</h3>
+          {{ range $index, $element := .attendee_quotes }}
+                <div class="d-flex py-4 border-top"><div class="text-trueblue pe-2" style="margin-top:-6px;"><i class="fa fa-quote-left"></i></div><div><i>{{ $element.text }}</i></div></div>
+          {{ end }}
+      </div>
+      <div class="col-12 col-md-6 pb-3 pb-sm-0">
+        <h3 class="mb-4" >Partner With the Community</h3>
+        <p>Support the open-source analytics ecosystem and connect with thousands of data and analytics professionals.</p>
+        <h4>Why Sponsor?</h4>
+        <ul class="checklist-blue">
+          <li>Reach senior engineers and technical <span style="white-space:nowrap">decision-makers</span></li>
+          <li>Showcase your expertise and open-source contributions</li>
+          <li>Build relationships with the analytics community</li>
+          <li>Support the growth of open-source analytics and AI</li>
+        </ul>
+        <a href="/files/OSA_Con_2026_Prospectus.pdf" class="btn btn-primary rounded d-block d-sm-inline-block" target="_blank"> <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ end }}

@@ -1,20 +1,31 @@
 <section class="hero-alt">
   <div class="bg-video-container">
-    <video class="bg-video" playsinline="" muted="" loop="" src="/images/homepage_bg_02.mp4" poster="/images/homepage_bg_02.mp4" autoplay=""></video>
+    <video class="bg-video" playsinline="" muted="" loop="" src="/images/homepage_bg_02.mp4" poster="/images/homepage_banner_poster.jpg" autoplay=""></video>
+    <div class="video-overlay"></div>
     <div class="hero-content">
       <div class="event-logo mb-4 mb-sm-1">
         <img src="/images/osacon2026-cubes.png" alt="OSA CON logo" class="img-fluid">      
       </div>
-      <div class="event-meta mx-2 mx-md-0"  style="max-width:800px;">
-        <h1 style="text-wrap: balance;">The Anti-Hype Conference for Open Source Analytics and AI</h1>
-        <h3 class="mx-3 mx-sm-1">{{ .Site.Params.hero.text }}</h3>
-        <button id="button-hero1" type="button" class="btn btn-rounded btn-primary my-2"><a target="_blank" href="https://luma.com/eis7567t">Pre-register</a></button>
-        <button id="button-hero2" type="button" class="btn btn-rounded btn-outline-primary my-2"><a target="_blank" href="http://subscribepage.io/7rOdqZ">Sign up for updates</a></button>
-
+      <div class="event-meta mx-2 mx-md-0">
+        <div style="color:#00c7d4;display:inline-block;background-color:#0f3ad8;padding:3px 5px;border-radius:4px;line-height:1.2;margin-bottom:7px;">Hybrid Event</div><br />
+        <h1 style="text-wrap: balance;color:#fff" class="mb-4">The Anti-Hype Conference for Open Source Analytics and AI</h1>
+        <h3 class="mx-3 mx-sm-1 text-white opacity-75 fs-5">{{ .Site.Params.hero.text }}</h3>
+        <div class="d-sm-flex" style="gap:16px;">
+            <div>
+               <a class="btn btn-primary rounded my-2" target="_blank" href="{{ .Site.Params.registerURL }}">Register</a>
+            </div>
+            <div>
+                <a class="btn rounded btn-outline-light my-2" target="_blank" href="{{ .Site.Params.subscribeURL }}">Sign up for updates</a>
+            </div>
+        </div>
+        <div class="hero-meta">
+          <div><div style="font-size:0.9rem"><h3 class="text-white">5+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Years of Community</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">5,000+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Engineers & Analysts</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">300+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Technical Talks</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">45+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Countries Represented</div></div></div>
+        </div>
       </div>  
     </div>
   </div>
 </section>    
-
-<p class="text-center mt-3"><strong>Join colleagues from all over the world to learn about the latest trends in open source analytics</strong></p>
 

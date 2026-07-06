@@ -1,18 +1,18 @@
 
 body {
   scroll-behavior: smooth;
-  background-color: #ffffff;
+  background-color: #fff;
   background-position: top;
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: $gray-light;
 }
 
 strong {
   font-weight: 600;
 }
 
-.section {
-  padding: 60px 0px;
+section, .section {
+  margin-bottom: 70px;
 }
 
 .mb-30 {
@@ -59,17 +59,17 @@ strong {
 
 .btn {
   padding: 12px 18px;
-  box-shadow: 0 11px 22px rgba(34, 34, 34, .2);
+  // box-shadow: 0 11px 22px rgba(34, 34, 34, .2);
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  will-change: box-shadow;
+  // will-change: box-shadow;
   border-radius: 2px;
   text-transform: uppercase;
   font-family: $base-font;
 }
 
 .btn-rounded {
-  border-radius: 60px;
+  border-radius: 30px;
 }
 
 #nav-button {

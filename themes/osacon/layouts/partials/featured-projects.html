@@ -1,11 +1,18 @@
 {{ $data := index .Site.Data }}
 
-{{ with $data.projects }}
-<section class="section featured-projects">
-  <div class="d-flex justify-content-around flex-wrap">
-    {{ range .projects }}
-      <div class="project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+<section class="featured-projects">
+  <h3 class="h4 prev-projects-header ls-wide">Projects & Companies from Previous OSA Con Editions</h3>
+<div class="logo-slider">
+  <div class="slide-track">
+    <!-- Repeat logo slides twice for seamless looping -->
+    {{ with $data.projects }}
+      {{ range .projects }}
+        <img src="{{.image}}" alt="{{.name}}">
+      {{ end }}
+      {{ range .projects }}
+        <img src="{{.image}}" alt="{{.name}}">
+      {{ end }}
     {{ end }}
-  </div>  
+  </div>
+</div>
 </section>
-{{ end }}
